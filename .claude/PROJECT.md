@@ -49,6 +49,11 @@ knowledge/
 │   ├── invariants.md      # Curated invariants (must always be true)
 │   ├── contradictions.md  # Identified conflicts
 │   └── open_questions.md  # Unanswered questions
+├── topics/                # Topic-based knowledge (AUTHORITATIVE)
+│   ├── README.md          # Topic system documentation
+│   ├── _template.md       # Topic template
+│   ├── drafts/            # Topic drafts (NOT authoritative)
+│   └── <topic_name>.md    # Curated topics (AUTHORITATIVE)
 ├── index/                 # Search embeddings (regenerable, NOT truth)
 ├── scripts/               # Processing scripts
 ├── prompts/               # LLM prompt contracts
@@ -113,6 +118,37 @@ knowledge/
 - **Preserves**: sources/, synth/*.md (curated knowledge), synth/procedures/ (non-draft)
 - **Options**: --all (also clean drafts), --verbose
 - **Contract**: Never deletes source PDFs or curated knowledge
+
+### scripts/topic_lookup.py
+- **Purpose**: Look up topics in knowledge base
+- **Location**: /scripts/topic_lookup.py
+- **Version**: 1.0.0
+- **Input**: Topic name (string)
+- **Output**: Curated topic file OR menu of options
+- **Contract**: NEVER auto-generates topics, ONLY returns curated files as authoritative
+- **Guarantees**: No inference, no gap filling, explicit options when topic not found
+- **Prohibitions**: Do NOT synthesize on demand, do NOT treat search as authoritative
+
+### scripts/topic_draft.py
+- **Purpose**: Generate topic draft from curated knowledge
+- **Location**: /scripts/topic_draft.py
+- **Version**: 1.0.0
+- **Input**: Topic name (string)
+- **Output**: Draft in topics/drafts/ (NOT authoritative)
+- **Sources**: synth/glossary.md, synth/rules.md, synth/invariants.md, synth/procedures/
+- **Contract**: Uses ONLY curated knowledge, raw chunks for citations only
+- **Guarantees**: No LLM synthesis, no inference, clearly labeled as DRAFT
+- **Prohibitions**: NEVER writes to topics/ (only topics/drafts/)
+
+### scripts/search_chunks.py
+- **Purpose**: Search raw chunks (non-authoritative)
+- **Location**: /scripts/search_chunks.py
+- **Version**: 1.0.0
+- **Input**: Search query (string)
+- **Output**: Matching chunks with citations
+- **Contract**: Clearly labeled as NON-AUTHORITATIVE, shows raw excerpts only
+- **Use Cases**: Finding source references, verifying citations, exploring undocumented concepts
+- **Warning**: Results are NOT authoritative knowledge
 
 ### run.py
 - **Purpose**: Cross-platform build script (Python-based alternative to Makefile)
@@ -264,6 +300,122 @@ pytest tests/ --cov=scripts --cov-report=html
 ANTHROPIC_API_KEY=Required for synthesis only
 ```
 
+## Topic-Based Knowledge System
+
+### Overview
+
+The topic system provides **document-grounded, human-reviewed** knowledge organized by concept. Topics are curated files, NOT on-demand syntheses.
+
+**Core Principle**: If a topic doesn't exist as a file, it is not authoritative.
+
+### Directory Structure
+
+```
+topics/
+├── README.md              # Topic system documentation
+├── _template.md           # Template for all topics
+├── drafts/                # Draft topics (NOT authoritative)
+│   └── DRAFT_*.md         # Generated drafts awaiting review
+└── <topic_name>.md        # Curated topics (AUTHORITATIVE)
+```
+
+**CRITICAL**: Claude Code NEVER writes to `topics/` directly. Only to `topics/drafts/`.
+
+### Topic Lookup Workflow
+
+1. **User requests topic**: `python scripts/topic_lookup.py "HSI pointers"`
+
+2. **If curated topic exists**:
+   - Displays authoritative topic file from `topics/<name>.md`
+   - User can trust as verified knowledge
+
+3. **If topic does NOT exist**:
+   - Does NOT auto-generate
+   - Offers explicit options:
+     - Create draft topic
+     - Show glossary references (non-authoritative)
+     - Show related curated topics
+     - Search raw chunks (non-authoritative)
+
+### Topic Draft Generation
+
+**Command**: `python scripts/topic_draft.py "HSI pointers" --verbose`
+
+**Sources (priority order)**:
+1. `synth/glossary.md` - for definitions
+2. `synth/rules.md` - for rules
+3. `synth/invariants.md` - for constraints
+4. `synth/procedures/*.md` - for procedures
+5. `chunks/**/*.json` - for citations ONLY
+
+**Output**: `topics/drafts/DRAFT_<topic>_<timestamp>.md`
+
+**Critical**: Draft is clearly labeled as NON-AUTHORITATIVE and requires human review.
+
+### Topic Structure
+
+Every topic follows `topics/_template.md`:
+
+- **Definition**: Primary definition with citation, synonyms
+- **Related Terms**: Cross-references with relationships
+- **Sources**: Primary source documents, coverage assessment
+- **Rules**: IF/WHEN → THEN rules (explicit from source only)
+- **Behavior**: Normal operation, states/modes
+- **Limitations**: Explicit constraints, boundary conditions
+- **Procedures**: Step-by-step procedures with preconditions
+- **Edge Cases**: Documented edge cases only
+- **Open Questions**: Gaps in documentation (NOT assumptions)
+- **Verification Status**: Review checklist
+- **Metadata**: Source documents, generation info
+
+### Curation Process (Human-Only)
+
+1. Generate draft: `python scripts/topic_draft.py "<topic>"`
+2. Review draft thoroughly:
+   - [ ] All citations verified against source PDFs
+   - [ ] All "NOT SPECIFIED" claims verified
+   - [ ] No inferences or assumptions
+   - [ ] Related terms cross-referenced
+   - [ ] Open questions documented
+3. Fill in gaps from source documents
+4. Promote to curated: `mv topics/drafts/DRAFT_<topic>_*.md topics/<topic>.md`
+5. Update status to CURATED, set reviewer name
+6. Commit with review notes
+
+### Truth Hierarchy
+
+1. **Source PDFs** - Ultimate truth
+2. **Curated topics/** - Authoritative, human-reviewed
+3. **Curated synth/*.md** - Authoritative, human-reviewed
+4. **Drafts** - NOT authoritative, require review
+5. **Index** - Regenerable tool, NOT truth
+6. **Raw chunks** - Mechanical extraction, NOT truth
+
+### Absolute Prohibitions
+
+- ❌ Auto-generate topics on demand
+- ❌ Write to `topics/` directory (only `topics/drafts/`)
+- ❌ Treat search results as authoritative
+- ❌ Infer undocumented behavior
+- ❌ Auto-promote drafts to curated status
+- ❌ Claim completeness without curated topic file
+
+### Commands Reference
+
+```bash
+# Look up topic
+python scripts/topic_lookup.py "<topic name>"
+python scripts/topic_lookup.py --list-topics "dummy"
+
+# Generate draft
+python scripts/topic_draft.py "<topic name>" --verbose
+
+# Search raw chunks (non-authoritative)
+python scripts/search_chunks.py "<query>" --limit 20
+```
+
+See `topics/README.md` for complete documentation.
+
 ## Conventions
 
 - LLM usage ONLY in synthesize.py
@@ -286,6 +438,15 @@ ANTHROPIC_API_KEY=Required for synthesis only
 *Last updated: 2026-01-21*
 
 **Recent Changes:**
+- **Topic-Based Knowledge System** (v1.0.0):
+  - Created `topics/` directory structure with curated topics and drafts
+  - Implemented `topic_lookup.py` - authoritative topic lookup with explicit options
+  - Implemented `topic_draft.py` - draft generation from curated knowledge only
+  - Implemented `search_chunks.py` - raw chunk search (non-authoritative)
+  - Created topic template (`_template.md`) with mandatory structure
+  - Documented complete topic workflow with curation process
+  - Enforced human review requirement before topic curation
+  - Prohibited auto-generation and auto-promotion of topics
 - Created run.py v1.0.0 - Cross-platform Python build script for Windows/Linux/Mac compatibility
 - Updated synthesize.py to v2.0.0 with --full flag for direct output to curated files
 - Modified `make synth` to output full documents (synth/<type>.md) instead of drafts
