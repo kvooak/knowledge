@@ -155,7 +155,7 @@ synth:
 	@echo ""
 	@CHUNK_COUNT=$$($(PYTHON) -c "import json; from pathlib import Path; metadata_files = list(Path('$(CHUNKS_DIR)').rglob('_chunking_metadata.json')); total = sum(json.loads(f.read_text())['chunks_created'] for f in metadata_files) if metadata_files else 0; print(total)"); \
 	echo "Using all $$CHUNK_COUNT chunks for synthesis..."; \
-	$(PYTHON) $(SYNTH_SCRIPT) $(TYPE) --topic "$(TOPIC)" --limit $$CHUNK_COUNT --verbose
+	$(PYTHON) $(SYNTH_SCRIPT) $(TYPE) --topic "$(TOPIC)" --limit $$CHUNK_COUNT --full --verbose
 
 # Synth test with fixed small limit for testing
 synth-test:

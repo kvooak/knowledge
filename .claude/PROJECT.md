@@ -94,11 +94,15 @@ knowledge/
 ### scripts/synthesize.py
 - **Purpose**: LLM-assisted knowledge synthesis (ONLY script with LLM)
 - **Location**: /scripts/synthesize.py
-- **Version**: 1.1.0
+- **Version**: 2.0.0
 - **Input**: chunks/**/*.json (recursive)
-- **Output**: synth/drafts/DRAFT_*.md
-- **Contract**: Drafts only, refuses to overwrite curated files, requires human review
-- **Updates**: v1.1.0 added recursive directory support via rglob()
+- **Output**:
+  - With `--full`: synth/<type>.md (full document with LLM-generated warning)
+  - Without `--full`: synth/drafts/DRAFT_*.md (draft for review)
+- **Contract**: Requires human review, includes LLM-generated warnings
+- **Updates**:
+  - v1.1.0: Added recursive directory support via rglob()
+  - v2.0.0: Added --full flag for direct output to curated files
 - **Limit**: Dynamically calculated from chunking metadata to process all chunks
 
 ### scripts/clean.py
@@ -109,6 +113,15 @@ knowledge/
 - **Preserves**: sources/, synth/*.md (curated knowledge), synth/procedures/ (non-draft)
 - **Options**: --all (also clean drafts), --verbose
 - **Contract**: Never deletes source PDFs or curated knowledge
+
+### run.py
+- **Purpose**: Cross-platform build script (Python-based alternative to Makefile)
+- **Location**: /run.py
+- **Version**: 1.0.0
+- **Platform**: Windows, Linux, Mac (Python 3.10+)
+- **Targets**: All Makefile targets (extract, chunk, embed, ingest, synth, synth-test, clean, status, etc.)
+- **Usage**: `python run.py <target> [options]`
+- **Contract**: Provides same functionality as Makefile, works on all platforms
 
 ## Data Models
 
@@ -170,18 +183,43 @@ regenerable: boolean - Always true
 warning: string - Reminder that index is search tool only
 ```
 
-## Makefile Targets
+## Build System (Cross-Platform)
 
-### Pipeline Execution
+### Python Build Script (Windows & Linux/Mac)
+For Windows or when `make` is not available, use `run.py`:
+
+```bash
+# Pipeline execution
+python run.py extract
+python run.py chunk
+python run.py embed
+python run.py ingest              # Full pipeline
+
+# Synthesis (outputs to synth/<type>.md as full document)
+python run.py synth --type glossary --topic "flight systems"
+
+# Synthesis test (outputs to drafts/ with limit=50)
+python run.py synth-test --type glossary --topic "test topic"
+
+# Utilities
+python run.py clean
+python run.py clean-all
+python run.py status
+python run.py get-chunk-count
+python run.py help
+```
+
+### Makefile Targets (Linux/Mac)
 - `make extract` - Extract text from PDFs in sources/
 - `make chunk` - Chunk extracted text into semantic units
 - `make embed` - Generate embeddings index
 - `make ingest` - Run full pipeline: extract → chunk → embed
 
 ### Synthesis (LLM Required)
-- `make synth TYPE=<type> TOPIC='<topic>'` - Generate draft using ALL chunks
-- `make synth-test TYPE=<type> TOPIC='<topic>'` - Generate draft with limit=50 (for testing)
+- `make synth TYPE=<type> TOPIC='<topic>'` - Generate FULL document using ALL chunks (outputs to synth/<type>.md)
+- `make synth-test TYPE=<type> TOPIC='<topic>'` - Generate draft with limit=50 (outputs to drafts/)
 - Supported types: glossary, rules, invariants, procedures, contradictions, questions
+- **Note**: `synth` now outputs "full" documents directly to curated files with LLM-generated warning
 
 ### Utilities
 - `make clean` - Delete all generated content (preserves synth/)
@@ -245,7 +283,12 @@ ANTHROPIC_API_KEY=Required for synthesis only
 
 ---
 
-*Last updated: 2026-01-20*
+*Last updated: 2026-01-21*
+
+**Recent Changes:**
+- Created run.py v1.0.0 - Cross-platform Python build script for Windows/Linux/Mac compatibility
+- Updated synthesize.py to v2.0.0 with --full flag for direct output to curated files
+- Modified `make synth` to output full documents (synth/<type>.md) instead of drafts
 - Added comprehensive test suite (124 tests: 75 compliance + 49 unit)
 - Created scripts/clean.py for safe cleanup of generated files
 - Updated embed_chunks.py and synthesize.py to v1.1.0 (recursive directory support)
@@ -253,3 +296,4 @@ ANTHROPIC_API_KEY=Required for synthesis only
 - Added synth-test target for quick testing with limit=50
 - Documented all metadata structures (extraction, chunking, index)
 - Documented all Makefile targets and testing procedures
+- Created universal rules sync mechanism (sync-rules.py) for automatic rule propagation
