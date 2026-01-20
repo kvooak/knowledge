@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0127",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 113,
+  "page_end": 114,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Attitude\n\nFigure 5-10 HUD \u2013 Unusual Attitude (Roll)\n\nAn aircraft symbol is shown in the center of the attitude indicator. The attitude indicator display includes a roll scale, a pitch scale, and slip/skid indication. Chevrons show for excessive pitch angles. The display is decluttered if the aircraft is \ufb02own in an unusual attitude.\n\nAutomatic Flight Control System (AFCS) Flight Director (FD) cues are also shown on the attitude display. The FD cue shows the needed pitch and roll guidance information from the AFCS. TCAS Resolution Advisory (RA) pitch cues are shown on the attitude display and ADI.\n\nAttitude indications on the optional Head-Up Display (HUD) are functionally identical to the attitude indications on the ADI.\n\n5th Edition 02 APR 19 5-11\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Attitude Pro Line Fusion\u00ae Avionics\n\nSELECTIONS:\n\nPitch Tape The pitch tape moves vertically with respect to the aircraft symbol, and rotates in roll. The pitch tape displays +5.5 and -8 degrees of visible pitch when in ADI Normal Area and CVS mode is SVS. The pitch tape displays approximately +17 and -23 degrees of visible pitch when CVS mode is off.\n\nRoll Scale The roll scale is located at the top of the attitude display and makes an arc between the airspeed and altitude displays. The roll scale displays 360 degrees of roll, with 10, 20, and 30 degree tick marks, and Zero (0) and 45 degree tick marks.\n\nSky/Ground Fill The background of the attitude display is \ufb01lled in sky and ground, divided by a horizon line. The horizon line and sky/ground \ufb01ll rotate in roll, and move vertically in pitch.\n\nAt or greater than 16 000 feet of altitude, and the pitch angle is +17 degrees or -7.5 degrees or greater, the sky/ground \ufb01ll stops displaying increased pitch. Instead, the sky/ground \ufb01ll with display a portion of both ground and sky not in relation to the actual horizon.\n\nAt less than 16 000 feet of altitude, and the pitch angle is +20.2 degrees or \u22127.5 degrees or greater, the sky/ground \ufb01ll stops displaying increased pitch.\n\n5th Edition 5-12 02 APR 19",
+  "token_count_estimate": 480,
+  "chunk_index": 127,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.062773+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0563",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 443,
+  "page_end": 444,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics DU Window Allocation\n\nMFW Formats per DU\n\nFormat Copies Copies/DU1 Copies/Side2 Copies/Flt Deck3\n\nADI 1 1 2\n\nChart (Single IFIS) 1 2 2\n\nChart (Dual IFIS) 1 1 2\n\nChecklist 1 1 2\n\nDatabase Load 1 1 1\n\nDatabase Status 1 1 1\n\nDocument Reader (Single IFIS)\n\n1 1 2\n\nDocument Reader (Dual IFIS)\n\n1 1 2\n\neCDU 2 2 2\n\nEICAS 1 1 2\n\nFMS Format 2 2 4\n\nGMS 1 1 1\n\nDL GWXFormat 1 2 4\n\n1 Copies per DU is the maximum window for- mats simultaneously displayed in the Display Unit.\n\n2 Copies per side is the maximum window formats that can be simultaneously displayed per side of the Flight Deck.\n\n3 Copies per Flight Deck is the maximum window formats simultaneously displayed in the Flight Deck.\n\n4 Copies shown for overlays are for Dual FMS con\ufb01gurations with 4 Maps and 2 HSIs per FD. For single FMS, there would be only 2 Map and 2 HSIs per Flight Deck.\n\n5th Edition 02 APR 19 7-33\n\nDISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 DU Window Allocation Pro Line Fusion\u00ae Avionics\n\nFormat Copies Copies/DU1 Copies/Side2 Copies/Flt Deck3\n\nGWX Overlay on Map4 1 2 4\n\nHSI 1 1 2\n\nHSI Flt Pln Map (Single or Dual FMS)\n\n1 1 2\n\nInformation Management 1 1 1\n\nLX Overlay 1 2 4\n\nMaintenance 1 1 1\n\nMFW Map (Single FMS) 1 2 2\n\nMFW Map (Dual FMS) 1 2 4\n\nRadio Tune 1 2 4\n\nROUTE Sub-window4 1 2 4\n\nSVS 1 1 2\n\nSynoptics 2 2 2\n\nTAWS (Terrain)4 2 2 4\n\nTraf\ufb01c Format 1 2 4\n\nTraf\ufb01c Overlay4 2 3 6\n\n1 Copies per DU is the maximum window for- mats simultaneously displayed in the Display Unit.\n\n2 Copies per side is the maximum window formats that can be simultaneously displayed per side of the Flight Deck.\n\n3 Copies per Flight Deck is the maximum window formats simultaneously displayed in the Flight Deck.\n\n4 Copies shown for overlays are for Dual FMS con\ufb01gurations with 4 Maps and 2 HSIs per FD. For single FMS, there would be only 2 Map and 2 HSIs per Flight Deck.\n\n5th Edition 7-34 02 APR 19",
+  "token_count_estimate": 489,
+  "chunk_index": 563,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.279810+00:00"
+}

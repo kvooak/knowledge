@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0315",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 288,
+  "page_end": 289,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 CDTI Features Pro Line Fusion\u00ae Avionics\n\n\u2022 Traf\ufb01c selection allows the crew to obtain additional data for any one target displayed on the MFW Map that has ADS-B IN data. Selected traf\ufb01c is distinguished from other traf\ufb01c symbols by the presence of a spotlight on the symbol. The spotlight is a circular light gray background behind the symbol, used to allow quick visual acquisition of selected traf\ufb01c on the display.\n\n\u2022 Flight ID readout for all traf\ufb01c on the map, selectable as an overlay on the TRAFFIC sub-menu.\n\n\u2022 ID, range, ground speed, and type of aircraft for target selected by the crew.\n\n\u2022 Non-threat target range is >200 NM.\n\n\u2022 Both airborne and aircraft on the ground are displayed.\n\nN\n\nNOTE\n\nCDTI targets missing directional data (heading) are displayed as diamond shaped.\n\nN\n\nNOTE\n\nFor CDTI targets, the arrowhead is embedded within RA and TA symbols.\n\nN\n\nNOTE\n\nOnly traf\ufb01c with ADS-B in data may be selected using traf\ufb01c highlighting.\n\n5th Edition 5-186 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics CDTI Controls",
+  "token_count_estimate": 247,
+  "chunk_index": 315,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.168078+00:00"
+}

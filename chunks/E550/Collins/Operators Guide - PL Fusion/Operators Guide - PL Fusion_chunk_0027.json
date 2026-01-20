@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0027",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 23,
+  "page_end": 23,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 INTRODUCTION Pro Line Fusion\u00ae Avionics List of Acronyms and Abbreviations\n\nN\n\nNOTE\n\nThe Pro Line Fusion Avionics System can hold a large database of navigation aids, waypoints, and airport data to help the crew with navigation. But the crew must have and use the applicable charts, terminal procedures, and facility directories necessary for the \ufb02ight. Refer to the local aviation authorities for instructions about the required publications and \ufb02ight information to have available.\n\nN\n\nNOTE\n\nDefects that you can see on the display surface of the Display Unit (DU) are permitted. The DU is also referred to as the Adaptive Flight Display (AFD). But these defects must not cause a distraction or make the crew read the display incorrectly. Also, defects you cannot see in an operational format from a minimum view distance are permitted.\n\nDefective ON or defective OFF rows or columns can make servicing of the DU necessary. Groups (three or more adjacent elements) of defective ON elements are not permitted. Defective OFF elements are permitted if they do not make the crew read the display incorrectly or cause distraction.\n\nThe number of defective ON elements that are permitted include no more than: six red, six green, 10 blue, or \ufb01ve sets of two adjacent defects. The number of defective OFF elements that are permitted include no more than: \ufb01ve sets of two adjacent defects, one set of three adjacent defects, or 30 defective OFF elements.",
+  "token_count_estimate": 317,
+  "chunk_index": 27,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.009713+00:00"
+}

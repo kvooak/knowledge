@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0464",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 389,
+  "page_end": 389,
+  "raw_text": "A boxed red VNAV \ufb02ag is shown at the upper end of the vertical deviation scale when VNAV data from the FMS is missing or invalid. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe VNAV deviation pointer is removed when the VNAV \ufb02ag is being shown.\n\n5th Edition 02 APR 19 6-7",
+  "token_count_estimate": 75,
+  "chunk_index": 464,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.230518+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0313",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "MAP \u2013 TCAS TRAFFIC OVERLAY TCAS traf\ufb01c information can be shown on the \ufb02ight displays to assist the pilots in identifying nearby traf\ufb01c and potential collision threats. A TCAS traf\ufb01c overlay can be shown on the HSI and DU Map formats.",
+  "page_start": 287,
+  "page_end": 287,
+  "raw_text": "A TCAS pop-up feature allows automatic display of TCAS data on the DU Maps when a TCAS Traf\ufb01c Advisory (TA) or Resolution Advisory (RA) is detected by the TCAS computer.\n\nThe TCAS traf\ufb01c overlay is selected on the DU Map through the Map Overlay menu. When the TCAS traf\ufb01c overlay is being shown and an incompatible Map overlay is selected, the TCAS traf\ufb01c overlay is automatically removed from that display. The TCAS mode and other selections are available on the ATC/TCAS Control submenu on the DU Tune format.",
+  "token_count_estimate": 114,
+  "chunk_index": 313,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.167287+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0569",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 448,
+  "page_end": 449,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 DU Con\ufb01guration and Reversion Pro Line Fusion\u00ae Avionics\n\nscreen. NA in the EICAS Reverted box means the remaining screens functions the same whether EICAS is manually reverted or not.\n\nIf a single DU fails, the PFD formats remain unchanged. If 2 DU fail, the PFD format automatically switches to the Half PFD, quarter EICAS format if EICAS is not already manually reverted. If two or more screens fail, manually selecting EICAS reversion on the pilot side places the DU1 screen in a compressed HSI format (only one screen able to use the compressed HSI format). If three screens fail, the remain screen is automatically switched to the compressed HSI format.\n\n5th Edition 7-38 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 176,
+  "chunk_index": 569,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.283501+00:00"
+}

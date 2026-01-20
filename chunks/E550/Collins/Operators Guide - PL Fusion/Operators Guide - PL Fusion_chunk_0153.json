@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0153",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 141,
+  "page_end": 142,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Vspeed References\n\nVR VR \u2013 Rotation speed. This reference is shown on the ADI airspeed scales as a horizontal line with a R legend.\n\nV2 V2 \u2013 Takeoff safety speed. This reference is shown on the ADI airspeed scales as a horizontal line with a 2 legend.\n\nVFS VFS \u2013 Final takeoff speed. This reference is shown on the ADI airspeed scales as a horizontal line with a FS legend, during both takeoff and approach.\n\nVAC VAC \u2013 Approach climb speed. This reference is shown on the ADI airspeed scales as a horizontal line with an AC legend.\n\nVAP VAP \u2013 Approach speed. This reference is shown on the ADI airspeed scales as a horizontal line with an AP legend.\n\nVREF VREF \u2013 Approach Airspeed in the landing con\ufb01guration. This reference is shown on the ADI airspeed scales as a horizontal line with a REF legend, during approach only.\n\nTable The Vspeed table can display at the bottom of the airspeed scale. As airspeed increases above 40 knots, the speed reference table scrolls smoothly off of the bottom of the airspeed scale in conjunction with the increasing airspeed. The Vspeed legends and their associated values are shown.\n\n5th Edition 02 APR 19 5-39\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Vspeed References Pro Line Fusion\u00ae Avionics\n\nFlaps/Gear The \ufb02aps/gear speed bugs can display when the aircraft is in the terminal area, the landing gear is not up and locked, the \ufb02aps are extended, and the gear is extended. Each \ufb02aps/gear bug is shown on the ADI airspeed scales as a horizontal line with the following legend:\n\n\u2022 F \u2013 shown when \ufb02aps are extended. The speed is calculated based on aircraft weight, engine status, \ufb02ap position, initial takeoff or missed approach, and icing conditions.\n\n\u2022 Flap Extension (VFE) \u2013 shown when it is safe to lower the \ufb02aps. Indicated by a green dot on the right of the airspeed tape. The speed is calculated based on aircraft weight, engine status, \ufb02ap position, initial takeoff or missed approach, and icing conditions.\n\n5th Edition 5-40 02 APR 19",
+  "token_count_estimate": 474,
+  "chunk_index": 153,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.079181+00:00"
+}

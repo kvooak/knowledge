@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0476",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 396,
+  "page_end": 396,
+  "raw_text": "The LOC comparator \ufb02ag is a caution to the \ufb02ight crew that the localizer deviation information being shown on the ADI may be in error on one side or the other.\n\nDuring a monitored approach, each ADI compares the localizer deviation from the on-side receiver to the localizer deviation from the cross-side receiver. When the localizer compare function is active and the difference between the two localizer deviations is not within a prede\ufb01ned limit, a boxed yellow LOC miscompare \ufb02ag is shown to the left of the horizontal deviation scale. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe localizer deviation comparator is disabled during unmonitored approaches or when radio altitude is less than either the RA MIN setpoint or 100 feet, whichever is greater.\n\n5th Edition 6-14 02 APR 19",
+  "token_count_estimate": 176,
+  "chunk_index": 476,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.235112+00:00"
+}

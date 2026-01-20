@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0762",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "MANUAL DATA ENTRY RANGES AND SELECTIONS",
+  "page_start": 543,
+  "page_end": 543,
+  "raw_text": "The following shows the range or selection list choices for manual entry of data into each CPDLC data \ufb01eld. The following callouts apply:\n\nALT (Level):\n\n\u2022 Altitude expressed in either feet or \ufb02ight level\n\n\u2022 Single or Block Altitude\n\n\u2022 Displays as feet from 600 \u2013 70000, resolution of 10\n\n\u2022 Displays as FL from 30 \u2013 700, resolution of 1.\n\nETA (Time):\n\n\u2022 Estimated time of arrival\n\n\u2022 Expressed as HHMM.\n\nTIME:\n\n\u2022 Time value\n\n\u2022 Expressed as HHMM.\n\nFIX (Position):\n\n\u2022 Navigation \ufb01x expressed in alphanumeric characters\n\n\u2022 Displays from 1 \u2013 5 characters.\n\nAIRPORT:\n\n\u2022 3 or 4 letter ICAO Airport\n\n\u2022 ID expressed in capital letters.\n\nLAT/LON (Position):\n\n\u2022 Latitude and longitude in whole degrees, degrees, minutes and seconds, or degrees and minutes\n\n\u2022 Written as {N or S} 0\u201390 {E or W} 0\u2013180 or {N or S} 0\u201389 00\u201359.99 {E or W} 0\u2013180 00\u201359.99 or {N or S} 0\u201389 [0\u201359] {E or W} 0\u2013180 [0\u201359]. (For example, N40E110 or N4004.76E11040.55).\n\n5th Edition 02 APR 19 C-3",
+  "token_count_estimate": 222,
+  "chunk_index": 762,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.400196+00:00"
+}

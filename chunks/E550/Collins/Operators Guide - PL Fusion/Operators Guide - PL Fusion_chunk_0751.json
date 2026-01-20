@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0751",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 538,
+  "page_end": 539,
+  "raw_text": "APPENDIX B Embraer Legacy 450/500 and Praetor 500/600 TCAS Aurals Pro Line Fusion\u00ae Avionics\n\nAdvisory Aural Response\n\nINCREASE CLIMB INCREASE CLIMB This follows a CLIMB advisory. The climb pitch or vertical speed should be increased, typically to 2500 feet/min, as shown on the attitude display or vertical speed scale.\n\nINCREASE DESCENT INCREASE DESCENT This follows a DESCEND advisory. The descent pitch or vertical speed should be increased, typically to 2500 feet/min, as shown on the attitude display or vertical speed scale.\n\nCLIMB, CLIMB NOW CLIMB, CLIMB NOW This follows a DESCEND advisory. This advisory indicates that a reversal of vertical speed from descent to climb is needed to provide adequate separation.\n\nCorrective RA (Cont.)\n\nDESCEND, DESCEND NOW DESCEND, DESCEND NOW\n\nThis follows a CLIMB advisory. This advisory indicates that a reversal of vertical speed from climb to descent is needed to provide adequate separation.\n\n5th Edition B-4 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 APPENDIX C Pro Line Fusion\u00ae Avionics Table of Contents",
+  "token_count_estimate": 214,
+  "chunk_index": 751,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.394169+00:00"
+}

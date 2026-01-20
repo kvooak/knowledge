@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0689",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "APPROACH CHECKLIST",
+  "page_start": 504,
+  "page_end": 504,
+  "raw_text": "When the pilots push the APPR button to select the ILS approach modes (LOC and GS), the highest approach available (1 or 2) will be armed, according to the indication on the Approach Status left \ufb01eld on the FMA. In this scenario, it may be that of the con\ufb01gurations or selections needed to activate the highest ILS approach mode, APPR 2, has not been properly selected.\n\nThe Approach Checklist will then be displayed on the PFD and will assist the pilots in determining what is still missing in order to activate the APPR 2.\n\nWhile ILS modes are armed or activated, the Approach Checklist will remain active until pilots have con\ufb01gured the airplane and/or systems to allow APPR 2 to become active, or until this is no longer possible during the current approach (i.e. the airplane has descended below 800 ft radio altitude). The Approach Checklist will also be displayed when a system failure is inhibiting the activation of APPR 2.\n\nThe following table provides the list of Approach Checklist messages and their respective meaning. The active message will be determined based on the priority number of each active condition, where the lowest the number, the higher the priority. Then, if both PFDs are displaying AHRS data from the same source, but if LOC is not selected on both displays, CHECK NAV SRC message will be displayed.\n\n5th Edition 8-22 02 APR 19",
+  "token_count_estimate": 302,
+  "chunk_index": 689,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.348530+00:00"
+}

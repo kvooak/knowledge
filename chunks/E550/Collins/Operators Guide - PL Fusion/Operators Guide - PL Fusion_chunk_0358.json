@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0358",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "CHART \u2013 AIRPORT MENU WINDOWS",
+  "page_start": 321,
+  "page_end": 321,
+  "raw_text": "Figure 5-132 Chart \u2013 Menu Window (Origin)\n\nThe Origin Airport menu provides controls to select charts corresponding to the Origin airport in the FMS \ufb02ight plan. If no Origin airport is speci\ufb01ed in the FMS \ufb02ight plan or there is no \ufb02ight plan available, the Origin Airport menu is not available.\n\nFigure 5-133 Chart \u2013 Menu Window (Destination)\n\nThe Destination Airport menu provides controls to select charts corresponding to the Destination airport in the FMS \ufb02ight plan. If no Destination airport is speci\ufb01ed in the FMS \ufb02ight plan or there is no \ufb02ight plan available, the Destination Airport menu is not available.\n\n5th Edition 02 APR 19 5-219",
+  "token_count_estimate": 140,
+  "chunk_index": 358,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.185937+00:00"
+}

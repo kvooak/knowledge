@@ -1,0 +1,16 @@
+{
+  "source_document": "Operators Guide - PL Fusion",
+  "project_name": "E550",
+  "relative_path": "Collins",
+  "input_directory": "C:\\Users\\Quang\\projects\\claude-projects\\knowledge\\extracted\\E550\\Collins\\Operators Guide - PL Fusion",
+  "output_directory": "C:\\Users\\Quang\\projects\\claude-projects\\knowledge\\chunks\\E550\\Collins\\Operators Guide - PL Fusion",
+  "processing_time": "2026-01-20T20:56:25.862585+00:00",
+  "processor": "chunk_text.py",
+  "processor_version": "2.0.0",
+  "pages_processed": 558,
+  "chunks_created": 783,
+  "token_range": {
+    "min": 1,
+    "max": 632
+  }
+}

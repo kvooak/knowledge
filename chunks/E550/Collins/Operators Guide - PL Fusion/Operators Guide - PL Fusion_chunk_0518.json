@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0518",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "DISPLAY UNITS",
+  "page_start": 411,
+  "page_end": 411,
+  "raw_text": "Four 14 x 11 inch active matrix, color, LCD \ufb02ight displays are arranged in a T con\ufb01guration across the \ufb02ight deck. Each AFD is identical and interchangeable and can take on a variety of display formats depending on location. In this guide and in the on-screen menus, each AFD is called a Display Unit (DU).\n\nThe display area is subdivided into windows of the following types:\n\n\u2022 Primary Flight Display (PFD), consisting of the Attitude Director Indicator (ADI) and Horizontal Situation Indicator (HSI).\n\n\u2022 Engine Indication and Crew Alert System (EICAS).\n\n\u2022 Multifunction Window (MFW).\n\nThe four DU panels are referred to as DU1, DU2, and DU3, from left to right respectively, and DU4 for the bottom DU. Each DU is also subdivided into halves. For example, the left half and right halves of DU1 are referred to as DU1L and DU1R, respectively. Each half window is then subdivided into sub windows. For example, the top and\n\n5th Edition 02 APR 19 7-1",
+  "token_count_estimate": 211,
+  "chunk_index": 518,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.257056+00:00"
+}

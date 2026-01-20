@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0139",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 128,
+  "page_end": 128,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Altitude Pro Line Fusion\u00ae Avionics\n\nThe FPTA is represented by a magenta triangle on the left side of the altitude tape. During FMS approaches the FPTA bug is placed at the ground awareness indicator of the altimeter background, over the radio altitude 0 (zero) ft indication.\n\nFPTA is shown during a NAV-to-NAV capture until the point of G/S capture. A magenta RWY message is shown in the FPTA location when the last altitude constraint has been passed and the next altitude waypoint is at the runway. Temperature compensation for the FPTA is selectable from the FMS LANDING page. When the FMS is supplying a temperature-compensated FPTA, it is indicated with a \u00a9 symbol next to the FPTA readout on the ADI.\n\nBarometric Pres- sure\n\nThe Barometric (BARO) pressure setting is shown in cyan directly below the altitude scale. The barometric pressure setting can be set through the BARO knob on the DCP The barometric pressure setting is not synchronized between the pilot and copilot-side. The unit of measurement can be set to INhg or hPa from the BARO Set task menu on the DU. The unit of measurement is synchronized between the pilot and copilot-side.\n\n\u2022 Changing between the local BARO pressure and the standard BARO pressure (29.92 inHg/1013 hPa) is generally done as the aircraft passes through the transition \ufb02ight level by pushing the SET STD button on the DCP.\n\n5th Edition 5-26 02 APR 19",
+  "token_count_estimate": 322,
+  "chunk_index": 139,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.068724+00:00"
+}

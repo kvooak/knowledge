@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0198",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 186,
+  "page_end": 187,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Vspeeds / LFE Dialog Box Pro Line Fusion\u00ae Avionics\n\nVAC VAC \u2013 Approach climb speed. This reference is shown on the ADI airspeed scales as a magenta horizontal line with an magenta AC legend.\n\nVFS VFS \u2013 Final Segment climb speed. This reference is shown on the ADI airspeed scales as a green horizontal line with a green FS legend, during both takeoff and approach.\n\nOAT The OAT selection allows the pilot to manually enter the Outside Air Temperature (OAT).\n\nSEND The SEND button commands all manually-entered values to be sent to the FADEC and posted to the PFD.\n\nLFE The LFE selection allows the pilots to enter the Landing Field Elevation (LFE) either manually or use the FMS sourced elevation.\n\nFigure 5-45 Minimums Compressed Dialog Box\n\n5th Edition 5-84 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Minimums Dialog Box",
+  "token_count_estimate": 204,
+  "chunk_index": 198,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.104803+00:00"
+}

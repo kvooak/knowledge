@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0674",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TAKEOFF MODE",
+  "page_start": 497,
+  "page_end": 497,
+  "raw_text": "The Takeoff (TO) mode is selectable through the TOGA switch on the TCQ while on ground. The AP is not allowed to be engaged when TO is the active mode. If TO is the active vertical mode, pushing the AP button on air to engage the autopilot results in an automatic reversion to FPA mode. The AFGS generates \ufb02ight director commands, initially to maintain a \ufb01xed pitch angle reference and then it transitions to maintain a takeoff speed reference.\n\nTO mode remains active until another mode is selected, AP is engaged or until the selected altitude reference is leveled off. The AFGS computes the TO pitch angle reference based on weight, \ufb02ap lever position and ice detection. The TO speed reference is any value between V2 and V2 +10, selected depending on OEI condition.",
+  "token_count_estimate": 174,
+  "chunk_index": 674,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.340789+00:00"
+}

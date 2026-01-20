@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0053",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "KEY TROUBLESHOOTING FEATURES",
+  "page_start": 46,
+  "page_end": 46,
+  "raw_text": "\u2022 The third and cross-side air data sources can be selected as the source of on-side air data in the event of an on-side failure on the ground. When airborne, air data reversion can be automatic or manual.\n\n\u2022 Automatic display reversion reformats the operating displays to show all essential \ufb02ight data.\n\n\u2022 The cross-side attitude heading source can be selected as the source of on-side attitude heading information in the event of an on-side failure on the ground. When airborne, attitude heading reversion can be automatic or manual.\n\n5th Edition 2-16 02 APR 19",
+  "token_count_estimate": 123,
+  "chunk_index": 53,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.023565+00:00"
+}

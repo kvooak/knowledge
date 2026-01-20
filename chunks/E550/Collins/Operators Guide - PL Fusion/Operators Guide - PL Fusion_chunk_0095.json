@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0095",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 88,
+  "page_end": 89,
+  "raw_text": "CONTROLS AND INDICATORS Embraer Legacy 450/500 and Praetor 500/600 Multifunction Keyboard Panel Pro Line Fusion\u00ae Avionics\n\nWhen there is no data in the scratchpad, pushing the CLR/DEL button enters the word DELETE into the scratchpad. This can then be transferred to various functions or data \ufb01elds on the FMS window to delete the data currently entered or shown for that function or \ufb01eld.\n\nENTER Enter Button\n\nThe ENTER button enters the scratchpad text into the selected display entry \ufb01eld.\n\nCHART Chart Quick Access Key\n\nThe CHART QAK displays the chart format on the on-side MFW of the bottom display unit (DU4) during normal operation. The on-side cursor is positioned on the chart format.\n\nSYS System Quick Ac- cess Key\n\nPushing the SYS QAK displays the STATUS synoptic on the on-side lower quarter format of the MFW on the bottom display unit (DU4). Subsequent pushes of the SYS QAK cycles through the synoptic pages.\n\n5th Edition 4-20 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 CONTROLS AND INDICATORS Pro Line Fusion\u00ae Avionics Multifunction Keyboard Panel\n\nCNS Communications, Navigation, and Surveillance Quick Access Key\n\nIf a Controller/Pilot Datalink Communication (CPDLC) message requiring pilot interaction is available, pushing the Communications, Navigation, and Surveillance (CNS) QAK displays the message on the lower display (DU4). Pushing the CNS QAK when there is no available CPDLC message displays the Tuning 1/2 page. Pushing the CNS QAK again displays the Tuning 2/2 page on the on-side MFW of the bottom display unit (DU4) during normal operation. The Tuning page allows the crew to change the frequencies of any of the radios and NAVAIDs. If a Tuning window is already shown and there is no CPDLC message requiring pilot action, pushing the CNS QAK displays the CPDLC control page. The on-side cursor is placed on the transmit frequency of the last-tuned VHF or HF radio.\n\nCKLST Checklist Quick Access Key\n\nPush the CKLST QAK to show a list of available checklists. The cursor is placed on the next logical step/checklist if a checklist was started or accomplished previously. If no checklist has been previously started, the cursor is placed on the \ufb01rst checklist item.\n\nPREV Previous Button\n\nThe PREV button is used to return to the previous page of the selected page sequence. When the PREV button is pushed and the cursor is on the plan format, the map center is positioned at the previous waypoint in the waypoint list.\n\n5th Edition 02 APR 19 4-21",
+  "token_count_estimate": 531,
+  "chunk_index": 95,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.046339+00:00"
+}

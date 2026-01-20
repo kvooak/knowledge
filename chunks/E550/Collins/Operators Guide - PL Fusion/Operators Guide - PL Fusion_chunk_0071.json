@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0071",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 60,
+  "page_end": 61,
+  "raw_text": "OVERVIEW \u2013 SYSTEM COMPONENTS Embraer Legacy 450/500 and Praetor 500/600 System Description Pro Line Fusion\u00ae Avionics\n\nHF Transceiver (Optional) The HF transceiver is a multichannel high frequency transceiver that provides voice communications. Communication is possible in both simplex and half-duplex in Upper Sideband (USB), Lower Sideband (LSB), Amplitude Modulation Equivalent (AME), Continuous Wave (CW), and Frequency Modulation (FM) mode. The HF transceiver has the capability to store 99 user-programmed preset channels. In addition, six emergency channel frequencies and all 176 half-duplex International Telecommunication Union (ITU) maritime radiotelephone channels (public correspondence network) are preprogrammed into nonvolatile memory. One or two optional HF transceivers can be installed.\n\n5th Edition 3-10 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 OVERVIEW \u2013 SYSTEM COMPONENTS Pro Line Fusion\u00ae Avionics System Description\n\nIntegrated Pro- cessing System (IPS)\n\nThe Integrated Processing System (IPS) consists of two IPC is a part of the on-board wiring and physically houses some avionics Line Replaceable Unit (LRU) modules. Each IPC contains its own Power Environment Module (PEM), Digital Switching Module (DSM), and several CCM. The IPC units host the following software applications on the CCMs: FMS 1, FMS 2, Terrain Awareness Warning System (TAWS), SVS, Integrated Flight Information System (IFIS), optional second IFIS, Datalink, emulated Control Display Unit (eCDU), and the OMS. IPC Picture: Legacy 450/500 only has a Left and Right IPC. The left IPC contains PEM, DSM, CCM1, CCM2, CCM3. The right IPC contains PEM, DSM, CCM1, CCM2, CCM3, TAWS Processing Module (TPM), SVM.\n\nLightning De- tection System (LDS) Proces- sor\n\nThe non-Rockwell Collins Lightning Detection System (LDS) processor calculates the azimuth and range of the electrical discharges within approximately 200 NM of the present position. The LDS processor generates lightning symbology as well as operating and fault messages that can be shown on the \ufb02ight displays.\n\n5th Edition 02 APR 19 3-11",
+  "token_count_estimate": 396,
+  "chunk_index": 71,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.033935+00:00"
+}

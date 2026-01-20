@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0537",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "MULTIFUNCTION KEYBOARD PANEL OPERATION",
+  "page_start": 424,
+  "page_end": 424,
+  "raw_text": "The Multifunction Keyboard Panel (MKP) includes buttons for data entry and format control. The Pro Line Fusion Avionics System includes two MKP units, one for each pilot, mounted on either side of the center console. Each MKP includes controls to enter data, control the on-screen cursor, navigate menus, and Quick Access Key (QAK) buttons for format control. The QAK buttons allow the operator to show a prede\ufb01ned format and cursor in a consistent location on the DU panels. This one-button operation bypasses the usual cursor slewing and menu selection.\n\nThe keyboard on the MKP, along with the ENTER and CLR/DEL keys, may be used to enter alphanumeric data into GUI data entry elements.\n\nThe arrow keys may be used to control the on-screen cursor, as a secondary means to the track ball on the CCP. The MKP arrow keys have priority over the CCP trackball for cursor control. There is a 3 second delay from the release of a MKP arrow key to the return of trackball control. When pushing the arrow key while an on-screen menu is open advances the cursor to the next option.\n\nThe EXEC button executes changes placed into the \ufb02ight plan. The green LED above the EXEC button illuminates when a change has been made that requires an execution.\n\nThe CNCL button removes any unsaved inputs into the \ufb02ight plan.\n\nThe PREV and NEXT buttons may be used to advance pages in a multi-page format, and to go back.\n\n5th Edition 7-14 02 APR 19",
+  "token_count_estimate": 325,
+  "chunk_index": 537,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.266749+00:00"
+}

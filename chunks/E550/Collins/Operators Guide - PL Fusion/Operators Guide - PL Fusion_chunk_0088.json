@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0088",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "FLIGHT CONTROL PANEL",
+  "page_start": 79,
+  "page_end": 79,
+  "raw_text": "The Flight Control Panel (FCP) is installed at the center of the glareshield. The FCP contains \ufb02ight guidance mode select pushbuttons, the AP and AT engage and disengage pushbuttons, and FD select pushbuttons. An altitude select knob, a speed command knob, a heading set knob, a \ufb02ight path angle set knob, two course set knobs, and a vertical speed/pitch control thumbwheel are also provided. The \ufb02ight guidance mode buttons are push-on/push-off logic. A \ufb02ight guidance mode may be removed either by deselecting it or by selecting a different mode that is non-compatible.\n\nN\n\nNOTE\n\nRefer to the \ufb01gure on page 8-2 for more information on the operation of the AFCS.\n\nCALLOUTS:\n\nFD FD Select Button\n\nThe Flight Director button engages and disengages the \ufb02ight director on both PFD, showing and removing the FD from both displays simultaneously when applicable. The FD commands can not be removed when the AP is engaged.\n\nCRS Course Select Con- trol Knob\n\nThe Course knob adjust the selected course on the left display. The button (PUSH DIRECT) synchronize the selected course on the left display to VOR Bearing when the navigation source is tuned to VOR.\n\n5th Edition 02 APR 19 4-11",
+  "token_count_estimate": 256,
+  "chunk_index": 88,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.042752+00:00"
+}

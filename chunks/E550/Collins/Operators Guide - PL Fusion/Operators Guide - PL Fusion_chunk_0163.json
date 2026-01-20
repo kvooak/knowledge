@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0163",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 153,
+  "page_end": 153,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics AFCS Flight Mode Annunciations\n\nThe \ufb02ight path acceleration symbol is shown to the left of the FPV cue. The \ufb02ight path acceleration symbol moves above the wing of the \ufb02ight path symbol to indicate acceleration, and moves below the wing for deceleration.\n\nAutopilot Field The AP/AT \ufb01eld is split in three, top to bottom. The Autopilot (AP) engage status message shows on the top portion of the \ufb01eld. A couple arrow shows in the middle of the \ufb01eld. the Autothrottle (AT) engage status shows in the lower portion of the \ufb01eld. Autopilot status messages and associated functions show in the list that follows:\n\n\u2022 AP shows in green on both PFDs when the AP is engaged.\n\n\u2022 AP shows in red upon disengagement of the autopilot for any reason.\n\n\u2022 The AP \ufb02ashes to indicate a disengage.\n\nN\n\nNOTE\n\nThe AP disconnect alert is cancelled with the side-stick mounted AP Disconnect (DISC) switch. The autopilot can also be reengaged in order to cancel the disengage alert.\n\nThe couple arrow shows in the middle of the AP engage \ufb01eld. The couple arrow shows in the same color as the AP engage/disengage indication, when present, and \ufb02ashes when the AP engage/disengage indication \ufb02ashes. When the AP engaged/disengaged indication is not in view, the couple arrow shows in white and does not \ufb02ash.\n\n5th Edition 02 APR 19 5-51",
+  "token_count_estimate": 310,
+  "chunk_index": 163,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.086074+00:00"
+}

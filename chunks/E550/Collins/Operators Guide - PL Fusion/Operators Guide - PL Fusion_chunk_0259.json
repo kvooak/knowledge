@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0259",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TUNING \u2013 XPDR/TCAS CONTROL",
+  "page_start": 242,
+  "page_end": 242,
+  "raw_text": "Figure 5-83 Tuning \u2013 XPDR/TCAS Control\n\nThe XPDR/TCAS Control submenu provides advanced controls to modify XPDR/TCAS settings. The XPDR/TCAS Control menu is accessed by selecting the gray XPDR TCAS button on the Tuning format.\n\nSELECTIONS:\n\nCODE Set the transponder code by positioning the cursor over the CODE window and using the DSK. The outer knob sets the \ufb01rst two digits of the ATC code, and the inner knob sets the last two digits.\n\n5th Edition 5-140 02 APR 19",
+  "token_count_estimate": 102,
+  "chunk_index": 259,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.142148+00:00"
+}

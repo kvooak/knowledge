@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0054",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 47,
+  "page_end": 48,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 OVERVIEW Pro Line Fusion\u00ae Avionics System Description\n\n\u2022 Tuning reversion control provides the ability to disable the AFD as the radio tuning source.\n\n\u2022 Self-test modes are available for individual subsystems.\n\n\u2022 Continuous self-monitoring of individual system units activates a system \ufb02ag when a fault is detected.\n\n\u2022 The OMS captures detailed system LRU fault data.\n\n5th Edition 02 APR 19 2-17\n\nOVERVIEW Embraer Legacy 450/500 and Praetor 500/600 Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 102,
+  "chunk_index": 54,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.024012+00:00"
+}

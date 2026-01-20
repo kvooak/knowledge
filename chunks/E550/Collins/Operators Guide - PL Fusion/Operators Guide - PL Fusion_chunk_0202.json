@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0202",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 189,
+  "page_end": 189,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Radar Dialog Box\n\nUNITS UNITS is a multi-state toggle to select Inches of Mercury (inHg) or hectoPascals (hPa) as the unit of pressure.\n\nFL ALERT FL ALERT is a single-state toggle to active the visual alert of climbing through the transition altitude or descending through the transition level with an incorrect barometric setting. The alert is indicated by the altimeter setting changing color from cyan to amber. Both the transition altitude and \ufb02ight level are set on the FMS VNAV THRST format, CLB and DES tabs.",
+  "token_count_estimate": 128,
+  "chunk_index": 202,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.106138+00:00"
+}

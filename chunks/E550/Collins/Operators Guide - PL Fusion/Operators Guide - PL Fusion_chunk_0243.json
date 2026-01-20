@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0243",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 227,
+  "page_end": 228,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning\n\nFigure 5-74 Tuning (2/2)\n\nAll radios can be tuned with the on-screen menus. The Tuning format provides controls to tune the radios and change the settings. The sections on the main Tuning format pages provide simple controls for the respective radios, while the Control menus provide advanced controls.\n\nSELECTIONS:\n\nCOM The COM section of the Tuning format provides controls to modify COM settings. COM1, COM2, and COM3 sections are provided.\n\n\u2022 Select the gray COM button to access the COM Control submenu.\n\n\u2022 Select the transfer (up/down arrow) button to transfer the active and standby VHF frequencies.\n\n\u2022 Select the standby frequency to tune it.\n\n5th Edition 02 APR 19 5-125\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning Pro Line Fusion\u00ae Avionics\n\n\u2022 Use the cursor to change test, FREQ SEL, squelch, and mode settings.\n\nNAV The NAV section of the Tuning format provides simple controls to modify NAV settings. NAV1 and NAV2 sections are provided.\n\n\u2022 Select the gray NAV button to access the NAV Control submenu.\n\n\u2022 Select the transfer (up/down arrow) button to transfer the active and standby NAV frequencies.\n\n\u2022 Select the standby frequency to tune it.\n\n\u2022 Use the cursor to change marker sensitivity, NAV tuning to auto or manual, and to test the NAV radio.\n\nXPDR TCAS The XPDR TCAS section of the Tuning format provides simple controls to modify transponder/TCAS settings.\n\n\u2022 Select the gray XPDR TCAS button to access the XPDR/TCAS Control submenu.\n\n\u2022 Select the IDENT button to transmit an Identi\ufb01cation code signal.\n\n\u2022 Use the cursor on the TCAS mode display to change the TCAS mode, ALT limit, ALT tag, and ATC proximate traf\ufb01c settings.\n\n\u2022 Select the XPDR code display to tune the ATC code.\n\nADF The ADF section of the Tuning format provides simple controls to modify ADF settings.\n\n5th Edition 5-126 02 APR 19",
+  "token_count_estimate": 420,
+  "chunk_index": 243,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.130349+00:00"
+}

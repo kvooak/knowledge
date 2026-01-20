@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0561",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "DU WINDOW ALLOCATION",
+  "page_start": 441,
+  "page_end": 441,
+  "raw_text": "Each DU has four con\ufb01gurable windows. Each quarter window may be independently con\ufb01gured, or a vertical half window format may be con\ufb01gured. The combination of quarter and half window formats is controlled by controls on the CCP, MKP, or the DU format selection menu. The outboard halves of DU1 and DU3 are referred to as the Primary Flight Display (PFD). The inboard halves of DU1 and DU3 are referred to as the Multifunction Flight Display (MFD). The PFD con\ufb01guration may be changed with the PFD FULL/HALF button on the PFD Format menu on the HSI. The MFD may be con\ufb01gured in the same manner as any MFW.\n\nThe default con\ufb01guration for the PFD is a full screen Attitude Director Indicator (ADI) above, and a full screen Horizontal Situation Indicator (HSI) below. For the half screen con\ufb01guration the ADI and HSI take the outboard half of the pilot and copilot DU and a MFW takes the inside half.\n\nWhen EICAS is reverted on the full screen PFD the EICAS is put on either side of a 1/6 size HSI, EIS on the left and CAS on the right. If\n\n5th Edition 02 APR 19 7-31",
+  "token_count_estimate": 252,
+  "chunk_index": 561,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.279065+00:00"
+}

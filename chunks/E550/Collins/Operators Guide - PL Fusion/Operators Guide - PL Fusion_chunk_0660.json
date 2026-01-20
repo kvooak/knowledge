@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0660",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 493,
+  "page_end": 493,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 AFCS OPERATION Pro Line Fusion\u00ae Avionics Flight Director Lateral Modes\n\n3. Operate the HDG knob on the FCP to set the heading bug to an intercept heading. Select adding a step for setting course.\n\n4. Push the APPR button on the FCP.\n\nThe Back Course mode (Backcourse Approach (APPR Button) and Backcourse navigation mode (LNAV Button) are available), is automatically deselected when:\n\n\u2022 Selection or automatic capture of another lateral mode occurs\n\n\u2022 The on-side active NAV source or frequency is changed\n\n\u2022 The on-side Preselect NAV source is changed when the LOC mode is active\n\n\u2022 The GA mode is selected.\n\nWhen the B/C mode is armed but not captured, system track, roll, Heading and FMS navigation modes could be active while BC mode is armed. Commands are generated to capture and track the selected heading reference (heading bug). Upon B/C capture, commands are generated to track the selected back course. LOC capture deselects the Half Bank mode. When the B/C mode is armed but not captured, a green HDG message is shown in the AFCS lateral active \ufb01eld and a white BC message is shown in the lateral arm \ufb01eld on the displays. Upon B/C capture, a green BC message is shown in the lateral active \ufb01eld on the displays.",
+  "token_count_estimate": 283,
+  "chunk_index": 660,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.333003+00:00"
+}

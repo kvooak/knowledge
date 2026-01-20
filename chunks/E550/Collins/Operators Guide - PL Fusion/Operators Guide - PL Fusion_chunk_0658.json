@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0658",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "LOCALIZER MODE",
+  "page_start": 492,
+  "page_end": 492,
+  "raw_text": "The Localizer (LOC) mode generates FD/AP commands to capture and track the localizer navigation source. It is armed when ILS is the navigation source and the APPR button is pushed FCP and the course error is less than 110 degrees. It is also selected if ILS is the active navigation source and the LNAV button is pushed FCP. Once localizer armed and the localizer criteria is satis\ufb01ed the localizer mode is activated. The localizer control law captures/tracks the localizer beam regardless of whether the radio altitude signal is valid or invalid.",
+  "token_count_estimate": 118,
+  "chunk_index": 658,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.332217+00:00"
+}

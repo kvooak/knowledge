@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0668",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "ALTITUDE SELECT MODE",
+  "page_start": 495,
+  "page_end": 495,
+  "raw_text": "The Altitude Select mode is used in conjunction with another vertical mode. While a different vertical mode is used to \ufb02y towards the desired altitude, the Altitude Select mode captures and levels off at the selected altitude. At altitude capture, ASEL becomes the active vertical mode replacing the active vertical mode that was used to \ufb02y towards the selected altitude. The FG generates \ufb02ight path command outputs to capture the preselect altitude displayed on the selected PFD. Once the reference altitude is reached, altitude hold mode is activated. AFGS uses BARO corrected altitude in the Altitude Select (ASEL) mode.",
+  "token_count_estimate": 128,
+  "chunk_index": 668,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.337766+00:00"
+}

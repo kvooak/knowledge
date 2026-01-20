@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0474",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 394,
+  "page_end": 394,
+  "raw_text": "\uf0deMonitor pilot and copilot glideslope deviation information.\n\nThe GS comparator \ufb02ag is a caution to the \ufb02ight crew that the glideslope deviation information being shown on the ADI may be in error on one side or the other.\n\nDuring a monitored approach, each ADI compares the glideslope deviation from the on-side NAV receiver to the glideslope deviation from the cross-side NAV receiver. When the glideslope compare function is active and the difference between the two glideslope deviations is not within the prede\ufb01ned limit, a boxed yellow GS glideslope miscompare \ufb02ag is shown below the vertical deviation scale. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe glideslope deviation comparator is disabled during unmonitored approaches or when radio altitude is less than either the RA MIN setpoint or 100 feet, whichever is greater.\n\n5th Edition 6-12 02 APR 19",
+  "token_count_estimate": 185,
+  "chunk_index": 474,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.234107+00:00"
+}

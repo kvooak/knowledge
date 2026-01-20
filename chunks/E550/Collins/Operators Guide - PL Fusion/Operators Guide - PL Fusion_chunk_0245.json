@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0245",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 232,
+  "page_end": 232,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 COM Control Pro Line Fusion\u00ae Avionics\n\n\u2022 DME.\n\nQuick Keyboard Tuning:\n\n\u2022 The MKP keyboard contains both a COM and a NAV button that can be used to quick tune the sided radios. For example, if a copilot (right side of cockpit) desires to tune the COM radio to the 130.00, he or she can enter \"130.00\" into the MKP scratchpad window and press the COM MKP button. COM 2 will automatically tune to 130.00. Similarly, the copilot can use the MKP\u2019s NAV button to quick tune the NAV 2 radio following the same steps. The pilot can use his or her MKP to quick tune the COM 1 or NAV 1 radios following the same steps as described above.\n\n\u2022 VHF.\n\n\u2022 NAV.",
+  "token_count_estimate": 175,
+  "chunk_index": 245,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.131773+00:00"
+}

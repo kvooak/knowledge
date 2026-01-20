@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0475",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 395,
+  "page_end": 396,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MESSAGES AND ANNUNCIATORS Pro Line Fusion\u00ae Avionics Visual Annunciations\n\nHSI: Heading Compare Flag\n\nThe HDG comparator \ufb02ag is a caution to the \ufb02ight crew that the headings being given by the AHRS may be in error on one side or the other.\n\nADI compares the heading from the on-side AHRS to the heading from the cross-side AHRS. When the heading compare function is active and the difference between the two headings is not within the prede\ufb01ned limit, a boxed yellow HDG miscompare \ufb02ag is shown below the horizontal deviation scale. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nADI: Horizontal Deviation Miscompare Flag\n\nThe horizontal deviation miscompare \ufb02ag shows when the pilot and copilot horizontal deviation bars do not show the same deviation. Refer to other sources to determine the correct indicator.\n\nADI : Lateral Navigation Compare Flag\n\nThe LNAV comparator \ufb02ag is a caution to the \ufb02ight crew that the FMS lateral navigation information being shown on the ADI may be in error on one side or the other.\n\n5th Edition 02 APR 19 6-13\n\nMESSAGES AND ANNUNCIATORS Embraer Legacy 450/500 and Praetor 500/600 Visual Annunciations Pro Line Fusion\u00ae Avionics\n\nDuring a monitored approach, each ADI compares the lateral deviation from the on-side AHRS to the lateral deviation from the cross-side AHRS. When the localizer compare function is active and the difference between the two lateral deviations is not within a prede\ufb01ned limit, a boxed yellow AHRS miscompare \ufb02ag is shown to the left of the horizontal deviation scale. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nADI: Localizer Compare Flag",
+  "token_count_estimate": 361,
+  "chunk_index": 475,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.234769+00:00"
+}

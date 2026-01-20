@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0539",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "The FMS, ROUTE, MSG, DEP/ARR, D\u2192(Direct-To), CHART, SYS, CNS, and CKLST buttons are Quick Access Keys (QAK). When pushed, a QAK commands a speci\ufb01c format, menu, or dialog box to show, and repositions the cursor to that format. The CAS button controls paging on the EICAS format.",
+  "page_start": 425,
+  "page_end": 425,
+  "raw_text": "5th Edition 02 APR 19 7-15",
+  "token_count_estimate": 7,
+  "chunk_index": 539,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.267707+00:00"
+}

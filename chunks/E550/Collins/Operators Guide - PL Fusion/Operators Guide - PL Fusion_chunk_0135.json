@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0135",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 123,
+  "page_end": 123,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Altitude\n\nBarometric altitude is shown on the ADI as a moving altitude tape with a \ufb01xed-position pointer. Preselect Altitude (PSA) is shown as an analog reference and digital readout on the barometric altitude tape. The barometric pressure setting, the PSA Alert setting, the FMS generated Flight Plan Target Altitude (FPTA), and a RA/BARO MIN readout are also shown on the ADI. Barometric altitude data is provided from the selected on-side Air Data Sensor (ADS). The tape background includes a darker blue sky and a yellow, hatched ground awareness indication level to indicate the radio altitude detected ground height.\n\nAltitude indications on the optional Head-Up Display (HUD) are functionally identical to the altitude indications on the ADI.\n\nSELECTIONS:\n\nAltitude Tape The altitude tape moves vertically with respect to the altitude pointer.\n\nAltitude Pointer The barometric altitude pointer shows at the center of the altitude tape. The altitude pointer remains stationary while the altitude tape moves vertically in response to it. The altitude pointer contains a rolling drum digital altitude readout.\n\nAltitude Readout The digital altitude readout shows inside the barometric altitude pointer. The altitude readout consists of rolling drums to show digital altitude. The tens and units display on a single drum in 20 foot increments, in medium characters. The hundreds, thousands, and ten thousands display on individual drums, in large characters. Green striped shutters cover the thousands and ten thousands digit spaces when a leading zero would be in view, except for negative altitude. Negative altitude is indicated by a small, white, vertically positions NEG in the ten thousands digit place.\n\n5th Edition 02 APR 19 5-21",
+  "token_count_estimate": 366,
+  "chunk_index": 135,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.066469+00:00"
+}

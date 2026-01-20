@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0695",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "AUTOTHROTTLE",
+  "page_start": 508,
+  "page_end": 508,
+  "raw_text": "The Autothrottle (AT) provides thrust management and speed management modes. The pilot may override the AT by moving the throttle levers, which causes the OVRD annunciation to appear in the AT engage section of the FMA.\n\n5th Edition 8-26 02 APR 19",
+  "token_count_estimate": 54,
+  "chunk_index": 695,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.351615+00:00"
+}

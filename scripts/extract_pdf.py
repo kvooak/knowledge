@@ -3,13 +3,27 @@
 extract_pdf.py - Mechanical PDF text extraction
 
 CONTRACT:
-    Input:  knowledge/sources/**/*.pdf
-    Output: knowledge/extracted/<doc_name>/<page>.md
+    Input:  knowledge/sources/<project>/**/*.pdf (recursive)
+    Output: knowledge/extracted/<project>/<relative_path>/<doc_name>/<page>.md
+
+STRUCTURE:
+    sources/
+    ├── ProjectA/           <- Project name
+    │   ├── manual.pdf
+    │   └── subfolder/
+    │       └── guide.pdf
+    └── ProjectB/           <- Another project
+        └── docs/
+            └── spec.pdf
+
+    Direct subfolders under sources/ are considered "projects".
+    Project name is tracked in all metadata.
 
 GUARANTEES:
     - One markdown file per page
     - Page numbers preserved in filename and content
     - Headings preserved when detectable (by font size)
+    - Project name stored in metadata
     - Deterministic output (same input = same output)
     - NO LLM usage
     - Mechanical extraction ONLY
@@ -25,6 +39,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 try:
     import fitz  # PyMuPDF
@@ -47,6 +62,48 @@ def compute_file_hash(filepath: Path) -> str:
         for chunk in iter(lambda: f.read(8192), b""):
             hasher.update(chunk)
     return hasher.hexdigest()
+
+
+def get_project_name(pdf_path: Path, sources_dir: Path) -> Optional[str]:
+    """
+    Extract project name from PDF path.
+
+    Project = first-level subfolder under sources/
+
+    Examples:
+        sources/ProjectA/manual.pdf -> "ProjectA"
+        sources/ProjectA/sub/guide.pdf -> "ProjectA"
+        sources/manual.pdf -> None (no project, root level)
+    """
+    try:
+        relative = pdf_path.relative_to(sources_dir)
+        parts = relative.parts
+        if len(parts) > 1:
+            return parts[0]  # First folder is the project
+        return None  # File is directly in sources/, no project
+    except ValueError:
+        return None
+
+
+def get_relative_path_in_project(pdf_path: Path, sources_dir: Path, project_name: Optional[str]) -> Path:
+    """
+    Get the relative path within a project (excluding project folder and filename).
+
+    Examples:
+        sources/ProjectA/manual.pdf -> Path(".")
+        sources/ProjectA/sub/guide.pdf -> Path("sub")
+        sources/ProjectA/a/b/c/doc.pdf -> Path("a/b/c")
+    """
+    try:
+        relative = pdf_path.relative_to(sources_dir)
+        parts = relative.parts
+
+        if project_name and len(parts) > 2:
+            # Skip project name and filename, return middle parts
+            return Path(*parts[1:-1])
+        return Path(".")
+    except ValueError:
+        return Path(".")
 
 
 def detect_headings(blocks: list, page_height: float) -> list:
@@ -114,25 +171,42 @@ def extract_text_from_block(block: dict) -> str:
     return " ".join(lines).strip()
 
 
-def format_page_markdown(page_num: int, blocks: list, doc_name: str) -> str:
+def format_page_markdown(
+    page_num: int,
+    blocks: list,
+    doc_name: str,
+    project_name: Optional[str] = None,
+    relative_path: Optional[Path] = None
+) -> str:
     """
     Format extracted blocks as markdown.
 
     Preserves:
     - Page number in header
+    - Project name in metadata
     - Detected headings as markdown headings
     - Original text structure
     """
+    project_line = f"> Project: {project_name}" if project_name else "> Project: (none)"
+    path_line = f"> Path: {relative_path}" if relative_path and str(relative_path) != "." else ""
+
     lines = [
         f"# {doc_name} - Page {page_num}",
         "",
         f"> Extracted from: {doc_name}",
+        project_line,
+    ]
+
+    if path_line:
+        lines.append(path_line)
+
+    lines.extend([
         f"> Page: {page_num}",
         f"> Extraction: Mechanical (no LLM)",
         "",
         "---",
         "",
-    ]
+    ])
 
     for block in blocks:
         text = extract_text_from_block(block)
@@ -153,14 +227,32 @@ def format_page_markdown(page_num: int, blocks: list, doc_name: str) -> str:
     return "\n".join(lines)
 
 
-def extract_pdf(pdf_path: Path, output_dir: Path, verbose: bool = False) -> dict:
+def extract_pdf(
+    pdf_path: Path,
+    output_dir: Path,
+    sources_dir: Path,
+    verbose: bool = False
+) -> dict:
     """
     Extract all pages from a PDF to individual markdown files.
 
     Returns extraction metadata for reproducibility.
     """
     doc_name = pdf_path.stem
-    doc_output_dir = output_dir / doc_name
+
+    # Determine project name and relative path
+    project_name = get_project_name(pdf_path, sources_dir)
+    relative_path = get_relative_path_in_project(pdf_path, sources_dir, project_name)
+
+    # Build output path: extracted/<project>/<relative_path>/<doc_name>/
+    if project_name:
+        if str(relative_path) != ".":
+            doc_output_dir = output_dir / project_name / relative_path / doc_name
+        else:
+            doc_output_dir = output_dir / project_name / doc_name
+    else:
+        doc_output_dir = output_dir / doc_name
+
     doc_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Compute input hash for reproducibility
@@ -169,9 +261,12 @@ def extract_pdf(pdf_path: Path, output_dir: Path, verbose: bool = False) -> dict
     metadata = {
         "source_file": str(pdf_path),
         "source_hash": input_hash,
+        "project_name": project_name,  # Project tracking
+        "relative_path": str(relative_path) if relative_path else None,
+        "document_name": doc_name,
         "extraction_time": datetime.now(timezone.utc).isoformat(),
         "extractor": "extract_pdf.py",
-        "extractor_version": "1.0.0",
+        "extractor_version": "2.0.0",  # Version bump for project support
         "pages_extracted": 0,
         "output_directory": str(doc_output_dir),
     }
@@ -196,7 +291,11 @@ def extract_pdf(pdf_path: Path, output_dir: Path, verbose: bool = False) -> dict
             # Page numbers are 1-indexed for human readability
             human_page_num = page_num + 1
             markdown_content = format_page_markdown(
-                human_page_num, annotated_blocks, doc_name
+                human_page_num,
+                annotated_blocks,
+                doc_name,
+                project_name,
+                relative_path
             )
 
             # Write page file
@@ -248,6 +347,11 @@ def main():
         type=Path,
         help="Extract a single PDF file instead of all in sources",
     )
+    parser.add_argument(
+        "--project",
+        type=str,
+        help="Extract only PDFs from a specific project (subfolder name)",
+    )
 
     args = parser.parse_args()
 
@@ -256,6 +360,12 @@ def main():
 
     if args.file:
         pdfs = [args.file]
+    elif args.project:
+        project_dir = args.sources / args.project
+        if not project_dir.exists():
+            print(f"Project not found: {project_dir}", file=sys.stderr)
+            sys.exit(1)
+        pdfs = sorted(project_dir.rglob("*.pdf"))
     else:
         pdfs = find_pdfs(args.sources)
 
@@ -267,10 +377,18 @@ def main():
     print(f"Output directory: {args.output}")
     print()
 
+    # Group by project for reporting
+    projects_found = set()
     total_pages = 0
+
     for pdf_path in pdfs:
-        print(f"Extracting: {pdf_path.name}")
-        metadata = extract_pdf(pdf_path, args.output, verbose=args.verbose)
+        project = get_project_name(pdf_path, args.sources)
+        projects_found.add(project or "(root)")
+
+        project_display = f"[{project}] " if project else ""
+        print(f"Extracting: {project_display}{pdf_path.name}")
+
+        metadata = extract_pdf(pdf_path, args.output, args.sources, verbose=args.verbose)
 
         if "error" in metadata:
             print(f"  ERROR: {metadata['error']}", file=sys.stderr)
@@ -280,6 +398,7 @@ def main():
             print(f"  Pages: {pages}")
 
     print()
+    print(f"Projects found: {', '.join(sorted(projects_found))}")
     print(f"Total pages extracted: {total_pages}")
     print("Extraction complete. Output is deterministic and reproducible.")
 

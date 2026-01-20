@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0336",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "MAP \u2013 VERTICAL SITUATION DISPLAY",
+  "page_start": 303,
+  "page_end": 303,
+  "raw_text": "Figure 5-116 Map \u2013 VSD (Aircraft Centered)\n\nThe Vertical Situation Display (VSD) provides a side view of the vertical pro\ufb01le \ufb02own by the aircraft. Typically, the vertical pro\ufb01le is referenced to the \ufb02ight plan, but can also be referenced to the current aircraft track. The vertical pro\ufb01le provides supplemental awareness to the lateral maps for VNAV operation and Terrain surveillance.\n\nThe VSD can show the following elements:\n\n\u2022 Terrain\n\n\u2022 Flight plan types:\n\n\u2022 Modi\ufb01ed\n\n\u2022 Active\n\n\u2022 Missed approach preview.\n\n\u2022 Flight plan data:\n\n\u2022 Waypoints\n\n\u2022 Altitude constraints\n\n\u2022 Flight plan legs\n\n\u2022 Conditional waypoints\n\n\u2022 Discontinuity\n\n\u2022 Runway sideview\n\n\u2022 Final approach \ufb01x\n\n\u2022 Approach feather.\n\n5th Edition 02 APR 19 5-201",
+  "token_count_estimate": 149,
+  "chunk_index": 336,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.177668+00:00"
+}

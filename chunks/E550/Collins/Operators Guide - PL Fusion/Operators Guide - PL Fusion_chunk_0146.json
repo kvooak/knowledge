@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0146",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 135,
+  "page_end": 135,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Airspeed\n\nIn the event that the airspeed inputs are failed, the IAS, pointer, digital readout, trend vector, speed cues, speed bug, and all Vspeed indications is removed and replaced with a red boxed IAS \ufb02ag.\n\nAirspeed indications on the optional Head-Up Display (HUD) are functionally identical to the airspeed indications on the ADI.\n\nSELECTIONS:\n\nAirspeed Display The IAS mode is automatically selected when Mach is active and the current Mach slows below 0.40 Mach. The IAS mode is also automatically selected when Mach is active and the aircraft descends below 32 500 feet at 0.40 Mach or greater. The airspeed display consists of a vertical airspeed scale and \ufb01xed-position pointer. The range of the scale is 30 to 500 knots with the digital readout scale of (0 \u2013 999) IAS. Short tic marks on the scale are shown at intervals of 5 knots, with longer tic marks shown every 10 knots. Scale numbers are shown every 20 knots. A readout of the current airspeed is shown inside the pointer.\n\nA four-digit readout of Mach is shown below the airspeed scale when Mach is 0.45 or greater. The Mach readout is removed when Mach is less than 0.40. The color of the Mach readout follows the color of the airspeed readout for overspeed and minimum speed cues.\n\nThe airspeed readout changes color to yellow for an Overspeed Pre-Alert or a minimum maneuver speed (VMM) cue.\n\n5th Edition 02 APR 19 5-33",
+  "token_count_estimate": 331,
+  "chunk_index": 146,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.073882+00:00"
+}

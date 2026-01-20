@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0306",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 284,
+  "page_end": 284,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 VSD \u2013 Terrain Warning Pro Line Fusion\u00ae Avionics\n\n\u2022 TAWS TEST shows in white when the TAWS is placed into test mode. When initially activated, TAWS TEST \ufb02ashes for 5 seconds. The TAWS TEST message and test pattern is removed when TAWS is taken out of test mode. The display returns to its previous con\ufb01guration when the TAWS test times out.\n\n\u2022 TERRAIN FAIL is shown in yellow when the TAWS overlay display data is missing or invalid. When initially activated, the TERRAIN FAIL message \ufb02ashes for 5 seconds.",
+  "token_count_estimate": 127,
+  "chunk_index": 306,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.163340+00:00"
+}

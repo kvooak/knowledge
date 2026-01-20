@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0129",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 117,
+  "page_end": 118,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Attitude\n\nTCAS RA Path Cues\n\nThe TCAS Resolution Advisory (RA) path cues are shown on the ADI attitude indicator. The path cues advise the pilot of the path attitude that is necessary to satisfy a vertical RA. RA cues are issued by the TCAS computer when aircraft corrective maneuvering is required in order to avoid a potential collision. The path cues are shown as red avoidance zones and green \ufb02y to zones. When the path cues are being shown, the FD steering commands and FMS Vertical Speed Required pointer are removed. A yellow NO ATT RA message is shown in the TCAS data \ufb01eld when RA path cues cannot be computed or if path data is not in view on the ADI. The path cues are disabled when an excessive attitude condition exists. When any data required to compute path cues is invalid, the path cues are removed. Two types of RA cues can be issued by the TCAS computer: preventive and corrective.\n\n5th Edition 02 APR 19 5-15\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Attitude Pro Line Fusion\u00ae Avionics\n\n\u2022 Preventive RA cues are issued for threat traf\ufb01c for which the TCAS computer has determined current path resolves the threat situation. The path range to avoid is shown on the attitude display. A red trapezoidal avoidance zone path cue is positioned on the attitude display at a path attitude that results in the TCAS-commanded vertical rate. Separate path cues are provided for climb and descend restrictions. RA guidance that results in both climb and descend restrictions cause both climb and descend path cues to be shown at the same time. To comply with a RA, avoid path attitudes that are within the red avoidance zone. When a TCAS RA is active, the FPV cue changes color to red when the current path attitude is within a red avoidance zone.\n\n\u2022 Corrective RA cues are issued for threat traf\ufb01c for which the TCAS computer has determined that corrective action needs to be taken to avoid the traf\ufb01c. The vertical speed range to seek and avoid is shown on the ADI vertical speed scale. A green rectangular \ufb02y to zone is positioned immediately above or below the avoidance zone when a corrective RA is issued by the TCAS. To comply with a corrective RA, \ufb02y a path attitude that is within the green \ufb02y to zone. When a TCAS RA is active, the FPV changes color to green when the current path attitude is within the green \ufb02y to zone.\n\n5th Edition 5-16 02 APR 19",
+  "token_count_estimate": 578,
+  "chunk_index": 129,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.063512+00:00"
+}

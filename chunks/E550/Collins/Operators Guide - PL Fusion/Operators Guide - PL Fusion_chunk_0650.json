@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0650",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "FLIGHT DIRECTOR OFF",
+  "page_start": 489,
+  "page_end": 489,
+  "raw_text": "The FD OFF state occurs when there are no FD modes active and FD cues are not being displayed on the PFDs When FD is engaged, the FD OFF mode can be selected if any FD button is pushed on the Flight Control Panel (FCP). The FD button is disabled in the following conditions:\n\n\u2022 Autopilot is engaged\n\n\u2022 GA mode is active\n\n\u2022 Windshear mode is active\n\n\u2022 Approach 2 is active\n\n\u2022 TO mode is active and the airspeed is greater than 60 kt then WOW is active.",
+  "token_count_estimate": 117,
+  "chunk_index": 650,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.328328+00:00"
+}

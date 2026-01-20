@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0316",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "CDTI CONTROLS",
+  "page_start": 289,
+  "page_end": 289,
+  "raw_text": "\u2022 Add \ufb02ight ID tag to targets in the traf\ufb01c overlay.\n\n\u2022 Cursor control to select any one traf\ufb01c target on the map:\n\n\u2022 A Data Block will be present for the selected target on the Map\n\n\u2022 The selected target is visually indicated via a spotlight on the HIS and Map.\n\n\u2022 Cursor control to highlight traf\ufb01c.\n\n\u2022 XPDR/TCAS RTSA format control to include basic (non-threat) targets in the traf\ufb01c overlay.\n\n5th Edition 02 APR 19 5-187",
+  "token_count_estimate": 101,
+  "chunk_index": 316,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.168415+00:00"
+}

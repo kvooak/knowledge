@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0218",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 205,
+  "page_end": 206,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Electrical Page\n\nFigure 5-57 Synoptic \u2013 Electrical Page\n\nThe ELECTRICAL Synoptic page graphically represents the Electrical system. The ELECTRICAL Synoptic page is accessed through the Synoptic drop down menu opened by pushing the SYS QAK.\n\nSELECTIONS:\n\nBuses Buses are depicted by ovals with white text and a colored outline. The oval will be green when energized or white when not energized.\n\nBatteries are depicted by rectangles with green numbers showing volts and temperatures. The voltage and temperature are replaced with a red X when failed.\n\n5th Edition 02 APR 19 5-103\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Electrical Page Pro Line Fusion\u00ae Avionics\n\nGenerators are depicted by circles with green numbers showing voltage and amperes. Generators turned off are depicted by white circles, an undetermined generator is a yellow dashed circle, and a failed generator is white circle with a red X.\n\nA Ground Power Unit (GPU) is depicted by a green rectangle with green numbers when plugged into the aircraft and giving proper power. The GPU is connected and available. It is green when connected and in use. When disconnected, the GPU is hidden from view on the synoptic.\n\nRam Air Turbine The Ram Air Turbine (RAT) is depicted by a green circle square with a white RAT legend when in operation, a white circle with white RAT legend when deployed but off, and is not depicted when not deployed.\n\nGenerators Each Generator (GEN) is depicted by a circle with a white legend and a colored outline.\n\nGen 1 and Gen 2 also displays a data block including the following information:\n\n\u2022 Voltage (V)\n\n\u2022 Current (A).\n\nThe data blocks for both primary generators show voltage and current. The data block for the RAT generator displays only voltage. The data blocks for the APU generator show voltage and current.\n\n5th Edition 5-104 02 APR 19",
+  "token_count_estimate": 423,
+  "chunk_index": 218,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.113890+00:00"
+}

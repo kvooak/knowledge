@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0568",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 447,
+  "page_end": 447,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics DU Con\ufb01guration and Reversion\n\nbutton on the Reversion Switch Panel (RSP). The Pro Line Fusion Avionics System retains critical functionality with display failure. When a DU has failed or is powered OFF, the displays automatically recon\ufb01gure for safety of \ufb02ight. An ADI, HSI, and EICAS format are always shown. If at least two DU panels are operational, two ADI and two HSI formats shows in addition to at least one EICAS format. At any time, the user may push the EICAS button on the RSP. Selecting EICAS places a 1/8 MFW EIS on the left of a 1/2 MFW HSI and a 1/8 MFW CAS on the right in a full PFD screen. On a half PFD screen, pushing the EICAS button places a 1/4 EICAS window on the upper inside portion of the DU. The compressed ADI/HSI/EICAS format is automatically con\ufb01gured when only one DU is operational, regardless of EICAS button and PFD size selection. When the compressed ADI/HSI/EICAS format shows, the full ADI selection is disabled. For information on the operation of the QAK buttons on the MKP during DU reversion, refer to the Multifunction Keyboard Panel (MKP) Operation section of this chapter.\n\nFigure 7-8 Reversion Switch Panels\n\nThe following show the DU with each option of automatic and manual EICAS reversion, screen loss, and PFD size selection. NA in the PFD size box means the pilots have no selection between full and half\n\n5th Edition 02 APR 19 7-37",
+  "token_count_estimate": 330,
+  "chunk_index": 568,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.282764+00:00"
+}

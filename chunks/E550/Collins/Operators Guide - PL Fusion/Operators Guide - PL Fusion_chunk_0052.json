@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0052",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 46,
+  "page_end": 46,
+  "raw_text": "OVERVIEW Embraer Legacy 450/500 and Praetor 500/600 System Description Pro Line Fusion\u00ae Avionics\n\nTraf\ufb01c Alert Col- lision Avoidance System (TCAS) II\n\nThe second-generation Traf\ufb01c Alert Collision Avoidance System (TCAS), TCAS II, is designed to protect a volume of airspace around the TCAS equipped aircraft by warning the pilots of the threat of other transponder equipped aircraft that penetrate that airspace. The TCAS is made up of a TCAS transceiver, two antennas, and two Mode S transponders with antennas. The system interrogates Mode C and Mode S transponders in nearby aircraft and analyzes their replies to identify potential and predicted collision threats. The system advises the pilot when to climb, descend, or maintain altitude to avoid passing too close to or colliding with threat aircraft. When an intruder aircraft is equipped with TCAS, the system coordinates avoidance maneuvers with this aircraft using the datalink capability of the Mode S transponders. The system receives altitude and vertical speed information from the ADS, radio altitude information from the RAD ALT, and heading information from the AHRS. The TCAS system generates vertical guidance commands that are shown on the PFD, target displays that can be shown on all \ufb02ight displays, and aural alerts that sound over the cockpit audio system. TCAS displays are controlled from the on-screen menus on the AFD.",
+  "token_count_estimate": 282,
+  "chunk_index": 52,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.022914+00:00"
+}

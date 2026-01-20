@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0187",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 178,
+  "page_end": 179,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 PFD \u2013 HUD Format Dialog Box Pro Line Fusion\u00ae Avionics\n\nSELECTIONS:\n\nCOMBINER MODE\n\nCOMBINER MODE allows the pilot to select the display mode for the HUD symbology. The FULL selection shows the standard HUD layout. The DECLUTTER selection shows the decluttered layout, which minimizes the non-essential information for critical phases of \ufb02ight. Refer to the \ufb01gure on page 5-77 for the decluttered layout. When in AUTO selection, the HUD display will automatically switch to declutter display when the following conditions are met: Flap Handle is in D or E position, landing gear is down and radio Altitude is less than 1500 ft.\n\nThe HUD will stay in declutter mode until go around is initiated or aircraft is on ground and ground speed is less than 60 knots.\n\nFPV CAGE FPV CAGE is a multi-state toggle to cage and uncage the FPV on the HUD.\n\nIMAGE The IMAGE selection allows the pilot to select the video overlay on the HUD from Synthetic Vision System (SVS), Enhanced Vision System (EVS), or OFF.\n\n5th Edition 5-76 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics PFD \u2013 EVS Control Dialog Box\n\nFigure 5-36 HUD Declutter Mode",
+  "token_count_estimate": 271,
+  "chunk_index": 187,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.100070+00:00"
+}

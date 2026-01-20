@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0357",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 320,
+  "page_end": 321,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 DU \u2013 Chart Format Pro Line Fusion\u00ae Avionics\n\n\u2022 OUT OF DATE: shown in yellow if the chart is determined to be out of date as compared to aircraft system time.\n\n\u2022 CHECK DATE: shown in yellow if aircraft system time is not available to determine chart currency.\n\n\u2022 NO CHART SELECTED: shown in white if no chart was previously shown.\n\n\u2022 Processing Request: shown in white if a chart request cannot be completed within 4 seconds of the operator\u2019s request.\n\n\u2022 Chart Fault: shown in white if the chart request is not completed after 35 seconds of the operator\u2019s request.\n\nNo-Aircraft Symbol The no-aircraft symbol (a yellow aircraft with white circle and slash) shows if the FMS position, true heading, or magnetic variation data is missing. For non-WGS84 compliant charts, a green no-aircraft symbol shows.\n\n5th Edition 5-218 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Chart \u2013 Airport Menu Windows",
+  "token_count_estimate": 219,
+  "chunk_index": 357,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.185617+00:00"
+}

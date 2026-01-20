@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0166",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "ADI \u2013 SYNTHETIC VISION",
+  "page_start": 156,
+  "page_end": 156,
+  "raw_text": "Figure 5-21 ADI \u2013 SVS\n\nThe Synthetic Vision System (SVS) uses a terrain database and current position information to generate virtual landscape images for display on the ADI or HUD. The SVS can replace the normal sky/ground depiction that makes up the background of the ADI.\n\nThe SVS image can be shown on both the half or full screen ADI, or on the HUD. The SVS image is selected for display on the PFD Format dialog box on the PFD Task Menu.\n\n5th Edition 5-54 02 APR 19",
+  "token_count_estimate": 114,
+  "chunk_index": 166,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.088473+00:00"
+}

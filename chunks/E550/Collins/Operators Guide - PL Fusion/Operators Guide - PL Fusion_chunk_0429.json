@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0429",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 369,
+  "page_end": 369,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Video \u2013 Control Panel\n\nThe Video Source menu is a drop down list to select the video source to be shown on the Video format. The Video Source menu is a multi-state toggle, only one video source may be shown at a time. The selections on the Video Source menu re\ufb02ect the current equipment installed on the aircraft. Only the currently installed cameras are listed. The non-EVS cameras may be named by the customer or OEM, and these names show on the Video Source menu. If a camera image is failed or unavailable, a white Video Image Not Available message shows in the Video format.\n\nSELECTIONS:\n\nCamera The Camera selections con\ufb01gure the Video format to show video signal from the selected camera. The Camera options are listed as installed, and can be named by the customer or OEM.\n\nEVS The EVS selection con\ufb01gures the Video format to show video signal from the EVS. The EVS selection is unavailable if the optional EVS is not installed.",
+  "token_count_estimate": 231,
+  "chunk_index": 429,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.216170+00:00"
+}

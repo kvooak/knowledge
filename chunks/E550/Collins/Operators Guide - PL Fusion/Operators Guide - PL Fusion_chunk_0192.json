@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0192",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "HSI \u2013 COM / NAV SOURCE DIALOG BOX",
+  "page_start": 182,
+  "page_end": 182,
+  "raw_text": "Figure 5-39 PFD \u2013 NAV Source Compressed Dialog Box\n\nFigure 5-40 PFD \u2013 NAV Source Dialog Box\n\nThe COM/NAV SRC dialog box provides controls to select the active COM, NAV, and FMS sources for the on-side MFD.\n\nN\n\nNOTE\n\nWhen the HSI is compressed, the COM/NAV SRC dialog box is compressed as well. The compressed COM/NAV SRC dialog box retains all of the selections of the non-compressed COM/NAV SRC dialog box, but the blue menu bar and gray X at the top of the menu are removed.\n\nSELECTIONS:\n\nCOM COM is a multi-state toggle to select the on-side COM source. The COM radio that is tuned when the MKP COM button is pressed after entering a COM radio frequency on the MKP.\n\n5th Edition 5-80 02 APR 19",
+  "token_count_estimate": 166,
+  "chunk_index": 192,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.102914+00:00"
+}

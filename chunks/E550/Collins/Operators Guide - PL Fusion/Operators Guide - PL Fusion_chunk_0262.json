@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0262",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 245,
+  "page_end": 246,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 ADF Control\n\nSELECTIONS:\n\nTune Tune the standby frequency by positioning the cursor over the standby frequency digits and using the DSK.\n\n\u2195 \u2195is a button to transfer the active and standby frequencies.\n\nMode Mode is a multi-state toggle to select the operating mode of the ADF. The operator can select ADF or ANT (Antenna).\n\nBFO BFO is a multi-state toggle to enable or disable the Beat Frequency Oscillator (BFO) function.\n\nPreset Frequencies The lower control menu lists the preset frequencies, controlled by a scroll list. Select a preset frequency to set it as the active frequency.\n\nEdit EDIT is a button to show the Edit ADF Preset Frequency dialog box.\n\nTest Test is an action command to initiate a test of the ADF radio.\n\n5th Edition 02 APR 19 5-143\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 Edit ADF Preset Frequencies Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 212,
+  "chunk_index": 262,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.143822+00:00"
+}

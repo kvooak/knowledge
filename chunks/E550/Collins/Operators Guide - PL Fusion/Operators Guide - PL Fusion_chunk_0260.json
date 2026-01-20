@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0260",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 243,
+  "page_end": 244,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 XPDR/TCAS Control\n\nID Set the ID code by positioning the cursor over the ID code window and using the DSK. The outer knob moves the focus indicator along the text string, and the inner knob changes the character inside the focus indicator. The \ufb02ight ID code may also be entered with the MKP.\n\nALT Tag ALT Tag is a multi-state toggle to select the altitude tag format for TCAS traf\ufb01c to Relative (REL) or Absolute (ABS).\n\nXPDR SEL XPDR SEL is a multi-state toggle to select the XPDR1 or XPDR2 transponder.\n\n\u25caTRAFFIC \u25caTRAFFIC is a multi-state toggle to enable or disable the display of non-threat (\u25ca) TCAS traf\ufb01c.\n\nMode Mode is a multi-state toggle to select the XPDR/TCAS mode. The following selections are provided:\n\n\u2022 AUTO \u2013 Automatic mode\n\n\u2022 STBY \u2013 Standby\n\n\u2022 TA/RA \u2013 Traf\ufb01c Advisory (TA)/ Resolution Advisory (RA)\n\n\u2022 TA ONLY \u2013 Traf\ufb01c Advisory (TA) Only\n\n\u2022 ALT ON \u2013 (Transponder only, mode C)\n\n\u2022 ALT OFF \u2013 (Transponder only, mode A).\n\nALT Limit ALT Limit is a multi-state toggle to select the Other Traf\ufb01c altitude window. The operator can choose from the following selections:\n\n\u2022 NORM\n\n\u2022 ABOVE\n\n5th Edition 02 APR 19 5-141\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 ADF Control Pro Line Fusion\u00ae Avionics\n\n\u2022 BELOW\n\n\u2022 ABOVE/BELOW.\n\nIDENT IDENT is a pushbutton to transmit an Identi\ufb01cation (IDENT) code signal.\n\nTest Test is a pushbutton to initiate an XPDR/TCAS test.",
+  "token_count_estimate": 333,
+  "chunk_index": 260,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.142716+00:00"
+}

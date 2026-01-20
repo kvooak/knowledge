@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0181",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 171,
+  "page_end": 172,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics PFD Menu\n\nFigure 5-28 PFD Menu (with optional HUD)\n\nThe PFD Task Menu provides controls to adjust the settings for the on-screen \ufb02ight information displays. The PFD Task Menu is displayed when the cursor is placed anywhere on the HSI and either the CCP MENU button or the CCP side select buttons are pushed. The PFD Task Menu is removed from the display 3 seconds after the cursor is moved off the menu.\n\nSELECTIONS:\n\nPFD FORMAT The PFD FORMAT selection closes the PFD Task Menu and opens the PFD Format dialog box when selected. Refer to the \ufb01gure on page 5-73.\n\nHUD FORMAT The HUD FORMAT selection closes the PFD Task Menu and opens the HUD Format dialog box when selected. Refer to the \ufb01gure on page 5-75. The HUD FORMAT selection is available when the optional HGS is installed.\n\n5th Edition 02 APR 19 5-69\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 PFD Menu Pro Line Fusion\u00ae Avionics\n\nEVS CONTROL The EVS CONTROL selection closes the PFD Task Menu and opens the EVS Format dialog box when selected. Refer to the \ufb01gure on page 5-77. The EVS CONTROL selection is available when the optional EVS is installed.\n\nHSI FORMAT The HSI FORMAT selection closes the PFD Task Menu and opens the HSI Format dialog box when selected. Refer to the \ufb01gure on page 5-78.\n\nCOM/NAV SRC The COM/NAV SRC selection closes the PFD Task Menu and opens the COM/NAV SRC dialog box when selected. Refer to the \ufb01gure on page 5-80.\n\nBRG SRC The BRG SRC dialog allows the pilots to turn on or off two bearing pointers and select what navigation source drives each pointer. Bearing pointer 1 (BRG1) is driven by the left side sources (xxx1), bearing pointer 2 (BRG2) is driven by the right side sources (xxx2). Refer to the \ufb01gure on page 5-81.\n\n5th Edition 5-70 02 APR 19",
+  "token_count_estimate": 427,
+  "chunk_index": 181,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.096682+00:00"
+}

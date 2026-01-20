@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0319",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 291,
+  "page_end": 292,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Selected Traf\ufb01c Data Block\n\nThe selected traf\ufb01c data block is present on a traf\ufb01c display whenever there is a selected traf\ufb01c on the display. The selected traf\ufb01c data block contains four data readouts for the selected traf\ufb01c:\n\n\u2022 Flight ID (up to eight characters)\n\n\u2022 Type\n\n\u2022 Ground speed (in knots)\n\n\u2022 Range (in nautical miles).\n\nFlight ID is the alphanumeric aircraft identi\ufb01cation that is entered on a \ufb02ied \ufb02ight plan. For non-commercial operators, the \ufb02ight ID matches the registration number of the aircraft.\n\nTraf\ufb01c Type Names\n\nType Name Traf\ufb01c Category\n\nLIGHT Light (under 15500 lbs)\n\nSMALL Small (15,500 to 75,000 lbs.)\n\nLARGE Large (75,000 to 300,000 lbs)\n\nHIVORTEX High-Vortex Large (aircraft such as B-757)\n\nHEAVY Heavy (over 300,000 lbs)\n\nHIPERF High Performance (over 5 g acceleration and over 400 knots)\n\nROTOR Rotorcraft\n\nUAV Unmanned Aerial Vehicle\n\n5th Edition 02 APR 19 5-189\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Traf\ufb01c Display on the HSI Pro Line Fusion\u00ae Avionics\n\nType Name Traf\ufb01c Category\n\nUNKNOWN Unknown (no category information available)\n\nOTHER An ADS-B OUT transmitter not belonging to one of the categories above (glider, lighter-than-air, spacecraft, ultralight, parachutist, surface vehicle, or obstacle).",
+  "token_count_estimate": 267,
+  "chunk_index": 319,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.170295+00:00"
+}

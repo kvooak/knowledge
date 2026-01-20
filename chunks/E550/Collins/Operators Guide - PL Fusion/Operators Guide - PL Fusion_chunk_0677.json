@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0677",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "VERTICAL SPEED MODE",
+  "page_start": 498,
+  "page_end": 498,
+  "raw_text": "During Vertical Speed mode, AFGS generates FD/AP commands to capture and track the vertical speed reference displayed on the selected source PFD. At VS mode activation, the vertical speed reference is synchronized with the current aircraft vertical speed. The reference can then be changed by turning the vertical speed thumbwheel on the FCP.\n\nVS mode remains active until another mode is selected, or until ASEL is automatically engaged when airplane is close to the target altitude reference.\n\nAccomplish the following to set up a VS climb or descent:\n\n1. Operate the ALT knob on the FCP to select the necessary preselect altitude.\n\n2. Push the VS button on the FCP to select the VS mode (push-on/push-off).\n\n5th Edition 8-16 02 APR 19",
+  "token_count_estimate": 158,
+  "chunk_index": 677,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.342270+00:00"
+}

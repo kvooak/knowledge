@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0536",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 423,
+  "page_end": 424,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics Cursor Control Panel Operation\n\nFigure 7-5 Cursor Limitations\n\nThe cursor is prohibited from the ADI format. When the cursor contacts a prohibited area in the vertical direction, the cursor continues to move in the lateral direction with cursor left/right inputs. When the cursor contacts the edge of the display, the cursor continues to move along the edge of the display. When the cursor is on the edge of the display, only half of the cursor is in view.\n\nEach CCP has a Double Stack Knob (DSK) which is used for various functions based on the active DU format. Refer to the DSK Icon heading in the GUI Elements section of this chapter for more information.\n\nThe enter/select switches on either side of the trackball housing perform a select function on a highlighted menu or dialog box item. The PUSH ENTER button in the center of the DSK also performs a select/enter function. If either of the buttons are pushed, the data is input into the selected \ufb01eld and the and the menu is either closed or the cursor moves to the next logical place.\n\n5th Edition 02 APR 19 7-13\n\nDISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 Multifunction Keyboard Panel Operation Pro Line Fusion\u00ae Avionics\n\nThe MENU button on the CCP is used to show an on-screen menu. When the cursor is in a MFW, pushing the MENU button displays the top level drop down menu for that format and place the cursor in the \ufb01rst logical point for work. Using the DSK allows the user to move between items of the menu.\n\nThe Push To Talk (PTT) button allows the user to transmit on the radio selected on the microphone selector control.\n\nThe XPDR IDENT button sends an transponder \ufb02ash to Air Traf\ufb01c Control (ATC).",
+  "token_count_estimate": 401,
+  "chunk_index": 536,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.266344+00:00"
+}

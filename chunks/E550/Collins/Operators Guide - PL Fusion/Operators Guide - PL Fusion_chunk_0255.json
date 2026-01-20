@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0255",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TUNING \u2013 EDIT NAV PRESET FREQUENCIES",
+  "page_start": 240,
+  "page_end": 240,
+  "raw_text": "Figure 5-81 Tuning \u2013 Edit NAV Preset Frequencies\n\nThe Edit NAV Preset Frequencies submenu provides controls to manage and edit user preset NAV frequencies. The Edit NAV Preset Frequencies submenu is accessed by pushing the EDIT pushbutton on the NAV Control menu.\n\nSELECTIONS:\n\nSelect NAV Fre- quency\n\nThe Select NAV Frequency list displays the currently stored NAV preset frequencies. The user can select frequencies for editing and scroll the list with the inner knob on the DSK.\n\nSet Frequency The Set Frequency window provides tuning control for the NAV preset frequencies. Select the frequency in the window to edit it.\n\n5th Edition 5-138 02 APR 19",
+  "token_count_estimate": 137,
+  "chunk_index": 255,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.139169+00:00"
+}

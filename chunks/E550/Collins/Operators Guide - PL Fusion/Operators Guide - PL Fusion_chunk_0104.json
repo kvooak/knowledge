@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0104",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 96,
+  "page_end": 97,
+  "raw_text": "CONTROLS AND INDICATORS Embraer Legacy 450/500 and Praetor 500/600 Remote Avionics Interface Switches Pro Line Fusion\u00ae Avionics\n\n\u2022 Takeoff mode is selected by pushing one of the TOGA switches when the aircraft is on the ground. In the lateral axis commands are generated to maintain wings level. In the vertical axis commands are generated to maintain a reference airspeed, either FMS or manual. When in Takeoff mode, the AT sets takeoff thrust or \ufb02ex thrust. \u2022 Go Around mode is selected by pushing one of the TOGA switches when the aircraft is in the air. In the lateral axis commands are generated to hold the heading existing when the TOGA switch is pushed. In the vertical axis commands are generated to maintain a reference airspeed, either FMS or manual. When in Go Around mode, the AT sets go around thrust, equivalent to takeoff thrust. \u2022 Windshear Escape node is selected when the TOGA Control is selected and a TAWS Windshear warning is active. Windshear Escape mode takes into account pitch and airspeed to keep the aircraft \ufb02ying away from the ground in an adverse shear situation.\n\nTrim Switches OEM-provided pitch trim switches are located on each control stick for the purpose of manually trimming the aircraft. The manual trim system is independent of the AFCS.\n\n5th Edition 4-28 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 CONTROLS AND INDICATORS Pro Line Fusion\u00ae Avionics Remote Avionics Interface Switches\n\nVideo Clear Switch The Video Clear switch is located on the side stick control. Push the Video Clear switch to remove the video overlay from the HUD in order to mitigate any hazards associated with the video overlay obscuring the outside view.\n\n5th Edition 02 APR 19 4-29",
+  "token_count_estimate": 371,
+  "chunk_index": 104,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.051541+00:00"
+}

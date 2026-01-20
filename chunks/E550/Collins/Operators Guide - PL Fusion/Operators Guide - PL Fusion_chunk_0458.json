@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0458",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 386,
+  "page_end": 386,
+  "raw_text": "A boxed red FPV \ufb02ag is shown to the left of the attitude indicator when \ufb02ight path data is missing or invalid. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nFPV indications are removed when the FPV \ufb02ag is being shown.\n\nADI: Glideslope Flag\n\nA boxed red GS \ufb02ag is shown at the lower end of the vertical deviation scale when a Localizer (LOC) is the active NAV source and the vertical deviation input from the active NAV source is missing or invalid. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe diamond vertical deviation pointer is removed when the GS \ufb02ag is being shown.\n\nHSI: Heading Flag\n\nThe boxed, red heading \ufb02ag comes into view if both primary and battery power to the AHC is lost. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nAll heading references are all removed when the HDG \ufb02ag is being shown.\n\n5th Edition 6-4 02 APR 19",
+  "token_count_estimate": 219,
+  "chunk_index": 458,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.227416+00:00"
+}

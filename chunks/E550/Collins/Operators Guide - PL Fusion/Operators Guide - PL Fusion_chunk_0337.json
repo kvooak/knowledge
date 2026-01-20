@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0337",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 304,
+  "page_end": 305,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Vertical Situation Display Pro Line Fusion\u00ae Avionics\n\n\u2022 Preselect altitude:\n\n\u2022 Digital value\n\n\u2022 Bug\n\n\u2022 Reference line.\n\n\u2022 Position:\n\n\u2022 Aircraft symbol sideview\n\n\u2022 Flight path vector.\n\nSELECTIONS:\n\nDistance Tape The VSD displays a distance tape on the X (horizontal) axis. The VSD range is the same as the parent Map.\n\nVSD Map Range The system scales the VSD so that the horizontal distance between the left most range tick and the right most range tick is equal to the VSD Map Range.\n\nVSD/Map Range\n\nMFD Map Range (NM) VSD Map Range (NM)\n\n2 10\n\n5 10\n\n10 10\n\n20 20\n\n50 50\n\n100 100\n\n200 200\n\n300 300\n\n600 600\n\n1000 1000\n\n5th Edition 5-202 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Vertical Situation Display\n\nAltitude Tape The VSD displays an altitude tape on the Y (vertical) axis. The altitude tape displays the BARO-corrected altitude in feet. If the map range is 300 NM or greater, the altitude tape is \ufb01xed at a maximum of 50 000 feet. If the map range is 200 NM or less, the altitude tape displays an optimum range. The optimum range varies the altitude increment and total shown range based on the map range/distance tape:\n\nOptimum Altitude Tape\n\nVSD Selected Full Range\n\nVSD Altitude Altitude Increment\n\n10 10 000 2500\n\n20 20 000 5000\n\n50 50 000 12 500\n\n100 50 000 12 500\n\n200 50 000 12 500\n\nLateral Reference Frame\n\nThe lateral reference frame of the VSD can be \ufb02ight plan or track. The lateral reference frame is \ufb02ight plan except for the following conditions:\n\n\u2022 Active FD mode is not LNAV\n\n\u2022 GPS source failure\n\n\u2022 Difference between current track and desired track is greater than 90 degrees\n\n\u2022 Active FMS leg guidance is invalid\n\n\u2022 No \ufb02ight plan\n\n\u2022 Discontinuity\n\n\u2022 Sequence inhibit\n\n5th Edition 02 APR 19 5-203",
+  "token_count_estimate": 432,
+  "chunk_index": 337,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.178039+00:00"
+}

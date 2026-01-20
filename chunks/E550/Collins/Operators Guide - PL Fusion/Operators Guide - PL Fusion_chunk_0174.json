@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0174",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 164,
+  "page_end": 164,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 HSI Format Pro Line Fusion\u00ae Avionics\n\nPushing the PUSH SYNC button in the center of the HDG knob sets the selected heading to the current heading. While the HDG knob is being moved, a dashed cyan vector line displays, extending from the center of the compass to the heading bug. The cyan digital readout of heading is displayed next to the HDG legend.\n\nPreselect NAV Source\n\nPreselect NAV source information is shown part-time to the right of the active NAV source information on the PFD. The preselect NAV source, course, and station frequency is set by the FMS.\n\n\u2022 Preset NAV Source \u2013 The preset NAV source is shown in cyan below the distance to go readout.\n\nPreselect Course Pointer\n\nThe preselect course pointer is shown as a cyan and dashed double bar. The preselect course pointer may be drawn under the active course pointer and can be seen if the two sets of data are coincident. A preselect lateral deviation bar is the center portion of the preselect course pointer. The preset lateral deviation bar uses the active NAV source deviation scale. The expanded preselect lateral deviation scale uses the active NAV source lateral deviation scale. The scale comes into view automatically if the preselect NAV source becomes active and the scale was not in view. The deviation pointer is a cyan double dashed bar.\n\n5th Edition 5-62 02 APR 19",
+  "token_count_estimate": 313,
+  "chunk_index": 174,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.093368+00:00"
+}

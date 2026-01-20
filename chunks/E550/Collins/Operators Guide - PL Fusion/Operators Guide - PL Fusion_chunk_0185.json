@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0185",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 176,
+  "page_end": 177,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 PFD Format Dialog Box Pro Line Fusion\u00ae Avionics\n\nPFD CVS PFD CVS is a multi-state toggle to select Combined Vision System (CVS) images for display on the PFD. The CVS button selects between OFF, Synthetic Vision System (SVS), Enhanced Vision System (EVS), and Enhanced Synthetic Vision System (ESVS).\n\nFigure 5-32 PFD \u2013 Compressed Dialog Box\n\nFigure 5-33 PFD \u2013 Compressed Dialog Box\n\nWhen the PFD is compressed, the PFD Format dialog box is compressed as well. The PFD FULL/HALF and PFD CVS selections are removed.\n\n5th Edition 5-74 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics PFD \u2013 HUD Format Dialog Box",
+  "token_count_estimate": 154,
+  "chunk_index": 185,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.098980+00:00"
+}

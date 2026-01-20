@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0642",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "FLIGHT GUIDANCE TRANSFER",
+  "page_start": 485,
+  "page_end": 485,
+  "raw_text": "The coupled-side \ufb02ight guidance channel can be selected to the pilot-side or copilot-side. The coupled-side \ufb02ight guidance channel drives the AP and both Flight Directors when \ufb02ight guidance is operating in the dependent mode. Flight guidance operates in the dependent mode for all lateral and vertical modes except precision approach (APPR mode is active). When the precision approach mode is active, \ufb02ight guidance operates in the independent mode. Flight Directors are only independent in Approach 2 ILS mode. When \ufb02ight guidance is operating in the independent mode, guidance from the coupled side drives the AP, pilot-side \ufb02ight guidance drives the pilot-side FD, and copilot-side \ufb02ight guidance drives the copilot-side FD.\n\n5th Edition 02 APR 19 8-3",
+  "token_count_estimate": 150,
+  "chunk_index": 642,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.325263+00:00"
+}

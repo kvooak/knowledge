@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0491",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "NO ATT RA (yellow)",
+  "page_start": 404,
+  "page_end": 404,
+  "raw_text": "A yellow NO ATT RA annunciation message is shown in the TCAS data block on the right side of the HSI if pitch data is not being shown on the ADI.\n\nHSI: TCAS Fault Annunciation",
+  "token_count_estimate": 45,
+  "chunk_index": 491,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.243160+00:00"
+}

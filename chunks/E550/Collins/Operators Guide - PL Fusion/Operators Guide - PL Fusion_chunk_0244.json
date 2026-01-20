@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0244",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 229,
+  "page_end": 231,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning\n\n\u2022 Select the gray ADF button to access the ADF Control submenu.\n\n\u2022 Select the transfer (up/down arrow) button to transfer the active and standby ADF frequencies.\n\n\u2022 Select the standby frequency to tune it.\n\n\u2022 Use the cursor to change the ADF mode, BFO setting, and to test the ADF radio.\n\nHF\n\nThe HF section of the Tuning format provides simple controls to modify HF settings.\n\n\u2022 Select the gray HF button to access the HF Control submenu.\n\n\u2022 Use the cursor to select between Lower Voice (LV) single sideband, Upper Voice (UV) single sideband, and Amplitude Modulation (AM).\n\n\u2022 Use the cursor to select the squelch level, HF mode, and power level.\n\n\u2022 Select the frequency readout to tune the HF frequency or channel.\n\n\u2022 HF operation is selectable for simplex, duplex, emergency, and maritime modes.\n\n5th Edition 02 APR 19 5-127\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning Pro Line Fusion\u00ae Avionics\n\nSELCAL The SELCAL section of the Tuning format provides a control to enable or disable Selective Calling (SELCAL). Select the DSK symbol to select ON or OFF.\n\nPaging The outer knob on the DSK on the CCP controls paging.\n\n5th Edition 5-128 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning\n\nFigure 5-75 Tuning Shortcut Techniques\n\nTuning shorthand techniques can be used with MFD and Keyboard tuning. MFD tuning is provided for:\n\n\u2022 VHF.\n\n\u2022 NAV.\n\n\u2022 HF.\n\n\u2022 ADF.\n\n5th Edition 02 APR 19 5-129",
+  "token_count_estimate": 344,
+  "chunk_index": 244,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.130928+00:00"
+}

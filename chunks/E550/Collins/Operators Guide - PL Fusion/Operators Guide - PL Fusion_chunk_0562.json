@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0562",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 442,
+  "page_end": 442,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 DU Window Allocation Pro Line Fusion\u00ae Avionics\n\nEICAS is reverted on a half screen PFD, EICAS is kept in a separate MFW, leaving one quarter of the DU for another MFW.\n\nIn a normal condition, EICAS is placed in a 1/4 MFW on the top center DU, leaving room for a 1/4 and a 1/2 screen format. If either the pilot or copilot manually revert the EICAS window, the full top center DU can be used for full screen MFW or two 1/2 screen MFW.\n\nThe lower center DU can be used for full screen, 1/2 screen, and 1/4 screen MFW formats. QAK shortcuts take the user directly to the lower center DU.\n\nDue to system limitation and safety of \ufb02ight, there are limits to how the operator can con\ufb01gure the DU formats. For the purposes of DU format allocation, the \ufb02ight deck is divided into two sides. DU1 and DU2 are the left side, and DU3 and DU4 are the right side. Restrictions on how many formats may be shown at any time per side of the \ufb02ight deck only apply when all four DU panels are operating.\n\nFigure 7-7 DU Format Controls\n\nThe following totals show the number of speci\ufb01c windows per DU, per side of the \ufb02ight deck, and number total on the \ufb02ight deck.\n\n5th Edition 7-32 02 APR 19",
+  "token_count_estimate": 301,
+  "chunk_index": 562,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.279474+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0298",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 273,
+  "page_end": 274,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Menu Bar\n\nSELECTIONS:\n\nFlight Plan Toggle The \ufb02ight plan toggle selects between the active and secondary \ufb02ight plans. When more than one \ufb02ight plan toggle shows on a DU, the selections are synced.\n\nThe active selection is depicted in green text on a black background, and the inactive selection is depicted in white text on a gray background.\n\nMap Center The Map Center dialog box shows when the map Center (CTR) button on the Menu Bar is selected. The Map Center button is only shown in Plan Map mode.\n\n5th Edition 02 APR 19 5-171\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Menu Bar Pro Line Fusion\u00ae Avionics\n\nThe PREV WPT button centers the map at the previous waypoint, and the previous waypoint displays in the readout to the right of the button. The NEXT WPT button centers the map at the next waypoint, and the next waypoint displays in the readout to the right of the button. The TO WPT button centers the map at the current waypoint. The CTR WPT button displays when a waypoint is entered in the text entry box to the right. The CTR WPT button centers the map at the entered waypoint. The CTR A/C centers the map at the current position of the aircraft.\n\nThe Map Center dialog box closes when one of the buttons is selected, or when the gray X is selected or the ESC button on the CCP is pushed.\n\nMap Symbol The Map Symbol menu shows when the SYMBOL button is selected from the Map Menu Bar. The Map Symbol menu consists of a list of check boxes.\n\n5th Edition 5-172 02 APR 19",
+  "token_count_estimate": 382,
+  "chunk_index": 298,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.158903+00:00"
+}

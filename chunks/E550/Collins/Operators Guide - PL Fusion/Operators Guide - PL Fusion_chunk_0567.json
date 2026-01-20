@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0567",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "DU CONFIGURATION AND REVERSION",
+  "page_start": 446,
+  "page_end": 446,
+  "raw_text": "Display reversion can be automatic, or controlled manually by the pilots. When a display failure is detected, the system automatically blanks the display and recon\ufb01gures the remaining displays to show the required formats. The pilots may force a display reversion by pushing the EICAS\n\n5th Edition 7-36 02 APR 19",
+  "token_count_estimate": 65,
+  "chunk_index": 567,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.282031+00:00"
+}

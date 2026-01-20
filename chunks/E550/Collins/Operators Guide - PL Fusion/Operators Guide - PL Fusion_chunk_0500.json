@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0500",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "EVS ALIGN MODE The EVS ALIGN MODE annunciation is shown in the center of the HUD when the EVS has been set to alignment mode from the OMS page.",
+  "page_start": 406,
+  "page_end": 406,
+  "raw_text": "HUD: EVS Calibration Annunciation",
+  "token_count_estimate": 5,
+  "chunk_index": 500,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.248183+00:00"
+}

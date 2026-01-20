@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0030",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 26,
+  "page_end": 27,
+  "raw_text": "INTRODUCTION Embraer Legacy 450/500 and Praetor 500/600 List of Acronyms and Abbreviations Pro Line Fusion\u00ae Avionics\n\nGPWS Ground Proximity Warning System GUI Graphic/User Interface GWX Graphical Weather HDD Head Down Display HF High Frequency HGS Head-Up Guidance System HSI Horizontal Situation Indicator HUD Head-Up Display IB Inboard ID Identi\ufb01cation IFIS Integrated Flight Information System ILS Instrument Landing System IMS Information Management System IPC Integrated Processing Cabinet IPS Integrated Processing System ISA International Standard Atmosphere ITU International Telecommunication Union LCD Liquid Crystal Display LDS Lightning Detection System LFE Landing Field Elevation LOC Localizer LRU Line Replaceable Unit LSB Lower Sideband LV Lower Voice LX Lightning MAPW Missed Approach Waypoint MC Master Caution MCDU Multipurpose Control Display Unit MFD Multifunction Flight Display MFW Multifunction Window MISC Miscellaneous MKP Multifunction Keyboard Panel MOD Modi\ufb01ed MSL Mean Sea Level MW Master Warning N1 Engine Fan/Low Pressure Compressor N2 Engine High Pressure Compressor/Turbine NAV Navigation NM Nautical Miles OAT Outside Air Temperature OB Outboard\n\n5th Edition 1-6 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 INTRODUCTION Pro Line Fusion\u00ae Avionics List of Acronyms and Abbreviations\n\nODL Onboard Data Loader OFV Out Flow Valve OMS Onboard Maintenance System OMSA Onboard Maintenance Software Application PAC Path Attenuation Compensation PDU Pilot Display Unit PEM Power Environment Module PFCC Primary Flight Control Computers PFD Primary Flight Display PRSOV Pressure Relief and Shut Off Valve PSA Preselect Altitude PSI Pounds per Square Inch PSU Power Supply Unit PTT Push To Talk QAK Quick Access Key RA Resolution Advisory RA MIN Radio Altitude Minimum RAD ALT Radio Altimeter RAT Ram Air Turbine REL Relative RF Radio Frequency RIU Radio Interface Unit RMS Radio Management System RNP Required Navigation Performance RPM Revolutions Per Minute RSP Reversion Switch Panel RTA Receiver/Transmitter Antenna RVR Runway Visual Range SAT Static Air Temperature SATCOM Satellite Communications SELCAL Selective Calling SFIS Standby Flight Instrument System SMS Surface Management System STD Standard SVGS Synthetic Vision Guidance System SVS Synthetic Vision System TA Traf\ufb01c Advisory TAT Total Air Temperature TAWS Terrain Awareness Warning System TCAS Traf\ufb01c Alert Collision Avoidance System TCS Touch Control Steering\n\n5th Edition 02 APR 19 1-7",
+  "token_count_estimate": 457,
+  "chunk_index": 30,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.012089+00:00"
+}

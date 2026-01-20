@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0141",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 131,
+  "page_end": 132,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Altitude\n\n\u2022 BARO MIN readout is automatically shown when BARO is selected. An active BARO MIN displays to the bottom left of the ALT tape as XXXXX BARO, where XXXXX is the set BARO MIN value.\n\nRA/BARO MIN Analog\n\nThe RA/BARO MIN analog reference is shown on the left side of the altitude scale at the value set for the RA/BARO MIN. The MIN analog reference is only shown when the RA/BARO MIN readout is in view.\n\n\u2022 The RA analog reference is a cyan barber pole with black \ufb01ll, which extends up from the analog radio altitude display. The analog reference extends up toward the radio altitude 0 (zero) foot tic mark as the radio altitude decreases. At RA MIN alert, the RA MIN analog reference changes to yellow, \ufb02ashes for 5 seconds, and then remains steady.\n\n\u2022 The BARO MIN analog reference is a cyan open triangle shaped bug that is shown on the \ufb01ne altitude scale at the selected BARO MIN altitude. The bug moves up the altitude scale as the barometric altitude decreases. At BARO MIN alert, the BARO MIN analog reference changes to yellow, \ufb02ashes for 5 seconds, and then remains steady.\n\n5th Edition 02 APR 19 5-29\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Altitude Pro Line Fusion\u00ae Avionics\n\nRA/BARO MIN Alert The RA/BAROMIN alert is shown to alert the pilots that the aircraft has reached the selected RA or BARO MIN altitude setting. The RA/BARO MIN alert is inhibited on the ground, and is inhibited after ground to air transition until the aircraft has climbed 50 feet above the selected RA/BARO MIN.\n\n\u2022 When the aircraft descends to the RA MIN altitude, a boxed, yellow MIN \ufb02ag displays to the left of the altitude scale. The MIN \ufb02ag \ufb02ashes for 5 seconds and then remains steady.\n\n\u2022 When the aircraft descends to the BARO MIN altitude, a boxed, yellow MIN \ufb02ag displays to the left of the altitude scale. The MIN \ufb02ag \ufb02ashes for 5 seconds and then remains steady.\n\n5th Edition 5-30 02 APR 19",
+  "token_count_estimate": 470,
+  "chunk_index": 141,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.070655+00:00"
+}

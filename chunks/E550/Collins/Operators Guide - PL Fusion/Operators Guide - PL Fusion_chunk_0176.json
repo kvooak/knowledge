@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0176",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 167,
+  "page_end": 168,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics HSI Format\n\nVector Wind The vector wind direction arrow rotates 360 degrees to represent the wind direction relative to the aircraft (arrow pointing to 6 o\u2019clock equals direct head wind) and the readout indicates the speed.\n\nXY Wind The wind is broken down into two components: cross wind and head wind/tail wind components. Cross wind is indicated by the upper arrow and readout: arrow pointing right equals wind from the right, arrow pointing left equals wind from the left. Head wind/tail wind is indicated by the lower arrow and readout (6 o\u2019clock equals head wind, 12 o\u2019clock tail wind).\n\nWeather Radar and Lightning Overlays\n\nWeather Radar and Lightning overlays can be shown on the HSI display. HSI overlays are selected with the PFD/HSI Format Task menu.\n\nTerrain Overlay Terrain overlay can be selected for display by selecting TERRAIN from the HSI format dialog box. HSI Terrain overlay is default to on at power up.\n\nTCAS Traf\ufb01c Over- lay\n\nThe TCAS traf\ufb01c overlay can be selected using the TCAS button on the DCP or from the HSI format dialog box.\n\n5th Edition 02 APR 19 5-65\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 HSI Format Pro Line Fusion\u00ae Avionics\n\nHSI Declutter The HSI has three states of operation:\n\n\u2022 CDI indications with overlays.\n\n\u2022 FMS map indications with overlays.\n\n\u2022 Clean HSI (all overlays removed.\n\nN\n\nNOTE\n\nThe DCP HSI button toggles between these three states. The clean HSI quickly removes all the overlays to provide a clean presentation of just the navigation indications. FMS map indications are available when FMS is the navigation source on the HSI, they are not available when VOR/LOC is the navigation source.\n\nDisplay Range The range ring is a circle encompassing the aircraft symbol. The range readout is shown in a box on the left side of the range ring.\n\nThe HSI range is independent of any MFW maps that may be displayed.\n\nThe HSI range is set using the range knob on the DCP or placing the cursor on the HSI and using the CCP outer dual stack knob (DSK). The standard display ranges are: 2, 5, 10, 20, 50, 100, 200, and 300 NM. 600 and 1000 NM range selections are also available.\n\nN\n\nNOTE\n\nWhen the weather radar overlay is selected to be shown while the 600 or 1000 NM range is selected, the display range is automatically reduced to 300 NM.\n\n5th Edition 5-66 02 APR 19",
+  "token_count_estimate": 546,
+  "chunk_index": 176,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.094632+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0083",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 74,
+  "page_end": 75,
+  "raw_text": "CONTROLS AND INDICATORS Embraer Legacy 450/500 and Praetor 500/600 Cursor Control Panel Pro Line Fusion\u00ae Avionics\n\nCALLOUTS:\n\nDSK Double Stack Knob\n\nThe Double Stack Knob (DSK) is a general purpose control device for DU Graphic/User Interface (GUI) applications. The DSK is a dual concentric knob composed of a large, outer knob and a small, inner knob.\n\nThe DSK has speci\ufb01c functions based on the active DU format.\n\nPUSH ENTER Enter Button\n\nThe PUSH ENTER button inside the DSK is used to select options for DU GUI applications.\n\nThe PUSH ENTER button has speci\ufb01c functions based on the active DU format.\n\nMENU Menu Button\n\nPushing the MENU button when the cursor is in a Multifunction Window (MFW) displays the top-level drop down menu for that format. When the cursor is not in a MFW, pushing the MENU button displays a SELECTION INACTIVE message on the on-side HSI for two seconds.\n\nXPDR IDENT Transponder Ident\n\nPush the XPDR IDENT button to send the aircraft transponder information to Air Traf\ufb01c Control (ATC).\n\nDSPL SEL Display Select But- tons\n\nThe DSPL SEL buttons show a cursor on the Display Units (DU). Each CCP has four DSPL SEL buttons, and the buttons operate the same on each side of the cockpit (pilot, copilot). The buttons are arranged in the order of screen they access.\n\n5th Edition 4-6 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 CONTROLS AND INDICATORS Pro Line Fusion\u00ae Avionics Cursor Control Panel\n\nLH DU places the selected cursor on the left DU (DU1). CTR DU places the selected cursor on the top, center DU (DU2). RH DU places the selected cursor on the right DU (DU3). LWR DU places the selected cursor on the bottom, center DU (DU4).\n\nPTT Push-To-Talk Switch\n\nThe PTT switch keys the selected transmitter.\n\nSelect Switches Push either of the select switches (on either side of the trackball) to perform a select function on a DU item.\n\nTrackball The trackball controls the movement of the cursor on the DU formats.\n\n5th Edition 02 APR 19 4-7",
+  "token_count_estimate": 440,
+  "chunk_index": 83,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.039762+00:00"
+}

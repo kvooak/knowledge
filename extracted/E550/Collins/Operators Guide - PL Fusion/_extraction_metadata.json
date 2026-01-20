@@ -1,0 +1,12 @@
+{
+  "source_file": "C:\\Users\\Quang\\projects\\claude-projects\\knowledge\\sources\\E550\\Collins\\Operators Guide - PL Fusion.pdf",
+  "source_hash": "798b9374b047b8eaea202aa2f620a257b03536b47f754f815f5800ff17d56771",
+  "project_name": "E550",
+  "relative_path": "Collins",
+  "document_name": "Operators Guide - PL Fusion",
+  "extraction_time": "2026-01-20T20:56:00.193101+00:00",
+  "extractor": "extract_pdf.py",
+  "extractor_version": "2.0.0",
+  "pages_extracted": 558,
+  "output_directory": "C:\\Users\\Quang\\projects\\claude-projects\\knowledge\\extracted\\E550\\Collins\\Operators Guide - PL Fusion"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0685",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 503,
+  "page_end": 503,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 AFCS OPERATION Pro Line Fusion\u00ae Avionics Approach Modes\n\nReference Bugs Mode Synchronization\n\nActive Mode Reference\n\nFLCH Airspeed\n\nFPA Flight Path Angle\n\nVS Vertical Speed\n\nMoreover, the AFGS will synchronize the FD commands to the current ROL and FPA values, and set the AP NZ command to zero and AP roll command to current roll value while TCS function is active. Upon TCS switch release, the AP breakout force will be reactivated and FG will continue to generate FD and AP commands to the PFD and FCC.",
+  "token_count_estimate": 119,
+  "chunk_index": 685,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.346791+00:00"
+}

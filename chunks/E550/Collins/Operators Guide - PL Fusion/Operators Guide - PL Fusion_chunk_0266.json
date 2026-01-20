@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0266",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 248,
+  "page_end": 249,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 HF Control Pro Line Fusion\u00ae Avionics\n\nSELECTIONS:\n\nTune Tune the standby frequency by positioning the cursor over the standby frequency digits and using the DSK.\n\nWhen an HF frequency is entered without a decimal point, the decimal point is placed assuming the lowest frequency. For example, an entry of 21 or 210 results in 2.1000, not 21.0000.\n\nWhen a valid HF frequency is entered followed by an S or F, the resulting HF frequency is in Simplex mode.\n\nWhen followed by an R or T, the resulting HF frequency is in Duplex mode, as either the Receive (R) or Transmit (T) frequency. For example, if R2.34 T21.7 is entered, 2.3400 is set as the receive frequency, and 21.7000 is set as the transmit frequency.\n\nWhen followed by an E, the resulting HF frequency is in Emergency mode. When followed by an M, the resulting HF frequency is in Maritime mode.\n\nPower Power is a multi-state toggle to set the HF transmit power to LO, MED, or HI.\n\nMode Mode is a multi-state toggle to select the operating mode of the HF radio to Simplex, Duplex, Emergency, or Maritime.\n\nSQ SQ is a multi-state toggle to set the squelch level from zero (0) to 3.\n\n5th Edition 5-146 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 Edit HF Preset Frequencies\n\nEmissions Emissions is a multi-state toggle to select the HF emissions to Lower Voice (LV), Upper Voice (UV), or Amplitude Modulation (AM).\n\nPreset Frequencies The lower control menu lists the preset frequencies, controlled by a scroll list. Select a preset frequency to set it as the active frequency.\n\nEdit Edit is a pushbutton to show the Edit HF Preset Frequency dialog box.\n\nTest Test is a pushbutton to initiate a test of the ADF radio.",
+  "token_count_estimate": 409,
+  "chunk_index": 266,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.145953+00:00"
+}

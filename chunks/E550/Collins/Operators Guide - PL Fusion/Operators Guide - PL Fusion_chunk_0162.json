@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0162",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 151,
+  "page_end": 152,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics AFCS Flight Mode Annunciations\n\nFigure 5-20 HUD \u2013 AFCS Flight Mode Annunciations\n\nThe Automatic Flight Control System (AFCS) \ufb02ight mode format display shown on the ADI includes the FCS mode messages and the Flight Director (FD) cue. The mode messages are shown above the attitude indicator on the ADI when either FD is selected, the AP, or the AT is engaged. The FD is shown as a magenta ring in the attitude indicator or as a cross pointer during takeoff.\n\nSELECTIONS:\n\nFD Cue The magenta cue is shown on the attitude indicator as a haloed magenta ring. The FD cue presents pitch and roll guidance information from the AFCS when the FD is active. The cue moves up and down to command a climb or descent, and moves right and left to command a right or left bank. Pitch and roll commands are from the active \ufb02ight guidance channel. The pilots-side active \ufb02ight guidance channel is active upon power-up. The copilot-side \ufb02ight guidance channel can be selected with the SRC button on the Flight Control Panel (FCP). The FD cue is removed if either the pitch or roll steering inputs are missing or invalid.\n\n5th Edition 02 APR 19 5-49\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 AFCS Flight Mode Annunciations Pro Line Fusion\u00ae Avionics\n\nFlight Path Vector The Flight Path Vector (FPV) is shown on the attitude indicator as a green circle with small ticks at the top and sides. The FPV can be caged or uncaged. When the FPV is caged, the caged FPV and ghosted FPV symbols show. When the FPV is uncaged, only the uncaged FPV shows. The uncaged and ghosted FPV symbols indicate aircraft track and path angle, while the caged FPV indicates only path angle. The caged FPV shows as a green inverted T shape.\n\nA conformal FPV is a solid circle, shown when the FPV is in the boundaries of the vertical deviation pointer, lateral deviation pointer, bank angle indicator, and the airspeed indicator. A non-conformal FPV is a dashed circle, shown when the FPV exceeds the boundaries.\n\n5th Edition 5-50 02 APR 19",
+  "token_count_estimate": 474,
+  "chunk_index": 162,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.085432+00:00"
+}

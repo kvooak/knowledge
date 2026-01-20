@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0128",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 115,
+  "page_end": 116,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Attitude\n\nWhen a compressed PFD is shown, the sky/ground \ufb01ll stops displaying increased pitch at +13 degrees or \u221212 degrees. The percentage of ground/sky remains constant, not in relation to the actual horizon.\n\nATT/HDG ALIGN- ING\n\nWhen the IRS is in align mode on the ground, the ATT/HDG ALIGNING DO NOT TAXI annunciation shows above the aircraft symbol. In \ufb02ight, the annunciation is ATT/HDG ALIGNING.\n\nSlip/Skid A white trapezoid slip/skid indicator shown at the base of the roll pointer is used to indicate lateral accelerations. The slip/skid indicator uses the base of the roll pointer as its reference. A displacement the width of the trapezoid from the base of the roll pointer is approximately equivalent to a one-ball displacement on a conventional inclinometer. The slip/skid indicator moves with the roll pointer in a bank.\n\n5th Edition 02 APR 19 5-13\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Attitude Pro Line Fusion\u00ae Avionics\n\nFlight Director Cue The Flight Director (FD) cue is shown on the attitude indicator as a haloed magenta ring. The FD cue presents pitch and roll guidance information from the AFCS when the FD is active. The cue moves up and down to command a climb or descent, and moves right and left to command a right or left bank. Pitch and roll commands are from the active \ufb02ight guidance channel. The pilot side active \ufb02ight guidance channel is active upon power-up. The copilot side \ufb02ight guidance channel can be selected with the SRC button on the Flight Control Panel (FCP). The FD cue is removed if either the pitch or roll steering inputs are missing or invalid. The FD cue is also temporarily removed when the TCAS RA pitch cues are being shown.\n\n5th Edition 5-14 02 APR 19",
+  "token_count_estimate": 403,
+  "chunk_index": 128,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.063143+00:00"
+}

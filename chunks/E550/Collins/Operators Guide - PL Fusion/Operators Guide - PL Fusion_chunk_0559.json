@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0559",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "\u2022 A DU menu is a set of related GUI controls arranged vertically. Menus can also contain sub-menus, data entry, readouts, single-state toggles, and multi-state toggles. Menus are accessed through another GUI control. Position the cursor over a menu item and select it to enable or disable the function.",
+  "page_start": 440,
+  "page_end": 440,
+  "raw_text": "5th Edition 7-30 02 APR 19",
+  "token_count_estimate": 7,
+  "chunk_index": 559,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.278113+00:00"
+}

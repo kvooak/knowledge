@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0759",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "COMPONENTS",
+  "page_start": 542,
+  "page_end": 542,
+  "raw_text": "CPDLC equipment includes: Radio Interface Unit (RIU), emulated Control Display Unit (eCDU), VHF Data Link (VDL), and printer (if installed). The user can also access the ATS and ATN functions using the Multipurpose Control Display Unit (MCDU) Menu. FANS may also use the Iridium Satellite Communications (SATCOM) system, if installed. The activation of the optional ATN function requires an Encrypted Access Key (EAK) for both the Aircraft Personality Module (APM) and RIU. The activation of the optional FANS function requires an EAK for the APM.",
+  "token_count_estimate": 110,
+  "chunk_index": 759,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.398053+00:00"
+}

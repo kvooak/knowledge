@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0103",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "REMOTE AVIONICS INTERFACE SWITCHES",
+  "page_start": 95,
+  "page_end": 95,
+  "raw_text": "The remote avionics-related interface switches include all remote-mounted, installer-supplied, cockpit-located switches that interface with the Pro Line Fusion Avionics System to provide control input functions.\n\nCALLOUTS:\n\nTouch Control Steering\n\nOEM-provided Touch Control Steering (TCS) buttons are located on each control stick. The TCS button enables the pilot to maneuver the airplane without disconnecting the autopilot control or to adjust the FPV vertical location to the current aircraft attitude. Pushing the TCS button causes the aileron and elevator servo clutches to release while the switch remains pushed, and it causes the active vertical \ufb02ight director references to synchronize to current values. When on descent, pushing the TCS button places a TCS Trim bug on the airspeed indicator and illuminates a green TCS TRIM advisory under the airspeed indicator.\n\nAutopilot Discon- nect Switches\n\nOEM-provided Autopilot (AP) disconnect switches are located on each control stick. The AP disconnect switch disengages the autopilot when pushed.\n\nAutothrottle Discon- nect Switch\n\nThe AT may be disconnected by AT disconnect switches which are located on both throttle levers.\n\nTakeoff/Go Around (TOGA) Switch\n\nA TOGA switch is mounted on the outboard side of each of the throttle levers.\n\n5th Edition 02 APR 19 4-27",
+  "token_count_estimate": 254,
+  "chunk_index": 103,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.050879+00:00"
+}

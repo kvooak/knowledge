@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0049",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 41,
+  "page_end": 41,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 OVERVIEW Pro Line Fusion\u00ae Avionics System Description\n\nInformation Man- agement System (IMS)\n\nThe Information Management System (IMS) provides backup storage and con\ufb01guration management of avionics system application software, databases, tables, and documents. The IMS includes USB ports, Ethernet ports, internal storage (solid state drive), a commercial standard Wireless Fidelity (WiFi) interface and cellular network communications capability. The IMS hosts the onboard data loader for data loading, eFlight for \ufb01le transfers and management, and the print server application for printing to the cockpit printer. Utilization and enablement of WiFi and cellular network requires a Rockwell Collins subscription service.\n\nLightning Detec- tion System (LDS) The non-Rockwell Collins Lightning Detection System (LDS) (L3 Communications Stormscope\u00ae WX-1000E Weather Mapping System, referred to as the LDS in this guide) maps electrical discharge activity (lightning) within 200 NM of the aircraft. The LDS is made up of one LDS processor and one antenna. The LDS-generated lightning symbology is available to show on the EFIS \ufb02ight displays. The LDS processor uses inputs from the antenna to calculate the azimuth and range of the electrical discharges in the area surrounding the aircraft. The LDS processor then generates lightning symbology and operating and fault messages that are shown on the \ufb02ight displays. The LDS graphic displays are selected with on-screen menus on the AFD. The LDS outputs lightning azimuth, range, intensity, and system mode/status data to the \ufb02ight displays through the IPS and system bus structure.\n\n5th Edition 02 APR 19 2-11",
+  "token_count_estimate": 323,
+  "chunk_index": 49,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.021344+00:00"
+}

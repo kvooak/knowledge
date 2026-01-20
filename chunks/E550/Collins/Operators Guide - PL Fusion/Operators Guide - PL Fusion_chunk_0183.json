@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0183",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 174,
+  "page_end": 175,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 PFD Menu Pro Line Fusion\u00ae Avionics\n\nRADAR The RADAR selection closes the PFD Task Menu and opens the RADAR dialog box when selected. Refer to the \ufb01gure on page 5-87 or the \ufb01gure on page 5-89.\n\nFigure 5-29 PFD Compressed Menu\n\nFigure 5-30 PFD Compressed Menu (with optional HUD)\n\nWhen the HSI is compressed, the PFD Task Menu is compressed as well. The compressed menu is displayed when the cursor is placed anywhere on the compressed HSI and either the CCP MENU button or the CCP side select buttons are pressed. It can be closed by clicking anywhere off of the menu, for example in the cutout for the heading indication, or anywhere else on the display. The compressed PFD Task Menu is removed after 3 seconds if the cursor is moved off the menu.\n\n5th Edition 5-72 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics PFD Format Dialog Box",
+  "token_count_estimate": 217,
+  "chunk_index": 183,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.097865+00:00"
+}

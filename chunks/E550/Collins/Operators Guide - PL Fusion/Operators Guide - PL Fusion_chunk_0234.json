@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0234",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 220,
+  "page_end": 221,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Hydraulics Page Pro Line Fusion\u00ae Avionics\n\nFigure 5-68 Synoptic \u2013 Hydraulics Page\n\nThe HYDRAULICS Synoptic page graphically represents the hydraulic system. The HYDRAULICS Synoptic page is accessed through the Synoptic drop down menu accessed with the SYS QAK. The HYDRAULICS synoptic page depicts the three hydraulic systems with a list of the powered components below each system.\n\nSELECTIONS:\n\nTemperatures The hydraulic \ufb02uid temperatures are depicted by digital readouts.\n\nQuantities The hydraulic \ufb02uid quantities are depicted by digital readouts and graphical level indicators and are measured in percent of full.\n\nPressures The hydraulic \ufb02uid pressures are depicted by digital readouts.\n\n5th Edition 5-118 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Status Page\n\nPumps The hydraulic pumps are depicted by circles with white legends.\n\nEquipment A list of hydraulically powered equipment is given in white when not running or green when running properly.",
+  "token_count_estimate": 211,
+  "chunk_index": 234,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.125633+00:00"
+}

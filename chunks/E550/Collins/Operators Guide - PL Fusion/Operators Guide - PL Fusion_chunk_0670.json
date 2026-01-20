@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0670",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 496,
+  "page_end": 496,
+  "raw_text": "AFCS OPERATION Embraer Legacy 450/500 and Praetor 500/600 Vertical Modes Pro Line Fusion\u00ae Avionics\n\nThe system syncs the FPA reference to the coupled-side FPA when:\n\n\u2022 AP engaged with no other vertical mode is active\n\n\u2022 Either FD is selected when AP is disengaged and both FDs are off\n\n\u2022 FPA button operation/mode selection\n\n\u2022 FMS vertical path includes an angle\n\n\u2022 Either TCS button is pushed\n\n\u2022 Fly-by-wire Overspeed mode is active.\n\nThe FPA reference is limited to \u00b19.9 degrees. The target FPA readout parks and remains visible when the target FPA value is outside the shown pitch tape range due to pitch or roll. The Target FPA Component is always displayed while FPA mode is active. The pilot can display the FPA Reference when FPA is not the active FCS vertical mode by selecting the FPA View Control on the FCP. Successive selections of the Target FPA View Control will select Manual FPA, FMS FPA and remove the FPA Reference.",
+  "token_count_estimate": 210,
+  "chunk_index": 670,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.338946+00:00"
+}

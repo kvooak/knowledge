@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0551",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 434,
+  "page_end": 435,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 GUI Elements Pro Line Fusion\u00ae Avionics\n\n\u2022 A copy only \ufb01eld is a special visual tool used in ICDU dialog boxes or format windows to indicate that the contents of the \ufb01eld may be copied to the MKP scratchpad if blank, but the contents cannot be modi\ufb01ed.\n\n\u2022 A DU notebook is a set of GUI control groups organized as a notebook, with tabs as selection controls. Only one tab may be active at a time. Position the cursor over a tab on the DU notebook and select it to open the tab.\n\n\u2022 The DU expand/collapse functionality is used to facilitate viewing data when individual items can contain numerous related sub-items. Position the cursor over the expand/collapse pushbutton and select it to activate the function.\n\n5th Edition 7-24 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics GUI Elements\n\n\u2022 The DU combo box is a combination of a push button with menu selection properties and menu. Position the cursor over the combo box and select it to open the submenu.\n\n\u2022 The DU menu bar contains functionality that is speci\ufb01c to the format in view, and contains a format selection button. The menu bar is visible at the top of all selectable window formats. Position the cursor over a pushbutton on the menu bar and push the trigger to select the function or open the combo box.\n\n\u2022 The Menu (M) pushbutton on the menu bar is used to show the MFW con\ufb01guration menu.\n\n5th Edition 02 APR 19 7-25",
+  "token_count_estimate": 345,
+  "chunk_index": 551,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.274283+00:00"
+}

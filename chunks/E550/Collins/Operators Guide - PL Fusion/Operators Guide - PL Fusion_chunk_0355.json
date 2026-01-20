@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0355",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 317,
+  "page_end": 318,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics DU \u2013 Chart Format\n\nFigure 5-130 Chart \u2013 Full Screen\n\nThe DU Chart format provides the ability to show an electronic version of a conventional paper instrument chart on the DU. The Charts are automatically linked by the FMS when a \ufb02ight plan is entered and can also be selected manually by the pilot. The available charts are listed and may be selected through on-screen menus.\n\nThe Chart format may be shown as a full or half screen. One chart may be shown on each side of the \ufb02ight deck, for a total of two.\n\nWhen aircraft position data is available, a moving and geographically referenced aircraft symbol is shown on the Chart being shown. When the current aircraft position is not within the geographically referenced body of the chart, the aircraft symbol displays in magenta at the edge of the chart, on the azimuth relative to the current position. This can happen if the chart is panned or zoomed to an area where the aircraft is not positioned. The aircraft symbol is removed if FMS position, true heading, or magnetic variation data are missing. If the aircraft symbol is removed, the no-aircraft symbol shows in yellow on the menu bar with a white circle and slash.\n\n5th Edition 02 APR 19 5-215\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 DU \u2013 Chart Format Pro Line Fusion\u00ae Avionics\n\nN\n\nNOTE\n\nThe use of Charts with the geographically referenced aircraft symbol does not relieve the pilot of responsibility for navigation.\n\nFigure 5-131 Chart \u2013 Menu Bar\n\nThe Chart Menu Bar shows along the top of all Chart MFW formats. The Chart Menu Bar provides controls to navigate the Chart menus and show a chart.\n\nSELECTIONS:\n\nM The DU menu is accessed by selecting the M with the CCP. The menu is the same as pushing the MENU button on the CCP.\n\nORIG ORIG is a button to access the Origin Chart menu. If no Origin airport is speci\ufb01ed in the FMS \ufb02ight plan, the ORIG button is disabled.\n\nDEST DEST is a button to access the Destination Chart menu. If no Destination airport is speci\ufb01ed in the FMS \ufb02ight plan, the Destination button is disabled.\n\nALTN ALTN is a button to access the Alternate Chart menu. If no Alternate airport is speci\ufb01ed in the FMS \ufb02ight plan, the Alternate button is disabled.\n\n5th Edition 5-216 02 APR 19",
+  "token_count_estimate": 534,
+  "chunk_index": 355,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.184914+00:00"
+}

@@ -1,1 +1,12 @@
-.claude/
+# Source PDFs - too large for git, keep locally
+sources/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/

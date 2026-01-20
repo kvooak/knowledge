@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0201",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "PFD \u2013 BARO SET DIALOG BOX",
+  "page_start": 188,
+  "page_end": 188,
+  "raw_text": "Figure 5-47 PFD \u2013 Baro Set Compressed Dialog Box\n\nFigure 5-48 PFD \u2013 Baro Set Dialog Box\n\nThe BARO Set dialog box provides controls to set the on-side Barometric (BARO) pressure setting, and to select the BARO units.\n\nN\n\nNOTE\n\nWhen the HSI is compressed, the BARO Set dialog box is compressed as well. The compressed BARO Set dialog box retains all of the selections of the non-compressed BARO Set dialog box, but the blue menu bar and gray X at the top of the menu are removed.\n\nSELECTIONS:\n\nNumeric Data Entry\n\nThe numeric data entry \ufb01eld is used to input the BARO setting.\n\nSTD STD is a multi \u2014 stage toggle to set the BARO setting to standard pressure.\n\n5th Edition 5-86 02 APR 19",
+  "token_count_estimate": 163,
+  "chunk_index": 201,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.105850+00:00"
+}

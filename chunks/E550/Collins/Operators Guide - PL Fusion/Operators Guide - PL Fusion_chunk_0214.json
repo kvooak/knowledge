@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0214",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 201,
+  "page_end": 202,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics EICAS Format\n\n\u2022 Status \u2013 Status messages are the lowest priority, and display in white.\n\nNew CAS messages \ufb02ash until acknowledged by the Master Warning/Caution reset switch. If multiple similar messages are active, they may be shown as a single collector message. For example, if both a left and right component fail, the CAS message list may show L R XXX FAIL instead of separate left and right fail messages.\n\nThe CAS message list shows 10 CAS messages when in Compressed mode, or 12 CAS messages in Normal mode.\n\nIf an associated checklist is available, a check box shows to the left of the CAS message. When the associated checklist is complete, a check mark is shown in the check box.\n\nPlace the cursor in the CAS window and turn the upper knob of the DSK to advance the CAS message list one message, if more than 10 messages (compressed) or 12 messages (normal) are shown.\n\nAnnunciators may display at the bottom of the CAS message list. When an annunciator shows, one less CAS message is shown.\n\n5th Edition 02 APR 19 5-99\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic Format Pro Line Fusion\u00ae Avionics\n\nN\n\nNOTE\n\nIf more CAS messages exist in the CAS message window than can be displayed, EICAS will displayed a small colored triangle with the number of additional out of view messages. The color of the triangle will be associated with the type of CAS message that is out of view. For example, a yellow triangle indicates that additional caution messages are out of view",
+  "token_count_estimate": 358,
+  "chunk_index": 214,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.111674+00:00"
+}

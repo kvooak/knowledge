@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0251",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TUNING \u2013 EDIT COM USER PRESET FREQUENCIES",
+  "page_start": 236,
+  "page_end": 236,
+  "raw_text": "Figure 5-79 Tuning \u2013 Edit COM User Preset Frequencies\n\nThe Edit COM User Preset Frequencies submenu provides controls to manage and edit user preset VHF frequencies. The Edit COM User Preset Frequencies submenu is accessed by pushing the EDIT pushbutton on the COM Control menu when USER is selected on the FREQ control.\n\nSELECTIONS:\n\nSelect User Fre- quency\n\nThe SELECT USER FREQUENCY list displays the currently stored user preset frequencies. The user can select frequencies for editing and scroll the list with the inner knob on the DSK.\n\n5th Edition 5-134 02 APR 19",
+  "token_count_estimate": 122,
+  "chunk_index": 251,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.135676+00:00"
+}

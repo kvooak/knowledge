@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0479",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 398,
+  "page_end": 399,
+  "raw_text": "MESSAGES AND ANNUNCIATORS Embraer Legacy 450/500 and Praetor 500/600 Visual Annunciations Pro Line Fusion\u00ae Avionics\n\nEach ADI compares the on-side radio altitude to the cross-side radio altitude whenever the radio altitude is less than 2450 feet AGL. When the radio altitude compare function is active and the difference between the radio altitude supplied to the on-side and cross-side ADI is not within the pre-de\ufb01ned limit, a boxed yellow RAD radio altitude miscompare \ufb02ag is shown at the bottom of the attitude indicator display. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe RAD comparator limit is variable and is a function of altitude.\n\nADI: Roll Compare Flag\n\nThe ROL comparator \ufb02ag is a caution to the \ufb02ight crew that the roll being given by the AHRS are may be in error on one side or the other.\n\nEach ADI compares the roll from the on-side AHRS to the heading from the cross-side AHRS. When the roll compare function is active and the difference between the two roll rates is not within the prede\ufb01ned limit, a boxed yellow ROL miscompare \ufb02ag is shown below the \ufb02ight mode annunciation display. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\n5th Edition 6-16 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MESSAGES AND ANNUNCIATORS Pro Line Fusion\u00ae Avionics Visual Annunciations\n\nADI: Pitch Compare Flag\n\nThe PIT comparator \ufb02ag is a caution to the \ufb02ight crew that the pitch being given by the AHRS are may be in error on one side or the other.\n\nEach ADI compares the pitch from the on-side AHRS to the heading from the cross-side AHRS. When the pitch compare function is active and the difference between the two pitch angles is not within the prede\ufb01ned limit, a boxed yellow PIT miscompare \ufb02ag is shown below the \ufb02ight mode annunciation display. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nADI: TAWS GND PROX Alert",
+  "token_count_estimate": 428,
+  "chunk_index": 479,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.236014+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0530",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "CURSOR CONTROL PANEL OPERATION",
+  "page_start": 419,
+  "page_end": 419,
+  "raw_text": "The Cursor Control Panel (CCP) provides controls to modify format and data selections on the DUs. The Pro Line Fusion Avionics System includes two CCP units, one for each pilot, mounted on either side of the center console. Each CCP can control a cursor on any DU as well as both the top center and bottom DU. The CCP includes controls to show menus, to hide menus, and to modify and select options.\n\nEach CCP contains four display select buttons. Push the outboard display select button (LH DU button on pilot CCP, RH DU button on copilot CCP) to show a cursor on the outboard display. Push the inboard display select button (RH DU button on pilot CCP, LH DU button on copilot CCP) to show a cursor on the opposite PFD. Push the CTR DU display select button to show a cursor on the center top display (DU2). Push the LWR DU display select button to show a cursor on the bottom display (DU4).\n\nThe CCP display select buttons retains their normal DU associations in both normal and display reversion con\ufb01gurations.\n\nEach CCP has a track ball to move a cursor around the display. The cursor can be moved from one side of the DU to the other upon one full brisk lateral movement of the track ball. The cursor is removed after 3 seconds of being idle. If the track ball is moved again the cursor reappears in the same location. The trackball can not be used to move the cursor between displays.\n\nThe pilot\u2019s cursor is white, and oriented up/down. The copilot\u2019s cursor is white, oriented at a 45 degree angle to facilitate differentiation.\n\nFigure 7-4 Cursor Shapes\n\nWhen a cursor is \ufb01rst selected by a display select button, the cursor shows in the default location. The cursor can not be placed in the ADI or portions on the DU. The default cursor location is as follows:\n\n\u2022 On a DU with a full width ADI and HSI: The upper left of the HSI control.\n\n5th Edition 02 APR 19 7-9",
+  "token_count_estimate": 447,
+  "chunk_index": 530,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.262909+00:00"
+}

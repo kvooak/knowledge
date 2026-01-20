@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0433",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 372,
+  "page_end": 372,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Data Load Format Pro Line Fusion\u00ae Avionics\n\nsoftware/data and update existing software/data for LRU modules. The ODL supports loading of up to 6 LRU modules simultaneously.\n\nN\n\nNOTE\n\nThe Data Load functions are intended to be used by trained maintenance personnel. Please contact your maintenance crew for assistance with the Data Load formats.\n\nSELECTIONS:\n\nLoad New Databases\n\nThe Load New Databases section provides controls for the \ufb02ight crew or ground crew to load new databases into the aircraft LRU modules. The ODL automatically determines the appropriate target LRU for each of the selected databases. Single-state toggles are provided to select the databases for loading.\n\nThe Start Load button commands the selected databases to begin loading into the respective LRU modules. Start Load is disabled when the aircraft is not on the ground. Once Start Load is selected, load progress shows below the database list. Upon successful completion of a database load, the status of the loaded databases changes to Complete, in green text. If a database load is aborted due to an error, the status changes to Error, in yellow text. The message Load Complete with Errors displays below the database list, a View Errors button provides access to the Load Error Summary dialog box. The Load Error Summary dialog box displays information about the error message, and buttons to Close the dialog box or to Retry Failed Loads.\n\n5th Edition 5-270 02 APR 19",
+  "token_count_estimate": 317,
+  "chunk_index": 433,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.217273+00:00"
+}

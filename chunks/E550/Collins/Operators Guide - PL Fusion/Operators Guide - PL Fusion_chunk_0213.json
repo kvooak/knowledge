@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0213",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 199,
+  "page_end": 200,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics EICAS Format\n\n\u2022 Cabin altitude is given in green numbers behind a white ALT legend.\n\n\u2022 Cabin rate of change displays in green numbers behind a white RATE legend.\n\n\u2022 Cabin differential pressure is shown in green behind a white \u0394P legend, and given in PSI.\n\n\u2022 Landing Field Elevation (LFE) is shown in green behind a white LFE legend. LFE is changed using the PFD VSPEEDS/LFE dialog box.\n\nAircraft Control Indications\n\nThe aircraft control indications display consists of gauges for landing gear, speed brakes/spoilers, \ufb02aps, pitch trim, and rudder trim.\n\n\u2022 Landing Gear \u2013 Landing gear is depicted using green circles with green DN when landing gear is down. White UP shows in the center of a white square when landing gear are up. Gear in transit shows as a circle with cross hatching. If the gear don\u2019t match the position of the handle, the white LG legend turns yellow.\n\n5th Edition 02 APR 19 5-97\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 EICAS Format Pro Line Fusion\u00ae Avionics\n\n\u2022 Spoilers \u2013 The status of the spoilers is depicted with a small rectangle on top of the wing shape, as well as a white SPLR legend.\n\n\u2022 SPDBRK \u2013 When the speed brake handle is engaged a white SPDBRK annunciation shows inside a gray box.\n\n\u2022 Flaps \u2013 The status of the \ufb02aps is depicted with a small pointer at the trailing edge of the wing shape, a readout, a white scale, and a gray white legend. Flap position is also given inside a gray box behind a white FLAP legend.\n\n\u2022 Horizontal stabilizer trim \u2013 Horizontal stabilizer trim is depicted with a vertical analog scale, a green takeoff band, and a digital readout inside a pointer. A gray PITCH legend is shown above the scale, a white Nose Up (UP) legend is shown at the top, and a white Nose Down (DN) legend is shown at the bottom of the scale.\n\n\u2022 Rudder trim \u2013 Rudder trim is depicted with a horizontal analog scale, a pointer, and a gray YAW legend.\n\nCAS Message List The CAS message list shows in the upper right corner of the EICAS display. Four categories of CAS messages show, in the following priority order:\n\n\u2022 Warning \u2013 Warning messages are the highest priority, and display in red.\n\n\u2022 Caution \u2013 Caution messages show in yellow.\n\n\u2022 Advisory \u2013 Advisory messages display in cyan.\n\n5th Edition 5-98 02 APR 19",
+  "token_count_estimate": 547,
+  "chunk_index": 213,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.111144+00:00"
+}

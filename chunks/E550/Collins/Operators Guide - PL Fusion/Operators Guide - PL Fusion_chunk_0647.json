@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0647",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "AFGS",
+  "page_start": 488,
+  "page_end": 488,
+  "raw_text": "The Autopilot Flight Director Guidance System (AFGS) commands are provided for automatic \ufb02ight to the Fly-By-Wire (FBW) system, and for manual \ufb02ight to the displays. When the AP is engaged it will couple the AP commands from the appropriate \ufb02ight guidance application to the FBW system in order to automatically control the airplane attitude and path. The AP engagement function is hosted in the Flight Control Computers (FCC) together with the FBW system.\n\nFigure 8-5 Autopilot Engage Button\n\nThe AFGS includes modes that perform all normal \ufb02ight operations including takeoff, climb, cruise, descent and all navigation options. In addition, the AFGS is approved for Category I and Category II precision approach operations. The DMC Cabinet is the airplane avionics concentrator that receives information from the airplane input sensors (ADS, AHC, GPS, Radios, WOW and Radio Altimeters). The DMC Cabinet hosts the FG applications, which generates guidance commands to control airplane in vertical and lateral axis, and communicates with the PFDs. Both FG applications always send commands to the PFD and to the FCC ADS, AHRS, ILS, RAD ALT.\n\n5th Edition 8-6 02 APR 19",
+  "token_count_estimate": 239,
+  "chunk_index": 647,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.327205+00:00"
+}

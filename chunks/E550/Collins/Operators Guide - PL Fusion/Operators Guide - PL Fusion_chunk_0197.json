@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0197",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 185,
+  "page_end": 185,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Vspeeds / LFE Dialog Box\n\nmultiple colors, so the source of Vspeed information is displayed in the VSPEEDS dialog box. When the Vspeeds are manually entered and checked off for display on the airspeed tape, they will be colored cyan in the dialog box. When the FMS calculates and sends Vspeeds to the airspeed tape the speeds will be magenta in the dialog box. The takeoff Vspeeds can be set and checked off manually on the ground. The Landing Vspeeds can be set on the ground (for an emergency return) but to reduce clutter they cannot be checked off for display on the airspeed tape until airborne. When the aircraft takes off the takeoff speeds will be removed automatically and the landing Vspeeds can be checked off for display. In case of an issue with the FMS provided LFE for the arrival airport the LFE can be manually entered on this dialog.\n\nSELECTIONS:\n\nV1 V1 \u2013 Takeoff decision speed. This reference is shown on the ADI airspeed scales as a white horizontal line with a white 1 legend.\n\nVR VR \u2013 Rotation speed. This reference is shown on the ADI airspeed scales as a cyan horizontal line with a cyan R legend.\n\nV2 V2 \u2013 Takeoff safety speed. This reference is shown on the ADI airspeed scales as a magenta horizontal line with a magenta 2 legend.\n\nVREF VREF \u2013 Landing reference airspeed. This reference is shown on the ADI airspeed scales as a white horizontal line with a white RF legend, during approach only.\n\nVAP VAP \u2013 Approach speed. This reference is shown on the ADI airspeed scales as a cyan horizontal line with an cyan AP legend.\n\n5th Edition 02 APR 19 5-83",
+  "token_count_estimate": 387,
+  "chunk_index": 197,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.104485+00:00"
+}

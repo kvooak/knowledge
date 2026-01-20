@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0096",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 90,
+  "page_end": 90,
+  "raw_text": "CONTROLS AND INDICATORS Embraer Legacy 450/500 and Praetor 500/600 Multifunction Keyboard Panel Pro Line Fusion\u00ae Avionics\n\nNEXT Next Button\n\nThe NEXT button is used to advance to the next page of the selected page sequence. When the NEXT button is pushed and the cursor is on the plan format, the map center is positioned at the next waypoint in the waypoint list.\n\n\u2190\u2191\u2192\u2193 The MKP arrow keys provide an alternate to the CCP trackball for positioning the cursor on the selected display unit. Each key moves the cursor in the speci\ufb01ed direction. Diagonal movement is possible by pushing two adjacent keys simultaneously. Pushing and immediately releasing an arrow key when the cursor is on a graphical control (Data entry \ufb01eld, button, etc.) jumps the cursor to the closest graphical control in the desired direction. Pushing and immediately releasing an arrow key when it is not on a graphical control moves the cursor a \ufb01xed distance in the desired direction. A push and hold of an arrow key slews the cursor in the desired direction until the key is released.\n\nNAV Navigation Radio Button\n\nThe NAV button takes a frequency entered into the scratchpad and sends it to the on-side NAV radio. The NAV frequency is shown on the bottom right of the HSI.\n\nCOM Communications Radio Button\n\nThe COM button takes a frequency entered into the scratchpad and sends it to the on-side COM radio. The COM frequency is shown on the bottom right of the HSI.\n\n5th Edition 4-22 02 APR 19",
+  "token_count_estimate": 328,
+  "chunk_index": 96,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.046786+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0149",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 138,
+  "page_end": 138,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Airspeed Pro Line Fusion\u00ae Avionics\n\nOverspeed Alert An airspeed alert occurs when the current airspeed becomes greater than VMAX by 0.7 knots or the equivalent Mach. The overspeed marker is emphasized by changing to a wider red/white striped line. The airspeed and Mach digital readout changes color to red. The \ufb02ight deck aural overspeed alert sounds when the current airspeed becomes greater than VMAX by 3 knots. The overspeed symbology returns to previous symbols and/or colors, and the aural alert discrete becomes inactive, when the airspeed is less than or equal to VMO/MMO.\n\nMinimum Speed Cues\n\nWhen not in a minimum speed condition, the VMIN cue shows as a thick red line on the airspeed scale, extending from the current VMIN to the bottom of the scale. VMIN is computed based on AOA. A yellow line extends from the VMIN to the VAOA limiter speed. The airspeed indicator and Mach indicator turn yellow when in this region as well. A white line extends from the VAOA to the VSS (stability speed).\n\nMinimum Speed Pre-Alert\n\nA minimum speed pre-alert occurs when the airspeed trend vector goes below the VMIN value by 1 knot for 1 seconds or more. The airspeed and Mach digital readout changes color to yellow. The pre-alert ends when the airspeed and airspeed trend vector are both greater than the VMIN value.\n\n5th Edition 5-36 02 APR 19",
+  "token_count_estimate": 313,
+  "chunk_index": 149,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.075675+00:00"
+}

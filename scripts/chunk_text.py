@@ -3,12 +3,16 @@
 chunk_text.py - Semantic chunking of extracted text
 
 CONTRACT:
-    Input:  knowledge/extracted/<doc_name>/<page>.md
-    Output: knowledge/chunks/<doc_name>/*.json
+    Input:  knowledge/extracted/<project>/<path>/<doc_name>/<page>.md
+    Output: knowledge/chunks/<project>/<path>/<doc_name>/*.json
+
+STRUCTURE:
+    Mirrors the extracted/ directory structure.
+    Project name is read from _extraction_metadata.json and included in chunks.
 
 GUARANTEES:
     - Each JSON file represents ONE semantic idea
-    - Includes: id, source_document, section, page_range, raw_text
+    - Includes: id, project_name, source_document, section, page_range, raw_text
     - Chunk size target: 300-800 tokens
     - NO embeddings
     - NO LLM usage
@@ -17,7 +21,9 @@ GUARANTEES:
 CHUNK SCHEMA:
 {
     "id": "doc_name_chunk_0001",
+    "project_name": "ProjectA or null",
     "source_document": "document_name",
+    "relative_path": "subfolder/path or null",
     "section": "Heading text or null",
     "page_start": 1,
     "page_end": 1,
@@ -30,7 +36,6 @@ CHUNK SCHEMA:
 """
 
 import argparse
-import hashlib
 import json
 import re
 import sys
@@ -72,6 +77,17 @@ def extract_page_number(filename: str) -> Optional[int]:
     if match:
         return int(match.group(1))
     return None
+
+
+def load_extraction_metadata(doc_dir: Path) -> dict:
+    """Load extraction metadata from document directory."""
+    metadata_file = doc_dir / "_extraction_metadata.json"
+    if metadata_file.exists():
+        try:
+            return json.loads(metadata_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, IOError):
+            pass
+    return {}
 
 
 def extract_sections_from_page(content: str) -> list[dict]:
@@ -213,23 +229,46 @@ def merge_small_chunks(chunks: list[dict]) -> list[dict]:
     return merged
 
 
-def process_document(doc_dir: Path, output_dir: Path, verbose: bool = False) -> dict:
+def get_relative_output_path(doc_dir: Path, extracted_dir: Path) -> Path:
+    """Get the relative path from extracted/ to maintain structure."""
+    try:
+        return doc_dir.relative_to(extracted_dir)
+    except ValueError:
+        return Path(doc_dir.name)
+
+
+def process_document(
+    doc_dir: Path,
+    output_base_dir: Path,
+    extracted_dir: Path,
+    verbose: bool = False
+) -> dict:
     """
     Process all pages of a document into chunks.
 
     Returns processing metadata.
     """
     doc_name = doc_dir.name
-    doc_output_dir = output_dir / doc_name
+
+    # Load extraction metadata to get project info
+    extraction_meta = load_extraction_metadata(doc_dir)
+    project_name = extraction_meta.get("project_name")
+    relative_path = extraction_meta.get("relative_path")
+
+    # Build output path to mirror extracted structure
+    rel_output_path = get_relative_output_path(doc_dir, extracted_dir)
+    doc_output_dir = output_base_dir / rel_output_path
     doc_output_dir.mkdir(parents=True, exist_ok=True)
 
     metadata = {
         "source_document": doc_name,
+        "project_name": project_name,
+        "relative_path": relative_path,
         "input_directory": str(doc_dir),
         "output_directory": str(doc_output_dir),
         "processing_time": datetime.now(timezone.utc).isoformat(),
         "processor": "chunk_text.py",
-        "processor_version": "1.0.0",
+        "processor_version": "2.0.0",  # Version bump for project support
         "pages_processed": 0,
         "chunks_created": 0,
         "token_range": {"min": MAX_CHUNK_TOKENS, "max": 0},
@@ -266,7 +305,9 @@ def process_document(doc_dir: Path, output_dir: Path, verbose: bool = False) -> 
 
         chunk_data = {
             "id": chunk_id,
+            "project_name": project_name,  # Include project in chunk
             "source_document": doc_name,
+            "relative_path": relative_path,
             "section": chunk["section"],
             "page_start": chunk["page_start"],
             "page_end": chunk["page_end"],
@@ -301,13 +342,28 @@ def process_document(doc_dir: Path, output_dir: Path, verbose: bool = False) -> 
     return metadata
 
 
-def find_extracted_docs(extracted_dir: Path) -> list[Path]:
-    """Find all extracted document directories."""
-    docs = []
-    for item in extracted_dir.iterdir():
-        if item.is_dir() and not item.name.startswith("_"):
-            docs.append(item)
-    return sorted(docs)
+def find_document_dirs(extracted_dir: Path) -> list[Path]:
+    """
+    Find all document directories recursively.
+
+    A document directory is one that contains page_*.md files.
+    """
+    doc_dirs = []
+
+    def search_recursive(directory: Path):
+        # Check if this directory contains page files
+        page_files = list(directory.glob("page_*.md"))
+        if page_files:
+            doc_dirs.append(directory)
+            return  # Don't recurse into document directories
+
+        # Otherwise, recurse into subdirectories
+        for item in directory.iterdir():
+            if item.is_dir() and not item.name.startswith("_"):
+                search_recursive(item)
+
+    search_recursive(extracted_dir)
+    return sorted(doc_dirs)
 
 
 def main():
@@ -332,9 +388,9 @@ def main():
         help="Print detailed progress",
     )
     parser.add_argument(
-        "--doc",
+        "--project",
         type=str,
-        help="Process only a specific document by name",
+        help="Process only a specific project",
     )
 
     args = parser.parse_args()
@@ -342,13 +398,15 @@ def main():
     # Ensure output directory exists
     args.output.mkdir(parents=True, exist_ok=True)
 
-    if args.doc:
-        doc_dirs = [args.input / args.doc]
-        if not doc_dirs[0].exists():
-            print(f"ERROR: Document not found: {doc_dirs[0]}", file=sys.stderr)
+    # Find document directories
+    if args.project:
+        project_dir = args.input / args.project
+        if not project_dir.exists():
+            print(f"ERROR: Project not found: {project_dir}", file=sys.stderr)
             sys.exit(1)
+        doc_dirs = find_document_dirs(project_dir)
     else:
-        doc_dirs = find_extracted_docs(args.input)
+        doc_dirs = find_document_dirs(args.input)
 
     if not doc_dirs:
         print(f"No extracted documents found in {args.input}", file=sys.stderr)
@@ -359,10 +417,20 @@ def main():
     print(f"Target chunk size: {MIN_CHUNK_TOKENS}-{MAX_CHUNK_TOKENS} tokens")
     print()
 
+    # Group by project for reporting
+    projects_seen = set()
     total_chunks = 0
+
     for doc_dir in doc_dirs:
-        print(f"Chunking: {doc_dir.name}")
-        metadata = process_document(doc_dir, args.output, verbose=args.verbose)
+        # Get project info from metadata
+        extraction_meta = load_extraction_metadata(doc_dir)
+        project = extraction_meta.get("project_name") or "(root)"
+        projects_seen.add(project)
+
+        project_display = f"[{project}] " if project != "(root)" else ""
+        print(f"Chunking: {project_display}{doc_dir.name}")
+
+        metadata = process_document(doc_dir, args.output, args.input, verbose=args.verbose)
 
         if "error" in metadata:
             print(f"  ERROR: {metadata['error']}", file=sys.stderr)
@@ -374,6 +442,7 @@ def main():
             print(f"  Chunks: {chunks} (tokens: {token_min}-{token_max})")
 
     print()
+    print(f"Projects processed: {', '.join(sorted(projects_seen))}")
     print(f"Total chunks created: {total_chunks}")
     print("Chunking complete. No LLM was used. Output is deterministic.")
 

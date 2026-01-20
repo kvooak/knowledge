@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0519",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 412,
+  "page_end": 414,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 Display Units Pro Line Fusion\u00ae Avionics\n\nbottom quarters of DU2R are referred to as DU2R Upper and DU2R Lower, respectively.\n\nThe normal window con\ufb01guration is shown below:\n\nFigure 7-1 Normal Window Con\ufb01guration\n\nThe following formats are available in full size MFW:\n\n\u2022 Navigation map with route and Vertical Situation Display (VSD) sub-windows\n\n\u2022 Terminal Chart\n\n\u2022 Document Reader.\n\nThe following are available in half-size MFW:\n\n\u2022 Navigation map with route or VSD subwindow\n\n\u2022 FMS pages\n\n\u2022 Maintenance\n\n\u2022 Document Reader\n\n\u2022 ACARS / CPDLC\n\n\u2022 Terminal Chart.\n\nThe following are available in quarter-size MFW:\n\n\u2022 Synoptic Displays\n\n\u2022 Checklist\n\n5th Edition 7-2 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics Display Units\n\n\u2022 Radio Tuning\n\n\u2022 Surveillance Video\n\n\u2022 Graphical Weather\n\n\u2022 SATCOM.\n\nThe following graphics show the interaction between the QAK and the resulting information available in each MFW/DU. Refer to the DU Reversion section of this chapter for location of each MFW following screen loss and reversion status.\n\n5th Edition 02 APR 19 7-3\n\nDISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 251,
+  "chunk_index": 519,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.257523+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0137",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 125,
+  "page_end": 125,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Altitude\n\n\u2022 The ALT knob on the FCP is used to set the preselect altitude for both the pilot and copilot and synced across the \ufb02ightdeck. When the ALT outer knob is rotated, the increments are 1000 feet or 100 meters. When the ALT inner knob is rotated, the increments are 100 feet or 10 meters. When BARO MIN Alert is selected, the preselect altitude value momentarily hesitates at the BARO MIN value when the ALT knob is being turned.\n\n\u2022 Push the ALT button in the ALT knob to cancel an altitude alert if one is active.\n\n\u2022 The digital preselect altitude readout is shown in cyan above the barometric altitude scale. A \ufb02ag shows when a DU is receiving ALT knob clicks but is not receiving a PSA change from the cross-side DU, or when a DU receives a PSA change from the cross-side DU but is not receiving ALT knob clicks. The PSA \ufb02ag consists of a \ufb02ashing yellow underline shown below the preselect altitude readout for 5 seconds and then removed. The preselect reference bug on the altitude scale is removed when the preselect altitude readout underline is \ufb02ashing yellow.\n\n\u2022 The metric preselect altitude readout is shown above the altitude tape in cyan followed by the letter M. The display of metric preselect altitude is selected with the ALT knob on the FCP.\n\n5th Edition 02 APR 19 5-23",
+  "token_count_estimate": 323,
+  "chunk_index": 137,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.067487+00:00"
+}

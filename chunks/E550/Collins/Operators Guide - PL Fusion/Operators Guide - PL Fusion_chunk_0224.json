@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0224",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 211,
+  "page_end": 212,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Environmental Control System Page\n\nFigure 5-61 Synoptic \u2013 Environmental Control System Page\n\nThe Environmental Control System (ECS) Synoptic page graphically represents the ECS. The ECS Synoptic page is accessed through the Synoptic drop down menu accessed with the SYS QAK.\n\nSELECTIONS:\n\nOut Flow Valve The ECS Synoptic displays the position of the Out Flow Valve (OFV).\n\nSet Cockpit (CKPT) and cabin temperatures can be set through OEM supplied controls. The controls provide indications on the ECS Synoptic page in cyan numbers, both in \u00b0C and \u00b0F under a white SET legend.\n\nActual Cabin and CKPT actual temperature is depicted in green numbers in both \u00b0C and \u00b0F under a white ACTUAL legend.\n\n5th Edition 02 APR 19 5-109\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Environmental Control System Page Pro Line Fusion\u00ae Avionics\n\nDuct Duct temperature is depicted in green numbers for both the CKPT and Cabin in both \u00b0C and \u00b0F under a white DUCT legend.\n\nRecirculating Fan The ECS Synoptic displays if the recirculating fan, labeled RECIRC in white, is operating. If the fan is operating it is shown in green. If not in operation it is shown in white.\n\nAir Conditioning Pack\n\nThe air conditioning pack is depicted as a square with the legend PACK. The legend and outline show in green when operating, white when not operating.\n\nAir Conditioning Pack Backup\n\nThe air conditioning pack backup is depicted as a square with the legend PACK BACKUP. The legend and outline show in green when operating and white when not operating.\n\nFlow Control Valve Two Flow Controls Valve (FCV) depictions let the crew know if bleed air is entering the air conditioning packs.\n\nPressure Relief and Shut Off Valve\n\nThe bleed air pressure can be shut off using the Pressure Relief and Shut Off Valve (PRSOV) or the Auxiliary Power Unit (APU) valve (labeled APU VLV) from each source to the rest of the system.\n\nGround Cart The ECS Synoptic displays the external ground cart as a square with wheels labeled GND CART. The legend and outline show in green when in operation and white when not in operation.\n\n5th Edition 5-110 02 APR 19",
+  "token_count_estimate": 489,
+  "chunk_index": 224,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.117132+00:00"
+}

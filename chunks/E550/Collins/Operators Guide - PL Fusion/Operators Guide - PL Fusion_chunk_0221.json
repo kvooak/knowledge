@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0221",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 208,
+  "page_end": 209,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Bleed Air/Anti-Ice Page Pro Line Fusion\u00ae Avionics\n\nFigure 5-59 Synoptic \u2013 Anti-Ice Page\n\nThe ANTI-ICE Synoptic page graphically represents the Bleed Air/Anti-Ice system. The ANTI-ICE Synoptic page is accessed through the Synoptic drop down menu accessed with the SYS QAK.\n\nSELECTIONS:\n\nWing Anti-Ice Wing anti-ice temperature is depicted with a line section on the leading edge of each wing depiction. The color of each line section indicates the following status:\n\n\u2022 Green line \u2013 on.\n\n\u2022 White line \u2013 off.\n\n\u2022 Yellow line \u2013 undetermined.\n\n5th Edition 5-106 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Bleed Air/Anti-Ice Page\n\nShut Off Valves The bleed air pressure can be shut off using several valves. Valves include the Pressure Relief and Shut Off Valve (PRSOV) from each engine to the rest of the system, and a Anti-ice Shut Off Valve (AISOV) to stop bleed air from entering the wings and horizontal stabilizer.\n\nCross Bleed The anti-ice system is capable of being run by either engine. In case of running problems with one engine bleed air producing the required bleed air for anti ice the Cross Bleed (XBLEED) valve can be opened.\n\nEngines/APU The engines are depicted by bitmap images. The Engine Anti-Ice Valve (EAIV) directs bleed air through the engine anti ice. The APU is depicted as a gray shape with a green outline when the engines are running.\n\n5th Edition 02 APR 19 5-107",
+  "token_count_estimate": 329,
+  "chunk_index": 221,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.115455+00:00"
+}

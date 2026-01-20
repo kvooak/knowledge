@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0684",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TOUCH CONTROL STEERING",
+  "page_start": 502,
+  "page_end": 502,
+  "raw_text": "When AP is engaged, pilots are allowed to manually change the airplane state by using the Touch Control Steering (TCS) function, without disengaging the AP. If the Go-Around vertical mode is the active mode, TCS function will not be available. The Flight Guidance applications will synchronize the mode references to the current values while TCS is active for the following list of modes:\n\nTCS Activation Modes\n\nActive Mode Reference\n\nROL Roll Angle\n\nROL Heading\n\nFLCH Airspeed\n\nALT Altitude\n\nFPA Flight Path Angle\n\nVS Vertical Speed\n\nThe respective reference bugs on the PFD are also synchronized for the following modes according to the table below:\n\n5th Edition 8-20 02 APR 19",
+  "token_count_estimate": 143,
+  "chunk_index": 684,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.346379+00:00"
+}

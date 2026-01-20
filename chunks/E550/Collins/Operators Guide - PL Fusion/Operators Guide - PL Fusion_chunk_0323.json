@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0323",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 294,
+  "page_end": 295,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Radar Overlay Pro Line Fusion\u00ae Avionics\n\nN\n\nNOTE\n\nExtending outward from the aircraft symbol is a blanked range area. The size of this blanked range area equals 0.6 NM. The blanked range does not display any WX returns.\n\nThe weather radar overlay is selected on the DU Map Overlay menu.\n\nSELECTIONS:\n\nWXR Colors Detectable weather is shown in up to four colors: green, yellow, red, and magenta. The lowest precipitation rates are shown in green. The highest precipitation rates and detected turbulence are shown in magenta. Refer to the table that follows for details on the relationship between precipitation rates and display colors.\n\nWXR Colors\n\nDisplay Color Precipitation Rate\n\nNo display Less than 0.03 in/hr\n\nGreen 0.03 to 0.15 in/hr\n\nYellow 0.15 to 0.50 in/hr\n\nRed 0.50 to 2.0 in/hr\n\nMagenta 2.0 in/hr and greater\n\nNOTE: Turbulence is also shown in magenta. Turbulence is only shown out to 40 NM, regardless of current selected range.\n\n5th Edition 5-192 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Radar Overlay\n\nPAC Alert Arc The Path Attenuation Compensa- tion (PAC) feature automatically compensates for radar beam absorption by heavier rainfall rates when the WXR is in AUTO mode, GAIN is set to NORM, and GCS is ON. The compensation provided by the PAC alert function can be exceeded. A yellow PAC alert arc is shown at the perimeter of the radar dis- play to identify where the compensation has been exceeded. Areas of unknown rainfall rates may exist beyond the PAC alert arc.\n\nWXR Data Block The WXR data block is shown along the left side of the display above the TCAS data block. A WXR overlay indicator, WXR mode annunciation, receiver gain setting, antenna tilt angle readout or Autotilt mode annunciation, or radar fault message, are all shown in the WXR data block. The WXR data block is shortened to show only the WXR overlay indicator when the WXR overlay is not selected to show.\n\n\u2022 The \ufb01rst line of the WXR data block shows the current WXR overlay selected. The overlay indicator displays WX/LX. WX shows in cyan text when the WXR overlay is enabled, and in white text when the WXR overlay is disabled.\n\n5th Edition 02 APR 19 5-193",
+  "token_count_estimate": 507,
+  "chunk_index": 323,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.172359+00:00"
+}

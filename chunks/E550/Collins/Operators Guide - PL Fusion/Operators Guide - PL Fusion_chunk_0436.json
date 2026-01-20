@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0436",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 375,
+  "page_end": 376,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Database Status Format\n\nThe Database Status format displays information about the installed periodic databases and tables. Periodic databases are databases that are updated on a speci\ufb01ed regular schedule. Tables are any loadable \ufb01les that are not application software or periodic databases.\n\nThe Database Status format displays the database name, status or part number, and begin and end dates of effectivity. Paging control is provided to show more than 20 databases. When an entry is selected for applications that provide additional information, the Database Status Information dialog box shows.\n\n5th Edition 02 APR 19 5-273\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Maintenance Manager Format Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 159,
+  "chunk_index": 436,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.218660+00:00"
+}

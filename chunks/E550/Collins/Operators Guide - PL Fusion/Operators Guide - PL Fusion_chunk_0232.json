@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0232",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 218,
+  "page_end": 219,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Fuel Page Pro Line Fusion\u00ae Avionics\n\nFigure 5-66 Synoptic \u2013 Fuel Page\n\nThe FUEL Synoptic page graphically represents the fuel system. The FUEL Synoptic page is accessed through the Synoptic drop down menu accessed with the SYS QAK. The FUEL Synoptic page displays the two wing tanks, connected to the engines and APU by pumps, \ufb02ow lines, and valves.\n\nSELECTIONS:\n\nFuel Quantities Fuel quantities are depicted by digital readouts for the two wing tanks. A digital readout for the total fuel on board shows at the top of the page, along with a fuel used readout.\n\nFuel Temperatures Fuel temperatures are depicted by digital readouts for the right and left fuel lines for the engines.\n\n5th Edition 5-116 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Hydraulics Page\n\nPumps The fuel pumps are depicted as circles with a white A or B legend. The pumps show with a green outline when operating, and a white outline when not operating.\n\nCross Feed The cross feed is a valve depicted with the XFEED legend. An open valve allows both engines to be fed from one tank.",
+  "token_count_estimate": 265,
+  "chunk_index": 232,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.124575+00:00"
+}

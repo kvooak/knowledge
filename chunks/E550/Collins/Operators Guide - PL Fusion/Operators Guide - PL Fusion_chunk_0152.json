@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0152",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "ADI \u2013 VSPEED REFERENCES Vspeed reference bugs are shown on the airspeed scale as a visual cue of the takeoff and approach speeds. The Vspeed values are selected for display using the VSPEEDS/LFE dialog box or calculated by the FMS and sent to the airspeed tape. When selected for display, the Vspeed value is shown in a speed reference table at the bottom of the airspeed scale along with a reference bug on the airspeed scale. Manually adjusted Vspeed values are shown in cyan, while FMS calculated Vspeed values are shown in magenta. Each reference bug is shown as a horizontal line with a label on the airspeed scale at the associated speed.",
+  "page_start": 140,
+  "page_end": 140,
+  "raw_text": "The V1, VR, V2, and VFS Vspeed values are automatically deselected when above 1500 feet AGL and current airspeed is greater than the highest Vspeed+40 knots. All Approach Vspeeds are removed when on the ground and airspeed transitions from greater than 50 knots to less than 50 knots and then remains less than 50 knots for more than 5 seconds.\n\nWhen any Vspeed is changed manually, the following Vspeeds are changed to match to prevent an invalid Vspeed.\n\nVspeed values are synchronized. When either pilot adjusts the on-side values, the same values are set on both PFDs. FMS Vspeed values are also synchronized so the same values are shown on both PFD panels.\n\nSELECTIONS:\n\nV1 V1 \u2013 Takeoff decision speed. This reference is shown on the ADI airspeed scales as a horizontal line with a 1 legend.\n\n5th Edition 5-38 02 APR 19",
+  "token_count_estimate": 185,
+  "chunk_index": 152,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.078633+00:00"
+}

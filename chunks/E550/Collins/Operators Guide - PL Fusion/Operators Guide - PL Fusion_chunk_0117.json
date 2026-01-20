@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0117",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 107,
+  "page_end": 108,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI Format\n\nThe Attitude Director Indicator (ADI) format provides essential information required for \ufb02ight. The ADI format shows on the full DU1 and DU3 if selected for full-screen display, or in the outboard half of DU1 and DU3 if selected for half-screen display. The ADI format can not be moved or reformatted, but is moved in the event of a display reversion. Refer to the DU Reversion section of the Display Operation chapter of this guide for more information on display reversion.\n\nThe ADI format consists of graphical elements representing primary aircraft parameters. These elements are arranged for clarity and familiarity.\n\n5th Edition 02 APR 19 5-5\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Attitude Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 176,
+  "chunk_index": 117,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.058346+00:00"
+}

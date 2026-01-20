@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0493",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ". A yellow WX FAIL annunciation message is shown in the overlay fault \ufb01eld above the aircraft symbol on the HSI when the Weather Radar (WXR) is not reporting mode information and the weather overlay is selected. The message \ufb02ashes for 5 seconds and then changes to a steady-on state.",
+  "page_start": 404,
+  "page_end": 404,
+  "raw_text": "Weather radar operating mode data is removed when this message is being shown.\n\n5th Edition 6-22 02 APR 19",
+  "token_count_estimate": 24,
+  "chunk_index": 493,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.244354+00:00"
+}

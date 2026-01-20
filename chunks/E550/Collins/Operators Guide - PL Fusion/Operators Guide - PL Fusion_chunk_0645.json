@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0645",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "HALF BANK",
+  "page_start": 487,
+  "page_end": 487,
+  "raw_text": "The Half Bank mode is used to reduce the allowable \ufb02ight guidance commanded bank angle. The maximum \ufb02ight guidance commanded bank angle is 15 degrees when Half Bank mode is active. The Half Bank mode has no effect on Bank (Hold) mode operation.\n\nFigure 8-4 Half Bank Button\n\nPush the BANK button on the Flight Control Panel (FCP) to limit the maximum \ufb02ight guidance commanded bank angle to 15 degrees. When active, a green arc appears on top of the ADI roll scale showing the half bank limits. Push the BANK button again to deselect Half Bank mode for full roll authority.\n\nWhen the autopilot is engaged climbing through 25 000 feet, the system automatically enters Half Bank mode when the autopilot is engaged or the \ufb02ight director is active. When descending below 25 000 feet, Half Bank mode is automatically deselected.\n\nSelection of half bank is inhibited when the following modes are active:\n\n\u2022 LOC\n\n\u2022 VOR Approach\n\n\u2022 FMS Approach\n\n\u2022 Takeoff (TO)\n\n\u2022 Go Around (GA)\n\n\u2022 Emergency Descent.\n\n5th Edition 02 APR 19 8-5",
+  "token_count_estimate": 231,
+  "chunk_index": 645,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.326429+00:00"
+}

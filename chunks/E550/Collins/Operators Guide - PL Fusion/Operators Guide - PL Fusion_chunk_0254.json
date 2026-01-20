@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0254",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 239,
+  "page_end": 240,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 NAV Control\n\nDME Hold DME Hold is a single-state toggle to enable or disable DME hold. The selected DME frequency shows in the frequency window when DME hold is enabled.\n\nMKR MKR is a multi-state toggle to select LO or HI marker beacon sensitivity.\n\nNAV Tuning NAV Tuning is a multi-state toggle to select AUTO or MAN as the NAV tuning mode. AUTO is selected upon power-up, but is disabled when automatic NAV tuning is unavailable.\n\nPreset Frequencies The lower control menu lists the preset frequencies, controlled by a scroll list. The preset frequencies shown is de\ufb01ned by the selection in the FREQ multi-state toggle. Select a preset frequency to set it as the active frequency.\n\nEdit Edit is a pushbutton to show the Edit NAV Preset Frequency dialog box.\n\nTest Test is a pushbutton to initiate a NAV test.\n\n5th Edition 02 APR 19 5-137\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 Edit NAV Preset Frequencies Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 233,
+  "chunk_index": 254,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.138261+00:00"
+}

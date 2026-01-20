@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0252",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 237,
+  "page_end": 238,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 Edit COM User Preset Frequencies\n\nSet Frequency The SET FREQUENCY window provides tuning control for the user preset frequencies. Select the frequency in the window to edit it.\n\nDe\ufb01ne Name The DEFINE NAME window provides control to edit the shown name for the user preset frequencies. Select the De\ufb01ne Name window to edit its contents.\n\nReturn to VHF CTRL\n\nSelect the RETURN TO COMX CTRL pushbutton to close the Edit COM User Preset Frequencies window. The Edit COM User Frequencies window may also be closed by selecting the gray X pushbutton in the upper right corner.\n\n5th Edition 02 APR 19 5-135\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 NAV Control Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 174,
+  "chunk_index": 252,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.136576+00:00"
+}

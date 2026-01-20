@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0326",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 298,
+  "page_end": 298,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 MAP \u2013 Vertical Weather Pro Line Fusion\u00ae Avionics\n\nN\n\nNOTE\n\nA white RADAR RANGE XXX NM message is shown and the weather radar overlay is removed if the weather radar range is a different range than the currently shown on-side range for more than 5 seconds. The XXX part of the message represents the actual range the weather radar is currently reporting as selected. This message can be removed by deselecting the weather radar from display.",
+  "token_count_estimate": 110,
+  "chunk_index": 326,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.174027+00:00"
+}

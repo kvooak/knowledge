@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0659",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "BACK COURSE MODE",
+  "page_start": 492,
+  "page_end": 492,
+  "raw_text": "The Back Course (BC) generates FD/AP commands to capture and track the back course localizer. The Back Course mode is automatically selected by the FG when ILS is the active navigation source, the APPR button is pushed on the FCP and course error is higher than 100 degrees. The Back Course mode uses the same data and control laws as the Localizer mode, but using the negative localizer deviation signal.\n\nTo set up a B/C, accomplish the following:\n\n1. Set the NAV source with controls on the COM/NAV SRC dialog box on the PFD Task Menu.\n\n2. Set the NAV (LOC) source frequency with the DU TUNE format window or the NAV button on the MKP.\n\n5th Edition 8-10 02 APR 19",
+  "token_count_estimate": 158,
+  "chunk_index": 659,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.332580+00:00"
+}

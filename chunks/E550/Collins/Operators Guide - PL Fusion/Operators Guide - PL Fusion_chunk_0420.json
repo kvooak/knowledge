@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0420",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "DU \u2013 UNIVERSAL GRAPHICAL WEATHER FORMAT The Universal Graphical Weather (GWX) MFW format displays uplinked weather information. Universal GWX is referred to as Datalink (DLK) in this guide and the on-screen menus. The information used for the XM GWX format is received through a satellite data link receiver.",
+  "page_start": 362,
+  "page_end": 362,
+  "raw_text": "The DLK GWX format displays a banner across the bottom of the weather image. The banner displays the region, product short name, valid date and time of the image, and age of the image.\n\nThe DLK GWX can show the following weather images:\n\n\u2022 NEXRAD\n\n\u2022 Tops and movement\n\n\u2022 Weather depiction (ceiling/visibility summary)\n\n5th Edition 5-260 02 APR 19",
+  "token_count_estimate": 78,
+  "chunk_index": 420,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.211929+00:00"
+}

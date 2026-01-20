@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0356",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 319,
+  "page_end": 319,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics DU \u2013 Chart Format\n\nOTHER OTHER is a pushbutton to access the Other Airport Chart menu. The Other airport is entered by the operator with the MKP in the Data Entry window. If no Other airport has been entered, selection of the OTHER button brings up the Data Entry window.\n\nBROWSE BROWSE is a DSK icon to show that the outer knob of the DSK may be used to browse through the various instrument approach/departure plates for the selected airport.\n\nZOOM ZOOM is a DSK icon to show that the inner knob of the DSK may be used to zoom in or zoom out the current chart.\n\nRWY RWY is a single stage toggle control for the Target Runway Identi\ufb01cation function of the optional Surface Management System (SMS). The RWY button is inactive if the runway reference conditions are unavailable.\n\nPan Control The pan control is a button with a hand symbol on it. The pan control is a single-state toggle (toggle on/toggle off), and times out (toggle off) after 2 seconds. When the chart is zoomed completely out (or the Fit control on the Chart Task menu was selected) and the pan control is toggled on, moving the cursor instead pans the current chart.\n\nChart Status Line The Chart Status Line displays the ICAO code for the airport associated with the currently shown chart, the chart index number, the chart short title, and Chart messages. The Chart messages include:\n\n5th Edition 02 APR 19 5-217",
+  "token_count_estimate": 336,
+  "chunk_index": 356,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.185300+00:00"
+}

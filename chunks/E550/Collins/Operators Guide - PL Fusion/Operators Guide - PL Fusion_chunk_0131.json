@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0131",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 120,
+  "page_end": 121,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 ADI \u2013 Attitude Pro Line Fusion\u00ae Avionics\n\n\u2022 The following information is kept when an ADI is decluttered:\n\n\u2022 Airspeed (IAS tape, Mach digital readout, airspeed trend vector, overspeed Indication, low speed indication, and IAS fail \ufb02ag)\n\n\u2022 Attitude (aircraft symbol, sky/ground indication, horizon line, pitch tape, roll scale, roll pointer, and slip/skid indicator)\n\n\u2022 Altitude (altitude tape, altitude trend vector, altitude fail \ufb02ag, barometric pressure readout, and barometric pressure legend)\n\n\u2022 Vertical speed (vertical speed and vertical speed fail \ufb02ag)\n\n\u2022 Direction (compass, current heading readout, and heading fail \ufb02ag)\n\n\u2022 Unusual attitude component\n\n\u2022 Flight Mode Annunciation (FMA) \ufb01eld (AP engage/disengage, AT active/disengage, and couple arrow)\n\n\u2022 TAWS \ufb01eld (terrain alert map, HSI range rings, and range readout).\n\n5th Edition 5-18 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Altitude",
+  "token_count_estimate": 195,
+  "chunk_index": 131,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.064799+00:00"
+}

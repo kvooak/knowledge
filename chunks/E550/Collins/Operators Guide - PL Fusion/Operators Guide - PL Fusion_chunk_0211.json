@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0211",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 195,
+  "page_end": 196,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics EICAS Format\n\nThe Engine Indication and Crew Alert System (EICAS) format provides essential engine and aircraft information. In normal operation, the EICAS format shows in the DU 2 Upper position, and cannot be moved.\n\nWhen reversionary mode is selected with the EICAS button on the RSP, the EICAS display is moved to the bottom of the PFD, with the Engine Indicating System (EIS) showing left of the HSI, and the Crew Alerting System (CAS) showing right of the HSI. Each side may place the EIS information on the on-side PFD. The following information is provided:\n\n\u2022 Engine parameters\n\n\u2022 Fuel quantities\n\n\u2022 Aircraft con\ufb01guration\n\n\u2022 Trim information\n\n\u2022 Crew Alerting System (CAS) message list.\n\nSELECTIONS:\n\nN1 The Engine Fan/Low Pressure Compressor (N1) display consists of analog scales, digital readouts, and command bugs for the N1 values, as well as V bugs and digital readouts for the target N1 rating.\n\n\u2022 Analog scale \u2013 The N1 analog scale shows as a white arc. A green pointer displays the current N1 value.\n\n5th Edition 02 APR 19 5-93\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 EICAS Format Pro Line Fusion\u00ae Avionics\n\n\u2022 N1 digital readout \u2013 The N1 digital readout displays the current N1 in green in the center of the N1 scale.\n\n\u2022 Command arc \u2013 A cyan arc is shown on the N1 scale at the current N1 command throttle position.\n\n\u2022 Target N1 mode \u2013 The inverse yellow or cyan target N1 mode is shown above the white N1 legend.\n\n\u2022 Target N1 bug \u2013 A V shaped bug is shown on the N1 scale at the target N1 rating. The target N1 bug shows in cyan when either an automatic or a manual thrust mode is selected.\n\n\u2022 Target N1 digital readout \u2013 The target N1 digital readout displays the target N1 rating above each N1 gauge. The target N1 digital readout shows in cyan when either an automatic or a manual thrust mode is selected.\n\n\u2022 Engine status \u2013 The engine status may be shown on top of the analog N1 gauges. Possible status indications include a cyan OFF, green RSV, or inverse yellow FAIL.\n\n\u2022 N1 Redline \u2013 The N1 scale includes a red line to mark the maximum N1 of the engine.\n\n\u2022 Max Thrust Reference \u2013 The max thrust reference is the green tick mark on the arc.\n\nITT The ITT display consists of analog scales and digital readouts for each engine, on either side of a white ITT legend.\n\n5th Edition 5-94 02 APR 19",
+  "token_count_estimate": 567,
+  "chunk_index": 211,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.110019+00:00"
+}

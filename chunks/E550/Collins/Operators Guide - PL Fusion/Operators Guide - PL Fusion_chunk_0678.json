@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0678",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 499,
+  "page_end": 499,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 AFCS OPERATION Pro Line Fusion\u00ae Avionics Vertical Modes\n\n3. Operate the DN\u2195UP wheel on the FCP to set the VS reference, shown in the VS readout. A vertical speed reference bug is also shown on the vertical speed scale on the ADI at the selected vertical speed. The bug is shown in cyan when it is manually selected with the DN\u2195UP wheel. A green VS message is shown in the AFCS vertical active \ufb01eld on the displays. The vertical speed reference value XXXX along with a plus (+) or minus (\u2212) is shown in the vertical capture \ufb01eld on the displays when the VS mode is active. The Target Vertical Speed is shown with an up arrow for Positive vertical speed targets and a down arrow for negative vertical speed targets. The Target Vertical Speed value is always displayed in Cyan. On EEJ there is no vertical capture \ufb01eld on the FMA, the Target Vertical Speed is displayed above the vertical speed scale. The value is shown in green when it is manually selected with the DN\u2195UP wheel. When in VS mode, the AT controls airspeed when engaged.\n\nThe VS mode is automatically deselected when selection or capture of another vertical mode occurs. Vertical Speed mode behaves the same during TCS regardless of whether or not the Autopilot is engaged. Selection of the VS mode is inhibited when one of the modes that follow are active:\n\n\u2022 Overspeed mode with an overspeed condition.\n\nThe VS reference is synced to the current vertical speed and of the following occur:\n\n\u2022 VS mode activation\n\n\u2022 VS Mode changes to FPA Mode when the AP is engaged\n\n\u2022 Either of the TCS buttons are pushed\n\n\u2022 While \ufb02y-by-wire Overspeed mode is active.",
+  "token_count_estimate": 383,
+  "chunk_index": 678,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.342830+00:00"
+}

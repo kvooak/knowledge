@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0325",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 297,
+  "page_end": 297,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Radar Overlay\n\nWX ON GROUND Message\n\nWhen any mode other than STBY or TEST is selected and it is more than 35 seconds after an air-to-ground transition (with weight on wheels), the message WX ON GROUND is shown in white in the \ufb01rst line of the WXR data block to indicate that the weather radar is transmitting. The message is also shown when any mode other than STBY or TEST is selected, it is more than 3 seconds after power up, and there is weight on wheels.\n\nWeather Radar Display Range\n\nWeather radar data is available with selected ranges up to 300 NM. If the display range is at a value greater than 300 NM when the pilot selects the weather radar overlay, the display range is automatically reduced to 300 NM. When the weather radar overlay is active, selection of ranges greater than 300 NM causes the WXR overlay to be removed from the display. The range control on the DU Map or HSI is used to set the display ranges.\n\nN\n\nNOTE\n\nExtending outward from the aircraft symbol is a blanked range area. The size of this blanked range area equals 0.6 NM. The blanked range does not display any Weather Radar returns.\n\nN\n\nNOTE\n\nRadar returns can be shown out to a range of 300 NM. When the WXR overlay is active, selection of ranges greater than 300 NM causes the WXR overlay to be removed from the display.\n\n5th Edition 02 APR 19 5-195",
+  "token_count_estimate": 341,
+  "chunk_index": 325,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.173583+00:00"
+}

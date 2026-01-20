@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0750",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 536,
+  "page_end": 537,
+  "raw_text": "APPENDIX B Embraer Legacy 450/500 and Praetor 500/600 TCAS Aurals Pro Line Fusion\u00ae Avionics\n\nAdvisory Aural Response\n\nMONITOR VERTICAL SPEED Be alert for approaching traf\ufb01c. Ensure that the aircraft pitch attitude or vertical speed does not enter the red zone on the attitude display or vertical speed scale.\n\nMAINTAIN VERTICAL SPEED MAINTAIN Maintain present pitch or vertical speed and direction. Ensure that the aircraft pitch or vertical speed does not enter the red zone on the attitude display or vertical speed scale.\n\nMAINTAIN VERTICAL SPEED CROSSING MAINTAIN\n\nA \ufb02ight path crossing is predicted, but being monitored by TCAS. Maintain present pitch or vertical speed and direction. Ensure that the aircraft pitch or vertical speed does not enter the red zone on the attitude display or vertical speed scale.\n\nPreventive RA\n\nLEVEL OFF, LEVEL OFF Reduce vertical speed to zero feet per minute. A green arc is illuminated beginning at zero feet per minute.\n\n5th Edition B-2 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 APPENDIX B Pro Line Fusion\u00ae Avionics TCAS Aurals\n\nAdvisory Aural Response\n\nCLIMB, CLIMB Change vertical speed to 1500 ft/min climbing or as indicated on attitude display or vertical speed scale.\n\nCLIMB, CROSSING CLIMB CLIMB, CROSSING CLIMB\n\nSame as previous except that it further indicates that \ufb02ight paths cross at some altitude.\n\nDESCEND, DESCEND Same as CLIMB except that a descending vertical speed is indicated.\n\nDESCEND, CROSSING DESCEND DESCEND, CROSSING DESCEND\n\nSame as previous except that it further indicates that \ufb02ight paths cross at some altitude.\n\nCorrective RA\n\nLEVEL OFF, LEVEL OFF Reduce vertical speed to zero feet per minute. A green arc is illuminated beginning at zero feet per minute.\n\n5th Edition 02 APR 19 B-3",
+  "token_count_estimate": 364,
+  "chunk_index": 750,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.393758+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0387",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 342,
+  "page_end": 342,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 XM Graphical Weather Format Pro Line Fusion\u00ae Avionics\n\nIf the aircraft system time is not available to determine the chart currency, the yellow CHECK DATE message shows on the right end of the chart status line.\n\nFigure 5-147 Chart \u2013 No Aircraft Symbol\n\nThe no-aircraft symbol (a yellow aircraft with white circle and slash) shows to the right of the chart status line if the FMS position, true heading, or magnetic variation data is missing. For non-WGS84 compliant charts, a green no-aircraft symbol shows.",
+  "token_count_estimate": 120,
+  "chunk_index": 387,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.196339+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0688",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 504,
+  "page_end": 504,
+  "raw_text": "AFCS OPERATION Embraer Legacy 450/500 and Praetor 500/600 Approach Modes Pro Line Fusion\u00ae Avionics\n\n1. APPR 2 ILS is displayed as armed on the top left of the FMA. At the same time, LOC and Glideslope (GS) modes are armed on the lateral and vertical axis, respectively.\n\n2. Once the airplane is suf\ufb01ciently close to the localizer beam, LOC mode will activate and will command the capture and tracking of the beam.\n\n3. Then, if the airplane is suf\ufb01ciently close to the GS beam, GS mode will activate on the vertical axis and command the capture and tracking of the GS beam. APPR 2 will still be armed if the airplane is not below 1500 ft ratio altitude.\n\n4. With GS and LOC modes active, APPR 2 ILS will be activated, and the AFGS will start to operate in dual lane con\ufb01guration, once the airplane has reached a radio altitude lower than 1500 ft (and higher than 800 ft).",
+  "token_count_estimate": 206,
+  "chunk_index": 688,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.347922+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0549",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 432,
+  "page_end": 433,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 GUI Elements Pro Line Fusion\u00ae Avionics\n\n\u2022 A single-state toggle control is represented by a check box, and is used for any situation where a function has two possible control states, ON or OFF. Position the cursor over the DU single-state toggle and select it to turn the associated function ON or OFF.\n\n\u2022 A multi-state toggle is represented by a set of radio buttons, and is used for any function where there is more than one control state and only one of the states can be active at a time. Position the cursor over an option on the DU multi-state toggle and select it to enable the associated function.\n\n\u2022 Enumerated data entry is used for any function where a value must be entered and the selection is from a limited set of prede\ufb01ned values. Each enumerated data entry element has limits and increments de\ufb01ned by its GUI. Position the cursor over the DU enumerated data entry and use the DSK to change the value.\n\n5th Edition 7-22 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 DISPLAY OPERATION Pro Line Fusion\u00ae Avionics GUI Elements",
+  "token_count_estimate": 252,
+  "chunk_index": 549,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.273261+00:00"
+}

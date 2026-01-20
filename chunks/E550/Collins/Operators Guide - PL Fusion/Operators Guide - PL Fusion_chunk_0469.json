@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0469",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 392,
+  "page_end": 392,
+  "raw_text": "MESSAGES AND ANNUNCIATORS Embraer Legacy 450/500 and Praetor 500/600 Visual Annunciations Pro Line Fusion\u00ae Avionics\n\nEach ADI compares the airspeed data from the on-side Air Data System (ADS) to the airspeed data from the cross-side ADS full-time. When the difference between the two airspeed values is greater than 10 knots, a boxed yellow IAS airspeed comparator \ufb02ag is shown above the airspeed tape. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\nThe indicated airspeed comparator is disabled if:\n\n\u2022 Any ADS is failed\n\n\u2022 On-side indicated airspeed is less than 90 knots\n\n\u2022 A common air data source is selected.\n\nADI: Altitude Comparator Flag",
+  "token_count_estimate": 141,
+  "chunk_index": 469,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.232127+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0196",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "VSPEEDS / LFE DIALOG BOX",
+  "page_start": 184,
+  "page_end": 184,
+  "raw_text": "Figure 5-43 PFD Vspeed Compressed Dialog Box\n\nFigure 5-44 PFD Vspeed Dialog Box\n\nThe VSPEEDS/LFE dialog allows the pilots to manually input the takeoff and landing Vspeeds so airspeed bugs can be displayed on the airspeed tape, and to manually set the Landing Field Elevation (LFE) used by the pressurization system. The airspeed bugs have\n\n5th Edition 5-82 02 APR 19",
+  "token_count_estimate": 79,
+  "chunk_index": 196,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.104195+00:00"
+}

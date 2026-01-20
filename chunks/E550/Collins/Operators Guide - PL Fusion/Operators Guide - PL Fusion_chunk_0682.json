@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0682",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 501,
+  "page_end": 502,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 AFCS OPERATION Pro Line Fusion\u00ae Avionics Vertical Modes\n\nSynchronized References\n\nBefore OVSP Activation After OVSP Deactivation Reference Synchronization\n\nALT FPA Current FPA\n\nASEL FPA Current FPA\n\nFLCH FLCH Not Applicable\n\nFPA FPA Current FPA\n\nGA FPA Current FPA\n\nGS FPA Current FPA\n\nTO FPA Current FPA\n\nVNAV FPA Current FPA\n\nVS VS Current VS\n\nOn the lateral axis, the FBW system will control the airplane wings level while OVSP protection is active. After OVSP protection deactivation, the lateral modes will be de\ufb01ned according to the following table.\n\nLateral References\n\nBefore OVSP Activation After OVSP Deactivation\n\nROLL ROLL\n\nHDG HDG\n\nTRK ROLL\n\nLOC ROLL\n\nBC ROLL\n\nVOR ROLL\n\nLNAV LNAV\n\n5th Edition 02 APR 19 8-19\n\nAFCS OPERATION Embraer Legacy 450/500 and Praetor 500/600 Vertical Modes Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 175,
+  "chunk_index": 682,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.345525+00:00"
+}

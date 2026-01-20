@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0101",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 93,
+  "page_end": 93,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 CONTROLS AND INDICATORS Pro Line Fusion\u00ae Avionics Reversion Switch Panel\n\nCALLOUTS:\n\n(LH/RH/CTR/ LWR) DU Display Control Knobs\n\nLH DU, CTR DU, RH DU, and LWR DU knobs provide individual dimming control for each of the display units. Turning a dimming control clockwise increases the display brightness. Turning a control fully counterclockwise turns the associated display off. When a dimming control turns a display off, automatic reversion for the remaining displays is invoked so that dual PFDs and an EICAS are retained.\n\nTUNE The TUNE inhibit switch is a three position switch with positions labeled NORM, L/R MKP ONLY, and COM1/2 121.5. The NORM position is the normal operating position when the radio tuning system is functioning properly. It allows for display tuning of the radios. Selection of the L/R MKP ONLY position inhibits tuning by the displays. Selection of the COM 1/2 121.5 position bypasses the system tuners and forces the COM1 or 2 VHF radio to directly tune to the 121.50 MHz emergency frequency.\n\nADS PFD Air Data Source Reversion\n\nThe ADS button provides a means to manually change the ADS source for the left and right PFD.\n\nATT HDG Attitude/Heading Source Control Buttons\n\nThe ATT HDG button provides a means to manually change the attitude and heading source for the PFD. The left PFD normally uses IRS1, and the right normally uses IRS2. Pushing the button cycles between IRS1 and IRS2.\n\n5th Edition 02 APR 19 4-25",
+  "token_count_estimate": 318,
+  "chunk_index": 101,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.049889+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0229",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 215,
+  "page_end": 216,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Synoptic \u2013 Flight Control Page\n\nFigure 5-64 Synoptic \u2013 Flight Control Ground Page\n\nThe FLIGHT CONTROLS Synoptic page graphically represents the \ufb02ight controls. The FLIGHT CONTROLS Synoptic page is accessed through the Synoptic drop down menu accessed with the SYS QAK. The synoptic page provides a list of control surfaces at the bottom of the page. The list includes rudder, elevator, aileron, and spoiler. On the ground horizontal stabilizer and \ufb02ap indications are added. Square boxes indicate each control surface. Filled square means it is in operation currently. Un\ufb01lled squares depict a control surface not in operation currently. Green indicators depict a properly working control surface, while yellow indicators depict a malfunctioning control surface.\n\nSELECTIONS:\n\nAilerons The ailerons are depicted by icons on the wings. The icons are green when functioning properly, and turn into yellow X when not functioning properly. The ailerons are also indicated on either side of an AILERON legend.\n\n5th Edition 02 APR 19 5-113\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Synoptic \u2013 Flight Control Page Pro Line Fusion\u00ae Avionics\n\nSpoilers The spoilers are depicted by rectangular icons above the wings with position pointers. Green rectangles indicate spoilers are working correctly, yellow rectangles with a X indicate they are not working correctly, and no rectangle indicates the Synoptic page is not receiving inputs. Spoilers are also indicated on either side of a SPOILER legend.\n\nFlaps The \ufb02aps are depicted on the ground by a white FLAPS legend between two squares. The actual position of the \ufb02aps show beside the squares as well.\n\nElevators The elevators are depicted by icons on the tail surfaces. Green rectangles indicate the elevator is working correctly, yellow rectangles with a X indicate they are not working correctly, and no rectangle indicates the Synoptic page is not receiving inputs. The elevator is also indicated on either side of an ELEVATOR legend.\n\nRudder The rudder is depicted by a rectangular icon on the tail. Green rectangles indicate the rudder is working correctly, yellow rectangles with a X indicate they are not working correctly, and no rectangle indicates the Synoptic page is not receiving inputs. The rudder is also indicated on either side of an RUDDER legend.\n\n5th Edition 5-114 02 APR 19",
+  "token_count_estimate": 499,
+  "chunk_index": 229,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.122587+00:00"
+}

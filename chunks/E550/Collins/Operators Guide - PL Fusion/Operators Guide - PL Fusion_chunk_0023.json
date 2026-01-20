@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0023",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "INTRODUCTION",
+  "page_start": 21,
+  "page_end": 21,
+  "raw_text": "This guide describes the components and operation of the Pro Line Fusion\u00ae Avionics System for the Embraer Legacy 450/500 aircraft. The general operational information in this guide must be supplemented with information contained in the Aircraft Flight Manual for the Embraer Legacy 450/500 and the following major subsystem publications:\n\n\u2022 Rockwell Collins Embraer Legacy 450/500 Flight Management System Operator\u2019s Guide (CPN 523-0818863).\n\n\u2022 Rockwell Collins RTA-4100 Series MultiScan\u2122Automatic Weather Radar Operator\u2019s Guide (CPN 523-0816797).\n\n\u2022 Rockwell Collins ATN and FANS Harmonized CPDLC Application Operator\u2019s Guide (CPN 523-0822822).\n\nAn overview of each of the major Rockwell Collins avionics subsystems that make up the Pro Line Fusion Avionics System follows this introduction. Information about the operation of the displays is contained in the appropriate operation chapters that follow the overview chapters. The Controls and Indicators chapter covers the control panels and display controls the pilot uses in operating the on-board systems. Information regarding messages, annunciations, and \ufb02ags that require action from the pilot, or that indicate a malfunction or failure of a system, is contained in the Messages and Annunciators chapter. Further information is found in the appendixes. These include:\n\n\u2022 Appendix A: Exploded Menu Trees \u2014 Gives an exploded view of the PFD menu (full screen and compressed), Display Unit main menu, and FMS map main menus.\n\n\u2022 Appendix B: TCAS Aurals \u2014 Gives a description of each of the TCAS callouts for traf\ufb01c separation.\n\n\u2022 Appendix C: CPDLC \u2014 Gives a description of the CPDLC/ATN interface.\n\n5th Edition 02 APR 19 1-1",
+  "token_count_estimate": 327,
+  "chunk_index": 23,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.007086+00:00"
+}

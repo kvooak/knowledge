@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0340",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 308,
+  "page_end": 309,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Vertical Situation Display Pro Line Fusion\u00ae Avionics\n\nFigure 5-119 Map \u2013 VSD (Flight Plan Vertical Data)\n\nWhen available from the FMS, vertical \ufb02ight plan data shows. Altitude constraints show as triangles with digital readouts.\n\nFigure 5-120 Map \u2013 VSD (Flight Plan De-emphasized)\n\nIf the VSD is using Track as the lateral reference and the FD mode is HDG, TO, APPR, or GA, the \ufb02ight plan data on the VSD is de-emphasized.\n\n5th Edition 5-206 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Vertical Situation Display\n\nFigure 5-121 Map \u2013 VSD (Approach)\n\nApproach data shows on the VSD as a Final Approach Fix (FAF) and approach feather. Display of vertical \ufb02ight plan data is inhibited between the FAF and the runway. A level-segment from the FAF to the Missed Approach Waypoint (MAPW) shows to provide guidance in the event that geometric vertical guidance (ILS, LDA with glideslope, RNAV/LPV) is not captured. The transition to geometric vertical guidance requires selection of the APPR key on the FCP. If the \ufb02ight plan shown on the VSD has a precision approach procedure, a P displays on the FAF line.\n\nFigure 5-122 Map \u2013 VSD (Departure Obstacle)\n\nDeparture data on the VSD can include TOLD obstacles. When the pilot enters a valid TOLD obstacle de\ufb01nition in the FMS, a TOLD obstacle symbol shows if the obstacle is in range.\n\n5th Edition 02 APR 19 5-207",
+  "token_count_estimate": 325,
+  "chunk_index": 340,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.178952+00:00"
+}

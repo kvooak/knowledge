@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0547",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "GUI ELEMENTS",
+  "page_start": 429,
+  "page_end": 429,
+  "raw_text": "This section describes the operation of the Graphic/User Interface (GUI) used on the AFD screens, hereafter referred to as the Display Unit (DU).\n\n\u2022 The DU format window displays information to the operator and provides GUI control objects that allow the operator to interact with the information provided in the window. Each format type, for example maintenance, charts, or checklists, speci\ufb01es what information is presented and how the operator interacts with the information.\n\n\u2022 A DU information box provides task-related information with no GUI controls.\n\n5th Edition 02 APR 19 7-19",
+  "token_count_estimate": 118,
+  "chunk_index": 547,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.272421+00:00"
+}

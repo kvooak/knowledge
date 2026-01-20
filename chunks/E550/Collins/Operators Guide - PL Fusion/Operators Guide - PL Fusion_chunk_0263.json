@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0263",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TUNING \u2013 EDIT ADF PRESET FREQUENCIES",
+  "page_start": 246,
+  "page_end": 246,
+  "raw_text": "Figure 5-85 Tuning \u2013 Edit ADF Preset Frequencies\n\nThe Edit ADF Preset Frequencies submenu provides controls to manage and edit user preset ADF frequencies. The Edit ADF Preset Frequencies submenu is accessed by pushing the EDIT pushbutton on the ADF Control menu.\n\nSELECTIONS:\n\nSelect ADF Fre- quency\n\nThe Select ADF Frequency list displays the currently stored ADF preset frequencies. The user can select frequencies for editing and scroll the list with the inner knob on the DSK.\n\nSet Frequency The Set Frequency window provides tuning control for the ADF preset frequencies. Select the frequency in the window to edit it.\n\n5th Edition 5-144 02 APR 19",
+  "token_count_estimate": 137,
+  "chunk_index": 263,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.144319+00:00"
+}

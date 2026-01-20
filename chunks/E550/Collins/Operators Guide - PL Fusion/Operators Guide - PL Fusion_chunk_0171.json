@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0171",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 159,
+  "page_end": 160,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics HSI Format\n\nFigure 5-26 HUD \u2013 Heading/Navigation Indicators\n\nThe HSI has 3 states of operation:\n\n\u2022 CDI indications with overlays.\n\n\u2022 FMS map indications with overlays.\n\n\u2022 Clean HSI: All overlays removed.\n\nThe Horizontal Situation Indicator (HSI) format on the DU is a compass rose that shows heading, course, and track information. The HSI provides lubber line heading, a heading readout, selected heading bug, compass reference marks, course pointer, lateral deviation bar, scale, and to/from arrow. Pilot and copilot-side bearing pointers are available for display. A white aircraft symbol is shown in the center of the HSI. Weather Radar, Lightning, and TCAS Traf\ufb01c overlays can be shown on the HSI display. The DCP HSI button toggles between these three states. The clean HSI quickly removes all the overlays to\n\n5th Edition 02 APR 19 5-57\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 HSI Format Pro Line Fusion\u00ae Avionics\n\nprovide a clean presentation of just the navigation indications. FMS map indications are available when FMS is the navigation source on the HSI, they are not available when VOR/LOC is the navigation source.\n\nThe HUD shows a simpli\ufb01ed version of the HSI with many of the same heading and navigation indications.\n\nSELECTIONS:\n\nNAV Source Data Block\n\nThe NAV source data block displays information relative to the active NAV source. Each side of the cockpit may independently select a NAV source. The NAV source data block indicates the selected NAV source, the next FMS waypoint or NAVAID frequency or ID, the course desire/track readout, Time To Go (TTG) to the waypoint or NAVAID, and distance to the waypoint or NAVAID.\n\n\u2022 The NAV source is selected with controls in the NAV Source Dialog Box on the PFD Task Menu or via the FMS and V/L buttons on the DCP. The selected NAV source drives the on-side navigation displays. The NAV source data block is shown in the upper left corner of the HSI format. The NAV source color is:\n\n\u2022 Green for a VOR/LOC on-side NAV source\n\n\u2022 Magenta for FMS on-side NAV source or third FMS\n\n\u2022 Yellow for a cross-side NAV source.\n\n\u2022 The ID line automatically changes to show the waypoint name, NAVAID frequency, or NAVAID ID based on the currently selected NAV source.\n\n5th Edition 5-58 02 APR 19",
+  "token_count_estimate": 513,
+  "chunk_index": 171,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.091386+00:00"
+}

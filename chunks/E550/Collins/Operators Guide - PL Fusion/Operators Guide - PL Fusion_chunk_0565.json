@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0565",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "DU MEMORIZED CONFIGURATIONS",
+  "page_start": 445,
+  "page_end": 445,
+  "raw_text": "The memorized con\ufb01gurations function provides controls to select user-speci\ufb01ed DU con\ufb01gurations. The memorized con\ufb01gurations function provides nine user-speci\ufb01ed memorized con\ufb01gurations. The memorized con\ufb01gurations function is accessed by pushing the MEM and numeric keys on the MKP. There are nine total con\ufb01gurations available: three OEM and six crew selectable. All four DU panels must be operational, and the DISPLAY SELECT switch on the RSP can not be in the OFF position to use the memorized con\ufb01gurations function. If the MEM key is pushed while these conditions are not true, a SELECTION INACTIVE message displays on the on-side HSI.\n\n\u2022 Memorized Con\ufb01guration Content: Each memorized con\ufb01guration retains the following items:\n\n\u2022 All selected window formats and sizes for each DU.\n\n\u2022 PFD and HSI con\ufb01gurations.\n\n\u2022 Map formats and overlays.\n\n\u2022 Synoptic and CNS window formats.\n\n5th Edition 02 APR 19 7-35",
+  "token_count_estimate": 182,
+  "chunk_index": 565,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.280603+00:00"
+}

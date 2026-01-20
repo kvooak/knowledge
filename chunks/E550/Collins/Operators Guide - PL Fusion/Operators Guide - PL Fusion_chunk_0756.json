@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0756",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "CPDLC/ADS-C INTRODUCTION",
+  "page_start": 541,
+  "page_end": 541,
+  "raw_text": "The Controller/Pilot Datalink Communication (CPDLC) implementation is based on digital datalink communication between the aircraft and an Air Traf\ufb01c Control (ATC) center through either the Aeronautical Telecommunications Network (ATN) or the Future Air Navigation System (FANS) which rely on the Aircraft Communications Addressing and Reporting System (ACARS) network, depending on where the aircraft is located. Routine ATC instructions and requests previously performed by voice communications can now be transmitted using CPDLC.\n\nThe Automatic Dependent Surveillance \u2013 Contract (ADS-C) is a means of airborne surveillance (de\ufb01ned within FANS 1/A+) in which an airplane function reports its current position, intent, and other pertinent information via the data link function to an ATC facility\n\nN\n\nNOTE\n\nThis ATN Operator\u2019s Guide appendix is not a training manual. It is meant to provide the user instructions on how to access the ATN, generic eCDU \ufb01eld inputs, and \ufb02ight deck message annunciations.\n\n\u0002 CAUTION\n\nSome aircraft operators can have special procedures that are different from those covered in this appendix. Refer to the applicable Aircraft Flight Manual (AFM) and FAA/ICAO Operations Speci\ufb01cations for instructions speci\ufb01c to your aircraft.",
+  "token_count_estimate": 236,
+  "chunk_index": 756,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.395905+00:00"
+}

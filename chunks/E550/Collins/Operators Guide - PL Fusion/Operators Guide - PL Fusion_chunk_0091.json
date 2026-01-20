@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0091",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 84,
+  "page_end": 84,
+  "raw_text": "CONTROLS AND INDICATORS Embraer Legacy 450/500 and Praetor 500/600 Flight Control Panel Pro Line Fusion\u00ae Avionics\n\nFPA Flight Path Angle Rotary Knob\n\nThe FPA rotary knob is used to adjust the FPA reference when the mode is FPA. In any other vertical modes rotating the FPA knob displays the FPA cue on the ADI (and optional HUD) as a visual reference.\n\nFPA Push to View\n\nThe FPA Push to View button displays the FPA cue on the ADI (and HUD, if installed) as a visual reference. This FPA reference is particularly useful during an approach. If an ILS approach is loaded in the FMS, the \ufb01rst push of the button provides the FPA cue on the ADI, in magenta, set to the glideslope angle. This Approach Path Angle displays in magenta to differentiate it from a manually set FPA reference which is cyan in color. The second push displays the cyan FPA cue, which can be set manually. The third push removes the FPA cue from the ADI and HUD.\n\nDN\u2195UP Vertical Reference Thumbwheel\n\nThe Vertical Speed Thumb Wheel enables changing the VS reference when VS mode is active. It changes the vertical speed reference in \u00b1100 ft/min and show it on the PFD.\n\nV/S Vertical Speed/ Flight Path Angle Mode Select Button\n\nThe VS selects and deselects the Vertical Speed mode. When in vertical speed mode, the AFCS initially generates commands to maintain the vertical speed that exists when the mode is selected.\n\n5th Edition 4-16 02 APR 19",
+  "token_count_estimate": 325,
+  "chunk_index": 91,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.044543+00:00"
+}

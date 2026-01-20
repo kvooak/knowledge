@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0566",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 446,
+  "page_end": 446,
+  "raw_text": "DISPLAY OPERATION Embraer Legacy 450/500 and Praetor 500/600 DU Con\ufb01guration and Reversion Pro Line Fusion\u00ae Avionics\n\n\u2022 Memorized Con\ufb01guration Storage: Each of the nine memorized con\ufb01gurations may be con\ufb01gured by the user. However, the names of the nine con\ufb01gurations may not be changed. To store the present DU con\ufb01guration, push and hold the MEM key on the MKP. The on-side MKP scratchpad shows MEM STORE 4-9, and the MEM STORE information box shows on the on-side HSI.\n\n\u2022 Push a number key (4-9) on the MKP to store the present DU con\ufb01guration. This removes the MEM STORE information box, and MEM # STORED shows on the MKP for 3 seconds, where the # character is the number of the stored con\ufb01guration. Push the MEM key without pushing a number to cancel.\n\n\u2022 Memorized Con\ufb01guration Recall: To recall a memorized con\ufb01guration, push the MEM key on the MKP. The on-side MKP scratchpad shows MEM RECALL 1-9, and the MEM RECALL information box shows on the on-side HSI.\n\n\u2022 Push a number key (1-9) on the MKP to recall a memorized con\ufb01guration. This recon\ufb01gures the DU panels to the memorized con\ufb01guration. It also removes the MEM RECALL information box, and shows MEM # RECALLED on the MKP for 3 seconds (the # character is the number of the recalled con\ufb01guration). Push the MEM key without pushing a number to cancel.",
+  "token_count_estimate": 296,
+  "chunk_index": 566,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.281364+00:00"
+}

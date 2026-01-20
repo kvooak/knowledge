@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0150",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 139,
+  "page_end": 139,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics ADI \u2013 Airspeed\n\nMinimum Speed Alert\n\nA minimum speed alert occurs when the current airspeed becomes less than the VMIN value. The airspeed and Mach digital readout changes color to red. The minimum speed symbology returns to previous symbols and/or colors when the airspeed is greater than VMIN.\n\nTrue Airspeed True Airspeed (TAS) is shown in green on the MFW MAP format preceded by a white TAS legend. The TAS value is shown in knots. The source of TAS data is the currently selected Air Data System (ADS).\n\nGround Speed Ground Speed (GS) is shown in green below the IAS tape preceded by a white GS legend. The GS value is shown in knots. Ground speed is sourced from the FMS that is the active navigation source. If the FMS is not the navigation source, the GS value is sourced from the on-side FMS.\n\nTCS Trim A green boxed TCS TRIM indication and a green triangle speed bug are displayed when the \ufb02y-by-wire (FBW) system enters speed stability control laws for the landing \ufb02are. These laws are entered when the Flaps are set to 3 or Full and the landing gear are placed down, the green speed bug will be placed at the current speed to indicate the FBW trimmed speed. The trim speed bug can be re-synchronized to the current airspeed by pressing the TCS trim button on the side stick.\n\n5th Edition 02 APR 19 5-37",
+  "token_count_estimate": 326,
+  "chunk_index": 150,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.076580+00:00"
+}

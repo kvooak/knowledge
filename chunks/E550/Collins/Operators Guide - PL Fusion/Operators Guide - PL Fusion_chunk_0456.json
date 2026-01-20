@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0456",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 385,
+  "page_end": 385,
+  "raw_text": "When the Autopilot (AP) is manually disconnected by the pilot, the AP annunciation in the AFCS mode \ufb01eld changes color to red and \ufb02ashes until the pilot pushes the AP engage or disengage button. When the AP is automatically disconnected by the AFCS, the AP annunciation changes color to red and \ufb02ashes until the pilot pushes the AP engage or disengage button.\n\nThe AP disengage warning is accompanied by an aural.\n\nADI: Autothrottle Disconnect\n\nWhen the Autothrottle (AT) is manually disconnected by the pilot, or automatically disconnected by the AFCS, the AT annunciation in the AFCS mode \ufb01eld changes color to red and \ufb02ashes until the pilot pushes the AT engage or disengage button.\n\nADI: FMS Flag\n\nA boxed red FMS \ufb02ag is shown in the map source data block when data from the selected FMS map source is missing or invalid. The \ufb02ag \ufb02ashes for 5 seconds and then changes to a steady-on state.\n\n5th Edition 02 APR 19 6-3",
+  "token_count_estimate": 209,
+  "chunk_index": 456,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.226239+00:00"
+}

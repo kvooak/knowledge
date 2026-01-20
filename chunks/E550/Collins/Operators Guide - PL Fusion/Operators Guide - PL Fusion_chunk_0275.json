@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0275",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "The SELCAL Con\ufb01guration Error Message shall be displayed in the SELCAL Status Message Field when the SELCAL Code does not match the code of one or more of the other holders of the SELCAL Code.",
+  "page_start": 256,
+  "page_end": 256,
+  "raw_text": "5th Edition 5-154 02 APR 19",
+  "token_count_estimate": 7,
+  "chunk_index": 275,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.150475+00:00"
+}

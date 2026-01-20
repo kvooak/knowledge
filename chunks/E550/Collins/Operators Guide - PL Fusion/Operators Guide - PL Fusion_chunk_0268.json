@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0268",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 250,
+  "page_end": 251,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Tuning \u2013 Edit HF Preset Frequencies Pro Line Fusion\u00ae Avionics\n\nThe Edit HF Preset Frequencies submenu provides controls to manage and edit user preset HF frequencies. The Edit HF Preset Frequencies submenu is accessed by pushing the EDIT pushbutton on the HF Control menu.\n\nSELECTIONS:\n\nSelect HF Fre- quency\n\nThe Select HF Frequency list displays the currently stored HF preset frequencies. The user can select frequencies for editing and scroll the list with the inner knob on the DSK.\n\nSet Mode The Set Mode window provides mode control for the HF preset frequencies. The user can set the mode of the presets by positioning the cursor on the Set Mode window and using the inner knob of the DSK.\n\nSet Emissions The Set Emissions window provides emissions control for Simplex and Duplex HF preset frequencies. The user can set the emissions level of the presets by positioning the cursor and using the inner knob of the DSK. If the mode of the selected preset is Emergency or Maritime, the Set Emissions window is not shown.\n\nSet Frequency The Set Frequency window provides tuning control for the HF preset frequencies. Select the frequency in the window to edit it.\n\n5th Edition 5-148 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Tuning \u2013 Edit HF Preset Frequencies\n\nIf the mode is Simplex, one frequency window shows. If the mode is Duplex, two Set Frequency windows show. If the mode is Emergency or Maritime, no Set Frequency windows show.\n\nDe\ufb01ne Name The De\ufb01ne Name window provides control to edit the shown name for the HF preset frequencies. Select the De\ufb01ne Name window to edit its contents.\n\nReturn to HF CTRL Select the Return to HF CTRL pushbutton to close the Edit HF Preset Frequencies window. The Edit HF Preset Frequencies window may also be closed by selecting the gray X pushbutton in the upper right corner.\n\n5th Edition 02 APR 19 5-149",
+  "token_count_estimate": 435,
+  "chunk_index": 268,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.146962+00:00"
+}

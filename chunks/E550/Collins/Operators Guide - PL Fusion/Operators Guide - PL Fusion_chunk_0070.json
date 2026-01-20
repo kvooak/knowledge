@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0070",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 58,
+  "page_end": 59,
+  "raw_text": "OVERVIEW \u2013 SYSTEM COMPONENTS Embraer Legacy 450/500 and Praetor 500/600 System Description Pro Line Fusion\u00ae Avionics\n\nEnhanced Vision Sys- tem (EVS) (Optional)\n\nThe optional Enhanced Vision System (EVS) produces a forward-looking image of the natural scene, including the approach lights of the runway, on the optional Head-Up Display (HUD) or AFD. The EVS gives the pilot increased visibility in low-light and obscured environments. The EVS consists of a Forward Looking Infrared (FLIR) camera assembly, an EVS processor assembly, and a window assembly.\n\nExternal Com- pensation Unit (ECU)\n\nThe External Compensation Unit (ECU) stores aircraft-speci\ufb01c data for the Radio Interface Unit (RIU) datalink and the Traf\ufb01c Surveillance System (TSS). Two ECU are installed, with a third ECU if the optional third AHRS is installed.\n\nFlight Control Panel (FCP) The Flight Control Panel (FCP) provides controls to select the active \ufb02ight director lateral and vertical mode of operation, transfer \ufb02ight guidance, and to engage/disengage the Autopilot (AP) and Autothrottle (AT). Controls located on the FCP are also used to set the altitude, heading, airspeed, vertical speed, and path references.\n\n5th Edition 3-8 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 OVERVIEW \u2013 SYSTEM COMPONENTS Pro Line Fusion\u00ae Avionics System Description\n\nGlobal Posi- tioning Sys- tem (GPS) Re- ceiver/Proces- sor\n\nThe Global Positioning System (GPS) receiver receives navigation data from a constellation of GPS satellites. The GPS processor uses these inputs to generate precise position, velocity, and time data that can be shown on the \ufb02ight displays and for use by the navigation and hazard avoidance subsystems. Two GPS receivers are installed.\n\nHF Coupler (Optional) The High Frequency (HF) antenna coupler quickly matches the power ampli\ufb01er in the HF COM receiver-transmitter to the antenna to maximize the radiated power. The HF antenna coupler has the ability to learn and store tuning data for 99 preset channels as well as storing the last 50 manually-tuned frequencies. Two HF couplers are installed.\n\n5th Edition 02 APR 19 3-9",
+  "token_count_estimate": 420,
+  "chunk_index": 70,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.033559+00:00"
+}

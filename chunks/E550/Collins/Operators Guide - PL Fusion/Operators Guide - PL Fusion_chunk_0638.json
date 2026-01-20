@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0638",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "INTRODUCTION",
+  "page_start": 483,
+  "page_end": 483,
+  "raw_text": "The Automatic Flight Control System (AFCS) comprises the following functions:\n\n\u2022 Flight Director (FD)\n\n\u2022 Autopilot (AP)\n\n\u2022 Autothrottle (AT).\n\nThe AFCS has its functions distributed in the Avionics System, Flight Controls System (FCS) and Propulsion System. Both FD and AP functions are primarily computed by the Autopilot Flight Director Guidance System (AFGS). The AP/FBW interface is part of the autopilot system which is implemented inside the Flight Control Computers (FCC). The AP/FBW interface will receive the autopilot commands, vertical and lateral, from both \ufb02ight guidance applications.\n\nN\n\nNOTE\n\nThe AFCS provides guidance with or without the autopilot engaged.\n\nN\n\nNOTE\n\nThe pilot setting of the Active Target Speed Readout with the Target Speed Control has priority over control from the FMS and AFCS.\n\nN\n\nNOTE\n\nThis AFCS references the Embraer Touch Control Steering (TCS) which is also known as Flight Director Sync (SYNC) or Control Wheel Steering (CWS).\n\nThe Flight Control Panel (FCP) hosts controls for engagement/ disengagement of Autopilot (AP), Autothrottle (AT) and Flight Director (FD), reference and mode selection, and course selection.\n\n5th Edition 02 APR 19 8-1",
+  "token_count_estimate": 235,
+  "chunk_index": 638,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.323541+00:00"
+}

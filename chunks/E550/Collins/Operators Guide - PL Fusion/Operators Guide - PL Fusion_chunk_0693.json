@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0693",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "SYNTHETIC VISION GUIDANCE SYSTEM",
+  "page_start": 506,
+  "page_end": 506,
+  "raw_text": "Synthetic Vision Guidance System (SVGS) uses the Synthetic Vision System (SVS) technology on the Head Down Display (HDD) and/or the Head Up Display (HUD) to obtain a lower Decision Height (DH) and Runway Visual Range (RVR) for instrument approaches. The \ufb02ight instrument display symbology, including an earth referenced Flight Path Vector (FPV) and a Flight Path Angle Reference Cue (FPARC), provide enhanced control, position and path awareness via a continuous, intuitive indication to the pilot of the aircraft trajectory relative to the touchdown zone. The SVGS provides the following:\n\n\u2022 Provide position assurance and approach guidance integrity monitoring with critical time to alert during approach to 150ft DH.\n\n\u2022 Enable the pilot to maintain vertical and lateral \ufb02ight technical error (FTE) within de\ufb01ned limits using path deviation information and command guidance, combined with an egocentric view of the runway environment.\n\n\u2022 Enable the Pilot to determine the MAP.\n\n5th Edition 8-24 02 APR 19",
+  "token_count_estimate": 200,
+  "chunk_index": 693,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.350477+00:00"
+}

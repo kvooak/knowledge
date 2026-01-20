@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0495",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ". A yellow WX FAULT annunciation message is shown in the third line of the WX data block on the HSI when the WXR is reporting itself failed. This message is shown in place of the tilt angle readout. The message \ufb02ashes for 5 seconds and then changes to a steady-on state.",
+  "page_start": 405,
+  "page_end": 405,
+  "raw_text": "When the WX FAULT message is being shown, the weather radar display may be degraded in a manner that is not obvious to the pilot. Some faults may cause the weather radar to cease providing re\ufb02ectivity information to the display.\n\n5th Edition 02 APR 19 6-23",
+  "token_count_estimate": 59,
+  "chunk_index": 495,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.245561+00:00"
+}

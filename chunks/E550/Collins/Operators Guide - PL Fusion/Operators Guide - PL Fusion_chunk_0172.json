@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0172",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 161,
+  "page_end": 162,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics HSI Format\n\n\u2022 The course/desired track readout displays CRS for a VOR or front course LOC source, B/C for a back course LOC source, DTK for a FMS desired track, and HDG for a FMS heading source.\n\n\u2022 The TTG line is updated based on FMS calculation or DME calculation depending on the active NAV source.\n\n\u2022 The distance display provides Nautical Miles (NM) distance information. The distance information is associated with the active NAV source, providing distance to the:\n\n\u2022 Next waypoint for FMS.\n\n\u2022 Station for VOR.\n\n\u2022 Runway for LOC.\n\nCourse/Desired Track Pointer\n\nThe course/desired track pointer, to/from arrow, lateral deviation/cross-track distance bar, and scale are all shown for all NAV sources (FMS, VOR, and LOC). The course/track pointer is a wide single-bar arrow on the compass display. The pointer is a course pointer when VOR or LOC is the active NAV source, and a track pointer when the active NAV source is FMS. The pointer elements are shown in the same color as the active NAV source. The on-side course for non-FMS NAV sources is set on the FCP using the CRS knobs.\n\n5th Edition 02 APR 19 5-59\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 HSI Format Pro Line Fusion\u00ae Avionics\n\n\u2022 A lateral deviation/cross-track distance bar moves to the left and right of the aircraft symbol to indicate the position of the course/track relative to the aircraft. The bar shows lateral deviation that is indicated when the NAV source is VOR or LOC and cross-track distance when the NAV source is FMS. The magnitude of the course deviation or cross-track distance is measured against the lateral deviation/cross-track distance scale.\n\n\u2022 The lateral deviation/cross-track distance scale is shown perpendicular to and intersects the lateral deviation/cross-track distance bar. The scale has markings of two white dots to the left and two white dots to the right of the center line. The lateral deviation/cross-track distance scaling is as follows:\n\n\u2022 VOR \u2013 One dot de\ufb02ection equals 5 degrees of deviation from centerline.\n\n\u2022 FMS provides variable scaling based on the \ufb02ight phase: Terminal area (31NM radius around origin and destination airport) 2 dots equals 1.0 NM.\n\n\u2022 FMS Enroute - 2 dots equals 2.0 NM Approach - 2 dots equals 0.3 NM LPV approaches have angular deviation.\n\n5th Edition 5-60 02 APR 19",
+  "token_count_estimate": 520,
+  "chunk_index": 172,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.091942+00:00"
+}

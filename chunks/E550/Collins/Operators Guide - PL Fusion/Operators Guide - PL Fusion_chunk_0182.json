@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0182",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 173,
+  "page_end": 173,
+  "raw_text": "Embraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics PFD Menu\n\nVSPEEDS/LFE The VSPEEDS/LFE dialog allows the pilots to manually input the takeoff and landing Vspeeds so airspeed bugs can be displayed on the airspeed tape, and to manually set the Landing Field Elevation (LFE) used by the pressurization system.\n\nThe airspeed bugs have multiple colors, so the source of Vspeed information is displayed in the VSPEEDS dialog box. When the Vspeeds are manually entered and checked off for display on the airspeed tape they will be colored cyan in the dialog box. When the FMS calculates and sends Vspeeds to the airspeed tape the speeds will be magenta in the dialog box. The takeoff Vspeeds can be set and checked off manually on the ground. The Landing Vspeeds can be set on the ground (for an emergency return) but to reduce clutter they cannot be checked off for display on the airspeed tape until airborne.\n\nWhen the aircraft takes off the takeoff speeds will be removed automatically and the landing Vspeeds can be checked off for display. In case of an issue with the FMS provided LFE for the arrival airport the LFE can be manually entered on this dialog. Refer to the \ufb01gure on page 5-82.\n\nMINIMUMS The MINIMUMS selection closes the PFD Task Menu and opens the MINIMUMS dialog box when selected. Refer to the \ufb01gure on page 5-85.\n\nBARO SET The BARO SET selection closes the PFD Task Menu and opens the BARO Set dialog box when selected. Refer to the \ufb01gure on page 5-86.\n\n5th Edition 02 APR 19 5-71",
+  "token_count_estimate": 349,
+  "chunk_index": 182,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.097245+00:00"
+}

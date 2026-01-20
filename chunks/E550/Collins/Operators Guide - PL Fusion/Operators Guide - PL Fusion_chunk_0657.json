@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0657",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "TRACK MODE",
+  "page_start": 492,
+  "page_end": 492,
+  "raw_text": "The Track (TRK) mode generates FD/AP commands to intercept and maintain the inertial airplane track received from the Inertial Reference System (IRS). Selecting another lateral FD mode disengages the TRK mode.",
+  "token_count_estimate": 40,
+  "chunk_index": 657,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.331835+00:00"
+}

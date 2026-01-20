@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0301",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 276,
+  "page_end": 278,
+  "raw_text": "MENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Menu Bar Pro Line Fusion\u00ae Avionics\n\nMap Overlay The Map Overlay menu is accessed by selecting the OVLY button on the Map Menu Bar. The Map Overlay menu provides controls to select the Map Sub-Window, overlays, weather information, and Graphical Weather (GWX) overlays.\n\n5th Edition 5-174 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 MENUS AND DISPLAYS Pro Line Fusion\u00ae Avionics Map \u2013 Menu Bar\n\n5th Edition 02 APR 19 5-175\n\nMENUS AND DISPLAYS Embraer Legacy 450/500 and Praetor 500/600 Map \u2013 Menu Bar Pro Line Fusion\u00ae Avionics\n\nThe Map sub-window section is a multi-state toggle. The overlay section is composed of single-state toggles to select the Terrain and Traf\ufb01c (TFC) overlays. The weather information section is a multi-state toggle. The GWX overlay section is composed of single-state toggles to show GWX images.\n\nThe age of each GWX product shows to the right. If the age is white, the image is fresh. If the age is yellow, the image is stale. If the image is not available, the age is replaced with dashes. The current UTC shows at the bottom of the menu.\n\nGWX Altitude The GWX data entry \ufb01eld shows when WINDS ALOFT, TURBULENCE, ICING, or SATELLITE are selected on the Map Overlay menu. The GWX ALT legend above the data entry \ufb01eld changes to depict the selected GWX product. When the cursor is positioned on the GWX altitude data entry \ufb01eld, use the outer knob of the DSK to change the altitude of the shown GWX overlay.\n\nSelect Map Item The Select Map Item dialog box is displayed when more than one highlights map symbol is selected.\n\n5th Edition 5-176 02 APR 19",
+  "token_count_estimate": 372,
+  "chunk_index": 301,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.159926+00:00"
+}

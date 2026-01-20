@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0763",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 544,
+  "page_end": 545,
+  "raw_text": "APPENDIX C Embraer Legacy 450/500 and Praetor 500/600 CPDLC Pro Line Fusion\u00ae Avionics\n\nNAVAID:\n\n\u2022 NAVAID identi\ufb01er expressed in alphanumeric characters\n\n\u2022 Displays from 1 \u2013 4 characters.\n\nBEARING (Position):\n\n\u2022 Magnetic bearing in degrees\n\n\u2022 Displays from 001 \u2013 360 in one degree increments.\n\nFAC DESIGN (Unit Name):\n\n\u2022 Ground facility designation\n\n\u2022 Displays from 4 \u2013 8 alphanumeric characters.\n\nFACILITY:\n\n\u2022 Ground facility function\n\n\u2022 Includes CENTER, CLEARANCE DELIVERY, APPROACH, DEPARTURE, TOWER, CONTROL, FINAL, RADIO, or GROUND CONTROL.\n\nFAC ID (Unit Name):\n\n\u2022 Ground facility identi\ufb01er (name)\n\n\u2022 3 \u2013 18 characters.\n\nVHF (Frequency):\n\n\u2022 Radio frequency\n\n\u2022 Displays from 118.00 \u2013 136.990.\n\n\u2022 Resolution of .005.\n\nIAS (Speed):\n\n\u2022 Indicated airspeed\n\n\u2022 Displays from 0 \u2013 400\n\n\u2022 Resolution of 1.\n\nMACH (Speed):\n\n\u2022 Mach indicated\n\n\u2022 Displays from 0.5 \u2013 4\n\n\u2022 Resolution of .001.\n\nDISTANCE:\n\n5th Edition C-4 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 APPENDIX C Pro Line Fusion\u00ae Avionics CPDLC\n\n\u2022 Distance in nautical miles\n\n\u2022 Displays from 1 \u2013 250 nautical miles.\n\nDIRECTION:\n\n\u2022 LEFT, RIGHT, or EITHER\n\n\u2022 Displays any or all.\n\nFLT ID:\n\n\u2022 Flight identi\ufb01cation\n\n\u2022 Displays from 2 \u2013 8 alphanumeric characters.\n\nLOGON TO:\n\n\u2022 Data authority/ATC facility\n\n\u2022 Displays from 4 \u2013 8 alphanumeric characters.\n\nORIG STA:\n\n\u2022 Origin airport/station\n\n\u2022 Expressed as ICAO identi\ufb01er.\n\nDEST STA:\n\n\u2022 Destination airport/station\n\n\u2022 Expressed as ICAO identi\ufb01er.\n\nETD (Time):\n\n\u2022 Estimated time of departure\n\n\u2022 Expressed as HHMM.\n\n5th Edition 02 APR 19 C-5",
+  "token_count_estimate": 320,
+  "chunk_index": 763,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.400944+00:00"
+}

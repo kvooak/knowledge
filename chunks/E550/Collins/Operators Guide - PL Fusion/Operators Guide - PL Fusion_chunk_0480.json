@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0480",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": ".",
+  "page_start": 399,
+  "page_end": 399,
+  "raw_text": "The yellow GND PROX caution alert overwrites the pitch scale in the lower half of the attitude display when the EGPWS computer determines that a terrain threat exists that requires immediate pilot attention. The GND PROX alert \ufb02ashes for 5 seconds and then shows steady.\n\nThe GND PROX and WINDSHEAR caution alerts share the same display \ufb01eld, so only one can show at a time. The GND PROX caution alert has priority.\n\n5th Edition 02 APR 19 6-17",
+  "token_count_estimate": 101,
+  "chunk_index": 480,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.236845+00:00"
+}

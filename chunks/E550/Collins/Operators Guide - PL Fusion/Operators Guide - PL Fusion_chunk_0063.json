@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0063",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": null,
+  "page_start": 52,
+  "page_end": 53,
+  "raw_text": "OVERVIEW \u2013 SYSTEM COMPONENTS Embraer Legacy 450/500 and Praetor 500/600 System Description Pro Line Fusion\u00ae Avionics\n\n\u2022 Aircraft systems data is concentrated by a Data Concentration System (DCS) for distribution to the IPS and the \ufb02ight deck displays. The DCS also houses the software for CAS, ECL, Synoptics, AT, and \ufb02ight control functions.\n\n\u2022 Four AFD provide primary attitude, heading, altitude, airspeed, navigation, and \ufb02ight guidance functions. In this guide and in the on-screen menus, an AFD is also called a DU. The DU are identical but are called DU1, DU2, and DU3, from left to right, respectively, and the lower DU is called DU4.\n\n\u2022 The displays shall receive data directly from primary sensors and the DCS as well as concentrated data from the IPS.\n\n\u2022 The interconnection architecture ensures that after loss of data from the IPS, essential display data is still provided to both crew members.\n\n5th Edition 3-2 02 APR 19\n\nEmbraer Legacy 450/500 and Praetor 500/600 OVERVIEW \u2013 SYSTEM COMPONENTS Pro Line Fusion\u00ae Avionics",
+  "token_count_estimate": 219,
+  "chunk_index": 63,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.029430+00:00"
+}

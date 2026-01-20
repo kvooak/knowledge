@@ -1,0 +1,14 @@
+{
+  "id": "Operators Guide - PL Fusion_chunk_0186",
+  "project_name": "E550",
+  "source_document": "Operators Guide - PL Fusion",
+  "relative_path": "Collins",
+  "section": "PFD \u2013 HUD FORMAT DIALOG BOX",
+  "page_start": 177,
+  "page_end": 177,
+  "raw_text": "Figure 5-34 PFD \u2013 HUD Format Dialog Box\n\nFigure 5-35 PFD \u2013 HUD Format Dialog Box (Compressed)\n\nThe HUD Format dialog box provides controls to select the HUD options. The HUD Format dialog box shows by selecting HUD FORMAT from the PFD Task Menu. The HUD Format menu is available on the left PFD only.\n\n5th Edition 02 APR 19 5-75",
+  "token_count_estimate": 79,
+  "chunk_index": 186,
+  "total_chunks": 783,
+  "created_at": "2026-01-20T20:56:26.099529+00:00"
+}
