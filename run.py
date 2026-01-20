@@ -12,7 +12,7 @@ TARGETS:
     extract              - Extract text from PDFs
     chunk                - Chunk extracted text
     embed                - Generate embeddings index
-    ingest               - Run full pipeline: extract → chunk → embed
+    ingest               - Run full pipeline: extract -> chunk -> embed
     synth                - Generate synthesis (requires TYPE and TOPIC)
     synth-test           - Generate synthesis with limit=50
     clean                - Clean generated files

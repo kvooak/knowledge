@@ -126,6 +126,62 @@ bash C:\Users\Quang\projects\claude-projects\universal-rules\setup-rules.sh /pat
 
 ---
 
+## MANDATORY: Universal Rules Synchronization
+
+When rules in the `universal-rules/` source folder are updated, they MUST be synchronized to all project `.claude/` folders.
+
+### Sync Mechanism
+
+**Automatic Sync Script:** `universal-rules/sync-rules.py`
+
+```bash
+# Sync to specific project
+python universal-rules/sync-rules.py --project ../knowledge
+
+# Sync to all projects
+python universal-rules/sync-rules.py --all
+
+# Dry run (see what would be synced)
+python universal-rules/sync-rules.py --all --dry-run
+```
+
+### When to Sync Rules
+
+1. **After Updating Universal Rules**
+   - Any modification to universal.md, python.md, typescript.md, or clean-architecture.md
+   - Adding new rule files to universal-rules/
+   - Run sync IMMEDIATELY after committing rule changes
+
+2. **Before Starting Work on a Project**
+   - Ensure project has latest rules
+   - Run sync if rules haven't been updated recently
+
+3. **After Creating a New Project**
+   - Sync rules as part of project initialization
+   - Ensures new project starts with current rules
+
+### Sync Process
+
+The sync script:
+1. Scans universal-rules/ for all .md files
+2. Finds all projects with .claude/ directories
+3. Compares source and target files
+4. Copies updated/new files to project .claude/ folders
+5. Reports: copied, updated, unchanged, errors
+6. Preserves .gitignore (keeps .claude/ out of version control)
+
+### Rule File Lifecycle
+
+```
+1. Edit rule in universal-rules/*.md
+2. Commit to universal-rules repo
+3. Run: python sync-rules.py --all
+4. Rules propagate to all projects
+5. Projects use updated rules immediately
+```
+
+---
+
 ## MANDATORY: Compliance Testing on Initialization
 
 Every new project MUST have a compliance test created and run during initialization.
@@ -184,14 +240,16 @@ The test must clearly report:
 
 ## MANDATORY: Git Commit and Push Rules
 
-Claude MUST commit and push changes to GitHub whenever code changes are applied.
+**CRITICAL: Claude MUST commit and push changes to GitHub IMMEDIATELY after code changes are applied. This is non-negotiable.**
 
-### When to Commit
+### When to Commit (ALWAYS)
 
 1. **After ANY code change is applied** - Every edit, addition, or deletion of code files
 2. **After configuration changes** - Updates to config files, package.json, etc.
 3. **After creating new files** - New components, modules, utilities, tests
 4. **After refactoring** - Code restructuring, renaming, reorganization
+5. **After running scripts that generate output** - When extraction, chunking, or processing creates files
+6. **At the end of EVERY user request** - Before responding "done", ensure changes are committed and pushed
 
 ### Commit Message Format
 
@@ -237,11 +295,31 @@ git push
 
 ### What NOT to Commit
 
-- `.claude/` folder (should be in .gitignore)
 - `.env` files with secrets
 - `node_modules/`, `__pycache__/`, `venv/`
 - IDE settings (`.idea/`, `.vscode/` unless shared)
 - Build outputs (`dist/`, `build/`)
+- Large binary files (PDFs, images, videos) - use .gitignore
+- Source data folders (like `sources/`) that contain large files
+
+### Project-Specific .gitignore
+
+When a project has large files or data folders that should not be committed:
+
+1. **Add them to .gitignore BEFORE committing**
+2. **Common exclusions:**
+   - `sources/` - Raw input files (PDFs, data)
+   - `*.pdf`, `*.docx` - Large documents
+   - `data/` - Large datasets
+   - Outputs that can be regenerated
+
+### Verification Before Push
+
+Before pushing, verify:
+```bash
+git status  # Check what will be committed
+git diff --cached  # Review staged changes
+```
 
 ---
 
@@ -331,15 +409,20 @@ PROJECT.md serves as:
 - A single source of truth for project specifications
 - A reference for architecture, components, and conventions
 
-### When to UPDATE PROJECT.md
+### **CRITICAL: When to UPDATE PROJECT.md**
+
+**MANDATORY CHECKPOINT**: Before ANY git commit, Claude MUST verify PROJECT.md is up-to-date with recent changes.
 
 1. **At Project Initialization**
    - Document initial project concept and goals
    - Define tech stack and architecture decisions
    - Outline planned components and structure
 
-2. **After Adding New Features**
+2. **After Adding New Features** ⚠️ MANDATORY
    - Add new components/modules to the structure
+   - Document new scripts/tools
+   - Update version numbers
+   - Add new dependencies
    - Update API endpoints or data models
    - Document new dependencies or integrations
 
@@ -439,6 +522,27 @@ VAR_NAME=description of what it's for
 - **Edit** existing descriptions to reflect current state
 - **Delete** sections that are no longer relevant
 - **Reorganize** structure to improve clarity
+
+### PRE-COMMIT CHECKLIST (MANDATORY)
+
+Before running `git commit`, Claude MUST verify:
+
+1. ✅ **PROJECT.md Updated?**
+   - [ ] Are new components documented?
+   - [ ] Are version numbers current?
+   - [ ] Are new dependencies listed?
+   - [ ] Is architecture section accurate?
+
+2. ✅ **TODO.md Updated?**
+   - [ ] Are completed tasks marked as done?
+   - [ ] Are new tasks added?
+   - [ ] Are decisions logged?
+
+3. ✅ **Only Then Commit**
+   - If both checks pass, proceed with commit
+   - If either fails, update the file(s) first
+
+**Violation Consequence**: If PROJECT.md or TODO.md are out of sync with code changes, the commit represents incomplete work and should be amended.
 
 ---
 
