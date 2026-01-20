@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-01-20T21:37:39.171012+00:00",
+  "generator": "embed_chunks.py",
+  "generator_version": "1.0.0",
+  "model": "all-MiniLM-L6-v2",
+  "chunk_count": 783,
+  "embedding_dimension": 384,
+  "is_truth": false,
+  "regenerable": true,
+  "warning": "Index is for search only. Truth lives in synth/*.md"
+}

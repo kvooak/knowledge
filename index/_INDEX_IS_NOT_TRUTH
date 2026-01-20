@@ -1,0 +1,26 @@
+
+================================================================================
+                        WARNING: INDEX IS NOT TRUTH
+================================================================================
+
+This index directory contains SEARCH ARTIFACTS only.
+
+The index:
+    - Is fully regenerable from chunks/
+    - Can be deleted at any time without data loss
+    - Is NOT the source of truth for any knowledge
+    - Should NEVER be used to make authoritative claims
+
+Truth lives in:
+    - synth/glossary.md (curated definitions)
+    - synth/rules.md (curated rules)
+    - synth/invariants.md (curated invariants)
+    - synth/procedures/ (curated procedures)
+
+These synth files are human-reviewed and authoritative.
+The index is just a search tool to find relevant chunks.
+
+To regenerate this index:
+    make embed
+
+================================================================================

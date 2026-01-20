@@ -9,8 +9,8 @@
 - [x] ~~Add sample PDF for testing pipeline~~ (Collins/Operators Guide - PL Fusion.pdf)
 - [x] ~~Test extraction pipeline~~ (558 pages extracted)
 - [x] ~~Test chunking pipeline~~ (783 chunks created)
-- [ ] Test embeddings pipeline (make embed)
-- [ ] Test full synthesis pipeline (make synth)
+- [x] ~~Test embeddings pipeline~~ (783 chunks indexed, 384-dim embeddings)
+- [x] ~~Test full synthesis pipeline~~ (Generated glossary draft from 50 chunks)
 
 ## Backlog
 
@@ -38,6 +38,10 @@
 - [x] ~~Update extract_pdf.py for recursive folders~~ (v2.0.0)
 - [x] ~~Update chunk_text.py with project_name in metadata~~ (v2.0.0)
 - [x] ~~Test with real PDF~~ (Collins/Operators Guide - PL Fusion.pdf, 558 pages, 783 chunks)
+- [x] ~~Fix embed_chunks.py to support recursive directory structure~~ (v1.1.0)
+- [x] ~~Fix synthesize.py to support recursive directory structure~~ (v1.1.0)
+- [x] ~~Generate embeddings index~~ (783 chunks, all-MiniLM-L6-v2 model)
+- [x] ~~Test synthesis pipeline~~ (Generated DRAFT_glossary_flight_systems_and_avionics with 9 terms + 6 terms needing follow-up)
 
 ## Decisions Log
 
@@ -46,6 +50,7 @@
 - **Human Review**: All LLM-generated content goes to synth/drafts/ and requires mandatory human review before promotion.
 - **No Auto-Overwrite**: synthesize.py refuses to overwrite curated files. This is enforced in code.
 - **Prompt Contracts**: All prompts forbid inference, forbid gap-filling, and require citations for every statement.
+- **Recursive Directory Support**: Updated embed_chunks.py and synthesize.py to use `rglob()` instead of nested loops to support project-based organization (sources/<project>/subfolders/)
 
 ---
 

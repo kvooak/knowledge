@@ -92,25 +92,20 @@ To regenerate this index:
 
 
 def load_chunks(chunks_dir: Path) -> list[dict]:
-    """Load all chunk JSON files from all documents."""
+    """Load all chunk JSON files from all documents (recursive)."""
     chunks = []
 
-    for doc_dir in chunks_dir.iterdir():
-        if not doc_dir.is_dir():
-            continue
-        if doc_dir.name.startswith("_"):
-            continue
+    # Use recursive glob to find all chunk JSON files
+    for chunk_file in chunks_dir.rglob("*.json"):
+        if chunk_file.name.startswith("_"):
+            continue  # Skip metadata files
 
-        for chunk_file in doc_dir.glob("*.json"):
-            if chunk_file.name.startswith("_"):
-                continue  # Skip metadata files
-
-            try:
-                chunk_data = json.loads(chunk_file.read_text(encoding="utf-8"))
-                chunk_data["_file_path"] = str(chunk_file)
-                chunks.append(chunk_data)
-            except (json.JSONDecodeError, IOError) as e:
-                print(f"Warning: Could not load {chunk_file}: {e}", file=sys.stderr)
+        try:
+            chunk_data = json.loads(chunk_file.read_text(encoding="utf-8"))
+            chunk_data["_file_path"] = str(chunk_file)
+            chunks.append(chunk_data)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not load {chunk_file}: {e}", file=sys.stderr)
 
     # Sort by document and chunk index for deterministic ordering
     chunks.sort(key=lambda c: (c.get("source_document", ""), c.get("chunk_index", 0)))

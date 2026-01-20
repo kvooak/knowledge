@@ -117,25 +117,22 @@ def load_prompt(prompt_name: str) -> str:
 
 
 def load_chunks(chunks_dir: Path, limit: Optional[int] = None) -> list[dict]:
-    """Load chunks from all documents."""
+    """Load chunks from all documents (recursive)."""
     chunks = []
 
-    for doc_dir in chunks_dir.iterdir():
-        if not doc_dir.is_dir() or doc_dir.name.startswith("_"):
-            continue
+    # Use recursive glob to find all chunk JSON files
+    for chunk_file in sorted(chunks_dir.rglob("*.json")):
+        if chunk_file.name.startswith("_"):
+            continue  # Skip metadata files
 
-        for chunk_file in sorted(doc_dir.glob("*.json")):
-            if chunk_file.name.startswith("_"):
-                continue
+        try:
+            chunk = json.loads(chunk_file.read_text(encoding="utf-8"))
+            chunks.append(chunk)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not load {chunk_file}: {e}", file=sys.stderr)
 
-            try:
-                chunk = json.loads(chunk_file.read_text(encoding="utf-8"))
-                chunks.append(chunk)
-            except (json.JSONDecodeError, IOError) as e:
-                print(f"Warning: Could not load {chunk_file}: {e}", file=sys.stderr)
-
-            if limit and len(chunks) >= limit:
-                return chunks
+        if limit and len(chunks) >= limit:
+            return chunks
 
     return chunks
 
