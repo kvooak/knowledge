@@ -98,7 +98,7 @@ def target_extract(args):
     if args.verbose:
         cmd.append("--verbose")
 
-    run_command(cmd, "EXTRACTING: PDFs → Markdown", args.verbose)
+    run_command(cmd, "EXTRACTING: PDFs -> Markdown", args.verbose)
     print("Extraction complete.")
 
 
@@ -108,7 +108,7 @@ def target_chunk(args):
     if args.verbose:
         cmd.append("--verbose")
 
-    run_command(cmd, "CHUNKING: Markdown → JSON", args.verbose)
+    run_command(cmd, "CHUNKING: Markdown -> JSON", args.verbose)
     print("Chunking complete.")
 
 
@@ -116,7 +116,7 @@ def target_embed(args):
     """Generate embeddings index."""
     cmd = [sys.executable, str(EMBED_SCRIPT), "--verbose", "--force"]
 
-    run_command(cmd, "EMBEDDING: Chunks → Index", args.verbose)
+    run_command(cmd, "EMBEDDING: Chunks -> Index", args.verbose)
     print("Embedding complete.")
 
 
@@ -170,6 +170,9 @@ def target_synth(args):
         "--full",  # Output as full document, not draft
     ]
 
+    if args.api_key:
+        cmd.extend(["--api-key", args.api_key])
+
     if args.verbose:
         cmd.append("--verbose")
 
@@ -200,6 +203,9 @@ def target_synth_test(args):
         "--topic", args.topic,
         "--limit", "50",
     ]
+
+    if args.api_key:
+        cmd.extend(["--api-key", args.api_key])
 
     if args.verbose:
         cmd.append("--verbose")
@@ -308,6 +314,7 @@ def main():
 
     parser.add_argument("--type", help="Synthesis type")
     parser.add_argument("--topic", help="Synthesis topic")
+    parser.add_argument("--api-key", help="Anthropic API key for synthesis")
     parser.add_argument("--verbose", "-v", action="store_true", help="Verbose output")
     parser.add_argument("--force", action="store_true", help="Force regeneration")
 

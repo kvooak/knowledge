@@ -394,7 +394,7 @@ def main():
         print("4. Validate all claims and remove any hallucinations")
         print("5. Add human expertise and context where needed")
         print()
-        print("⚠️  WARNING: This is LLM-generated content.")
+        print("[!] WARNING: This is LLM-generated content.")
         print("    Human review is MANDATORY before considering it authoritative.")
         print("    The LLM is stateless and has no memory.")
         print("=" * 60)
