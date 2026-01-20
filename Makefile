@@ -61,8 +61,9 @@ help:
 	@echo "                   contradictions, questions"
 	@echo ""
 	@echo "Utility targets:"
-	@echo "  make clean-index   - Delete regenerable index (safe)"
 	@echo "  make clean         - Delete all generated content (except synth/)"
+	@echo "  make clean-index   - Delete regenerable index only (safe)"
+	@echo "  make clean-all     - Delete all including drafts (keeps curated files)"
 	@echo "  make status        - Show current state"
 	@echo ""
 	@echo "IMPORTANT:"
@@ -180,6 +181,13 @@ status:
 	@find $(SYNTH_DIR)/drafts -name "DRAFT_*.md" 2>/dev/null | wc -l | xargs echo "  Drafts:"
 	@echo "  Curated files: $(SYNTH_DIR)/*.md"
 
+# Clean all generated content EXCEPT synth/
+# synth/ contains human-curated knowledge and is NEVER auto-deleted
+clean:
+	@echo "Using clean.py script..."
+	$(PYTHON) scripts/clean.py --verbose
+	rm -f $(EXTRACT_MARKER) $(CHUNK_MARKER) $(EMBED_MARKER)
+
 # Clean index only (safe - fully regenerable)
 clean-index:
 	@echo "Removing index/ (safe - fully regenerable)"
@@ -187,25 +195,11 @@ clean-index:
 	rm -f $(EMBED_MARKER)
 	@echo "Index cleaned. Run 'make embed' to regenerate."
 
-# Clean all generated content EXCEPT synth/
-# synth/ contains human-curated knowledge and is NEVER auto-deleted
-clean:
-	@echo "=========================================="
-	@echo "CLEANING generated content"
-	@echo "=========================================="
-	@echo "NOTE: synth/ is preserved (contains curated knowledge)"
-	rm -rf $(EXTRACTED_DIR)/*
-	rm -rf $(CHUNKS_DIR)/*
-	rm -rf $(INDEX_DIR)/*
+# Clean all including drafts
+clean-all:
+	@echo "Using clean.py script with --all flag..."
+	$(PYTHON) scripts/clean.py --all --verbose
 	rm -f $(EXTRACT_MARKER) $(CHUNK_MARKER) $(EMBED_MARKER)
-	@echo ""
-	@echo "Cleaned:"
-	@echo "  - $(EXTRACTED_DIR)/"
-	@echo "  - $(CHUNKS_DIR)/"
-	@echo "  - $(INDEX_DIR)/"
-	@echo ""
-	@echo "Preserved:"
-	@echo "  - $(SYNTH_DIR)/ (curated knowledge)"
 
 # ============================================================================
 # Dependencies
