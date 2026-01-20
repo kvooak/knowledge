@@ -56,7 +56,8 @@ help:
 	@echo "  make ingest    - Run full pipeline: extract → chunk → embed"
 	@echo ""
 	@echo "Synthesis (LLM required):"
-	@echo "  make synth TYPE=glossary TOPIC='topic name'  - Generate draft"
+	@echo "  make synth TYPE=glossary TOPIC='topic name'       - Generate draft (all chunks)"
+	@echo "  make synth-test TYPE=glossary TOPIC='topic name'  - Generate draft (limit=50 for testing)"
 	@echo "  Supported types: glossary, rules, invariants, procedures,"
 	@echo "                   contradictions, questions"
 	@echo ""
@@ -130,7 +131,11 @@ ingest: extract chunk embed
 # Synthesis (LLM - requires human review)
 # ============================================================================
 
-# Synth requires explicit TYPE and TOPIC
+# Get total chunk count from metadata
+get-chunk-count:
+	@$(PYTHON) -c "import json; from pathlib import Path; metadata_files = list(Path('$(CHUNKS_DIR)').rglob('_chunking_metadata.json')); total = sum(json.loads(f.read_text())['chunks_created'] for f in metadata_files); print(total)"
+
+# Synth with dynamic limit based on actual chunk count
 synth:
 	@if [ -z "$(TYPE)" ]; then \
 		echo "ERROR: TYPE is required"; \
@@ -148,7 +153,29 @@ synth:
 	@echo "=========================================="
 	@echo "WARNING: This uses an LLM. Output requires human review."
 	@echo ""
-	$(PYTHON) $(SYNTH_SCRIPT) $(TYPE) --topic "$(TOPIC)" --verbose
+	@CHUNK_COUNT=$$($(PYTHON) -c "import json; from pathlib import Path; metadata_files = list(Path('$(CHUNKS_DIR)').rglob('_chunking_metadata.json')); total = sum(json.loads(f.read_text())['chunks_created'] for f in metadata_files) if metadata_files else 0; print(total)"); \
+	echo "Using all $$CHUNK_COUNT chunks for synthesis..."; \
+	$(PYTHON) $(SYNTH_SCRIPT) $(TYPE) --topic "$(TOPIC)" --limit $$CHUNK_COUNT --verbose
+
+# Synth test with fixed small limit for testing
+synth-test:
+	@if [ -z "$(TYPE)" ]; then \
+		echo "ERROR: TYPE is required"; \
+		echo "Usage: make synth-test TYPE=glossary TOPIC='your topic'"; \
+		echo "Types: glossary, rules, invariants, procedures, contradictions, questions"; \
+		exit 1; \
+	fi
+	@if [ -z "$(TOPIC)" ]; then \
+		echo "ERROR: TOPIC is required"; \
+		echo "Usage: make synth-test TYPE=$(TYPE) TOPIC='your topic'"; \
+		exit 1; \
+	fi
+	@echo "=========================================="
+	@echo "SYNTHESIS TEST: Generating $(TYPE) draft (LIMIT=50)"
+	@echo "=========================================="
+	@echo "WARNING: This uses an LLM. Output requires human review."
+	@echo ""
+	$(PYTHON) $(SYNTH_SCRIPT) $(TYPE) --topic "$(TOPIC)" --limit 50 --verbose
 
 # ============================================================================
 # Utility Targets
